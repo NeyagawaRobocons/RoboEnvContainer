@@ -1,0 +1,4 @@
+source;share/nucleo_agent/local_setup.bash
+source;share/nucleo_agent/local_setup.dsv
+source;share/nucleo_agent/local_setup.sh
+source;share/nucleo_agent/local_setup.zsh

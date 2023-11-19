@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000219] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.008464] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.008976] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.009362] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('OLDPWD', '/ROS_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.052537] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent\x1b[0m\n'}
+[0.061429] (nucleo_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o\x1b[0m\n'}
+[0.099806] (-) TimerEvent: {}
+[0.200015] (-) TimerEvent: {}
+[0.300217] (-) TimerEvent: {}
+[0.400424] (-) TimerEvent: {}
+[0.500640] (-) TimerEvent: {}
+[0.600841] (-) TimerEvent: {}
+[0.701046] (-) TimerEvent: {}
+[0.801258] (-) TimerEvent: {}
+[0.901462] (-) TimerEvent: {}
+[1.001669] (-) TimerEvent: {}
+[1.101875] (-) TimerEvent: {}
+[1.202102] (-) TimerEvent: {}
+[1.302381] (-) TimerEvent: {}
+[1.402590] (-) TimerEvent: {}
+[1.428126] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.428291] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:12:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.428331] (nucleo_agent) StderrLine: {'line': b'   12 |       "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[1.428366] (nucleo_agent) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.428395] (nucleo_agent) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[1.428423] (nucleo_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.428452] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.428484] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.428511] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.428537] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.428566] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.428599] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:2\x1b[m\x1b[K:\n'}
+[1.428625] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.428651] (nucleo_agent) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[1.428677] (nucleo_agent) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.502673] (-) TimerEvent: {}
+[1.602878] (-) TimerEvent: {}
+[1.676946] (nucleo_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nucleo_agent.dir/build.make:76: CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o] Error 1\n'}
+[1.677089] (nucleo_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nucleo_agent.dir/all] Error 2\n'}
+[1.677152] (nucleo_agent) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.681567] (nucleo_agent) CommandEnded: {'returncode': 2}
+[1.702965] (-) TimerEvent: {}
+[1.704391] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 2}
+[1.714820] (-) EventReactorShutdown: {}

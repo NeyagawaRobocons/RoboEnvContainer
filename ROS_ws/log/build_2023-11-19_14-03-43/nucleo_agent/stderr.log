@@ -1,0 +1,17 @@
+/usr/bin/ld: CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o: in function `main':
+nucleo_agent.cpp:(.text+0x21): undefined reference to `udev_new'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x6d): undefined reference to `udev_enumerate_new'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x87): undefined reference to `udev_enumerate_add_match_subsystem'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x93): undefined reference to `udev_enumerate_scan_devices'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x9f): undefined reference to `udev_enumerate_get_list_entry'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0xc2): undefined reference to `udev_list_entry_get_name'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0xd9): undefined reference to `udev_device_new_from_syspath'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0xe9): undefined reference to `udev_device_get_devnode'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x1d4): undefined reference to `udev_device_unref'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x1e3): undefined reference to `udev_list_entry_get_next'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x204): undefined reference to `udev_enumerate_unref'
+/usr/bin/ld: nucleo_agent.cpp:(.text+0x210): undefined reference to `udev_unref'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/nucleo_agent.dir/build.make:169: nucleo_agent] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nucleo_agent.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

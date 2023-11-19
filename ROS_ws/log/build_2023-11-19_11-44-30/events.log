@@ -1,0 +1,32 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000368] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.007160] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.007498] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.007878] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('OLDPWD', '/ROS_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.036247] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent\x1b[0m\n'}
+[0.052215] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target nucleo_agent\n'}
+[0.062992] (nucleo_agent) CommandEnded: {'returncode': 0}
+[0.099941] (-) TimerEvent: {}
+[0.102120] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'install'}
+[0.122530] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/nucleo_agent'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('OLDPWD', '/ROS_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.132013] (nucleo_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.132721] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent\n'}
+[0.133077] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent\n'}
+[0.133551] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent\n'}
+[0.133828] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh\n'}
+[0.134174] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.dsv\n'}
+[0.134589] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.sh\n'}
+[0.134876] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.dsv\n'}
+[0.135154] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.bash\n'}
+[0.135504] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.sh\n'}
+[0.135708] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.zsh\n'}
+[0.135900] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.dsv\n'}
+[0.136083] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.dsv\n'}
+[0.136271] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/packages/nucleo_agent\n'}
+[0.136548] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig.cmake\n'}
+[0.136751] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig-version.cmake\n'}
+[0.136942] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.xml\n'}
+[0.138485] (nucleo_agent) CommandEnded: {'returncode': 0}
+[0.170585] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 0}
+[0.171150] (-) EventReactorShutdown: {}

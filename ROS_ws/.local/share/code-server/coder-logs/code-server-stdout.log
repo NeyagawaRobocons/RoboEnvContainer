@@ -1,0 +1,24 @@
+[2023-11-19T11:49:06.688Z] info  code-server 4.19.0 984fb135dc0baa822f8031f1c639b1fd953a6291
+[2023-11-19T11:49:06.689Z] info  Using user-data-dir /ROS_ws/.local/share/code-server
+[2023-11-19T11:49:06.696Z] info  Using config file /ROS_ws/.config/code-server/config.yaml
+[2023-11-19T11:49:06.696Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2023-11-19T11:49:06.696Z] info    - Authentication is enabled
+[2023-11-19T11:49:06.696Z] info      - Using password from /ROS_ws/.config/code-server/config.yaml
+[2023-11-19T11:49:06.696Z] info    - Not serving HTTPS
+[2023-11-19T11:49:06.696Z] info  Session server listening on /ROS_ws/.local/share/code-server/code-server-ipc.sock
+[11:53:12] 
+
+
+
+
+[11:53:12] Extension host agent started.
+[11:53:12] Started initializing default profile extensions in extensions installation folder. file:///ROS_ws/.local/share/code-server/extensions
+[11:53:12] Completed initializing default profile extensions in extensions installation folder. file:///ROS_ws/.local/share/code-server/extensions
+[11:54:44] [127.0.0.1][a24263b7][ManagementConnection] New connection established.
+[11:54:44] [127.0.0.1][a263593e][ExtensionHostConnection] New connection established.
+[11:54:44] [127.0.0.1][a263593e][ExtensionHostConnection] <1613> Launched Extension Host Process.
+[11:54:54] [127.0.0.1][a24263b7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:54:54] [127.0.0.1][a263593e][ExtensionHostConnection] <1613> Extension Host Process exited with code: 0, signal: null.
+[11:54:55] [127.0.0.1][2e1d918d][ManagementConnection] New connection established.
+[11:54:55] [127.0.0.1][43d1065f][ExtensionHostConnection] New connection established.
+[11:54:55] [127.0.0.1][43d1065f][ExtensionHostConnection] <2869> Launched Extension Host Process.

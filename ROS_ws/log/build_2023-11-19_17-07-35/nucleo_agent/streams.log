@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o[0m
+[1.468s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In lambda function:
+[1.468s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:77:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+[1.468s]    77 |         std::cout << "loop : " << count << [01;31m[Kendl[m[K;
+[1.468s]       |                                            [01;31m[K^~~~[m[K
+[1.468s]       |                                            [32m[Kstd::endl[m[K
+[1.468s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.468s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[1.468s] [01m[K/usr/include/c++/11/ostream:684:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+[1.469s]   684 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+[1.469s]       |     [01;36m[K^~~~[m[K
+[1.929s] gmake[2]: *** [CMakeFiles/nucleo_agent.dir/build.make:76: CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o] Error 1
+[1.929s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nucleo_agent.dir/all] Error 2
+[1.929s] gmake: *** [Makefile:146: all] Error 2
+[1.931s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12

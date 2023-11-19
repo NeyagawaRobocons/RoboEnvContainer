@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o[0m
+[1.350s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In lambda function:
+[1.350s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:74:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_fd[m[K’ was not declared in this scope
+[1.350s]    74 |         n = read([01;31m[Kserial_fd[m[K, buffer, sizeof(buffer));
+[1.350s]       |                  [01;31m[K^~~~~~~~~[m[K
+[1.781s] gmake[2]: *** [CMakeFiles/nucleo_agent.dir/build.make:76: CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o] Error 1
+[1.781s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nucleo_agent.dir/all] Error 2
+[1.781s] gmake: *** [Makefile:146: all] Error 2
+[1.782s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12

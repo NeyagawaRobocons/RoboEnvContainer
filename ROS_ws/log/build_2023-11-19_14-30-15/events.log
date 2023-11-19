@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000147] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.006668] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.007029] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.007434] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.025700] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099324] (-) TimerEvent: {}
+[0.112389] (nucleo_agent) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.132432] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.133876] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.137645] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.144408] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.154028] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.190197] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.190966] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199435] (-) TimerEvent: {}
+[0.291824] (nucleo_agent) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299505] (-) TimerEvent: {}
+[0.389986] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.394881] (nucleo_agent) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):\n'}
+[0.394979] (nucleo_agent) StderrLine: {'line': b'  The keyword signature for target_link_libraries has already been used with\n'}
+[0.395017] (nucleo_agent) StderrLine: {'line': b'  the target "nucleo_agent".  All uses of target_link_libraries with a target\n'}
+[0.395047] (nucleo_agent) StderrLine: {'line': b'  must be either all-keyword or all-plain.\n'}
+[0.395076] (nucleo_agent) StderrLine: {'line': b'\n'}
+[0.395104] (nucleo_agent) StderrLine: {'line': b'  The uses of the keyword signature are here:\n'}
+[0.395134] (nucleo_agent) StderrLine: {'line': b'\n'}
+[0.395162] (nucleo_agent) StderrLine: {'line': b'   * CMakeLists.txt:20 (target_link_libraries)\n'}
+[0.395190] (nucleo_agent) StderrLine: {'line': b'\n'}
+[0.395216] (nucleo_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.395246] (nucleo_agent) StderrLine: {'line': b'  CMakeLists.txt:26 (ament_target_dependencies)\n'}
+[0.395278] (nucleo_agent) StderrLine: {'line': b'\n'}
+[0.395304] (nucleo_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[0.396948] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399574] (-) TimerEvent: {}
+[0.438988] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.439134] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>\n'}
+[0.439179] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.439372] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.439715] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.439749] (nucleo_agent) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.439881] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.440268] (nucleo_agent) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.440302] (nucleo_agent) StdoutLine: {'line': b'See also "/ROS_ws/build/nucleo_agent/CMakeFiles/CMakeOutput.log".\n'}
+[0.444080] (nucleo_agent) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[0.445249] (nucleo_agent) CommandEnded: {'returncode': 2}
+[0.467304] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 2}
+[0.477616] (-) EventReactorShutdown: {}

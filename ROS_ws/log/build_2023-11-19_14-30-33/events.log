@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000319] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.007025] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.007346] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.007738] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.026470] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099964] (-) TimerEvent: {}
+[0.113216] (nucleo_agent) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.134213] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.136031] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.139936] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.146457] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.156332] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.191807] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.192557] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200071] (-) TimerEvent: {}
+[0.294940] (nucleo_agent) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300186] (-) TimerEvent: {}
+[0.393998] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.397792] (nucleo_agent) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (target_include_directories):\n'}
+[0.397879] (nucleo_agent) StderrLine: {'line': b'  target_include_directories called with incorrect number of arguments\n'}
+[0.397914] (nucleo_agent) StderrLine: {'line': b'\n'}
+[0.397943] (nucleo_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400296] (-) TimerEvent: {}
+[0.400838] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.443579] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.443725] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>\n'}
+[0.443771] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.443968] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.444332] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.444373] (nucleo_agent) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.444505] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.444898] (nucleo_agent) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.444959] (nucleo_agent) StdoutLine: {'line': b'See also "/ROS_ws/build/nucleo_agent/CMakeFiles/CMakeOutput.log".\n'}
+[0.448937] (nucleo_agent) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[0.450052] (nucleo_agent) CommandEnded: {'returncode': 2}
+[0.476188] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 2}
+[0.486559] (-) EventReactorShutdown: {}

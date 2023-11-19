@@ -1,0 +1,10 @@
+/ROS_ws/build/nucleo_agent/CMakeFiles/uninstall.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/nucleo_agent_uninstall.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/nucleo_agent.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/test.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/edit_cache.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/rebuild_cache.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/list_install_components.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/install.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/install/local.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/install/strip.dir

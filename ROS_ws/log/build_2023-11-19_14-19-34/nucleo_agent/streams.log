@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.036s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.036s]   By not providing "Findlibudev.cmake" in CMAKE_MODULE_PATH this project has
+[0.036s]   asked CMake to find a package configuration file provided by "libudev", but
+[0.036s]   CMake did not find one.
+[0.036s] 
+[0.036s]   Could not find a package configuration file provided by "libudev" with any
+[0.036s]   of the following names:
+[0.036s] 
+[0.036s]     libudevConfig.cmake
+[0.036s]     libudev-config.cmake
+[0.036s] 
+[0.036s]   Add the installation prefix of "libudev" to CMAKE_PREFIX_PATH or set
+[0.036s]   "libudev_DIR" to a directory containing one of the above files.  If
+[0.037s]   "libudev" provides a separate development package or SDK, be sure it has
+[0.037s]   been installed.
+[0.037s] 
+[0.037s] [0m
+[0.037s] -- Configuring incomplete, errors occurred!
+[0.037s] See also "/ROS_ws/build/nucleo_agent/CMakeFiles/CMakeOutput.log".
+[0.037s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.038s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12

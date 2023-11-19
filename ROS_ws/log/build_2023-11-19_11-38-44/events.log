@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000536] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.007379] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.007528] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '/ROS_ws/src/nucleo_agent', '-DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('OLDPWD', '/ROS_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099816] (-) TimerEvent: {}
+[0.200418] (-) TimerEvent: {}
+[0.301116] (-) TimerEvent: {}
+[0.401733] (-) TimerEvent: {}
+[0.502328] (-) TimerEvent: {}
+[0.603124] (-) TimerEvent: {}
+[0.703824] (-) TimerEvent: {}
+[0.804477] (-) TimerEvent: {}
+[0.905103] (-) TimerEvent: {}
+[1.005478] (-) TimerEvent: {}
+[1.106139] (-) TimerEvent: {}
+[1.206858] (-) TimerEvent: {}
+[1.307480] (-) TimerEvent: {}
+[1.408107] (-) TimerEvent: {}
+[1.508736] (-) TimerEvent: {}
+[1.609512] (-) TimerEvent: {}
+[1.710304] (-) TimerEvent: {}
+[1.810963] (-) TimerEvent: {}
+[1.911511] (-) TimerEvent: {}
+[2.012126] (-) TimerEvent: {}
+[2.112748] (-) TimerEvent: {}
+[2.213359] (-) TimerEvent: {}
+[2.313926] (-) TimerEvent: {}
+[2.414383] (-) TimerEvent: {}
+[2.515004] (-) TimerEvent: {}
+[2.615635] (-) TimerEvent: {}
+[2.716312] (-) TimerEvent: {}
+[2.816931] (-) TimerEvent: {}
+[2.917576] (-) TimerEvent: {}
+[3.018313] (-) TimerEvent: {}
+[3.066816] (nucleo_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[3.118460] (-) TimerEvent: {}
+[3.219110] (-) TimerEvent: {}
+[3.319683] (-) TimerEvent: {}
+[3.321194] (nucleo_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.384798] (nucleo_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.419895] (-) TimerEvent: {}
+[3.520491] (-) TimerEvent: {}
+[3.621126] (-) TimerEvent: {}
+[3.721721] (-) TimerEvent: {}
+[3.822341] (-) TimerEvent: {}
+[3.922786] (-) TimerEvent: {}
+[3.928517] (nucleo_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.935455] (nucleo_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.935811] (nucleo_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.936220] (nucleo_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.939539] (nucleo_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.022957] (-) TimerEvent: {}
+[4.118543] (nucleo_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.122998] (-) TimerEvent: {}
+[4.124273] (nucleo_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.124507] (nucleo_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.124903] (nucleo_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.190616] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.223171] (-) TimerEvent: {}
+[4.323733] (-) TimerEvent: {}
+[4.424383] (-) TimerEvent: {}
+[4.525028] (-) TimerEvent: {}
+[4.526193] (nucleo_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.590592] (nucleo_agent) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.625177] (-) TimerEvent: {}
+[4.725685] (-) TimerEvent: {}
+[4.826361] (-) TimerEvent: {}
+[4.926870] (-) TimerEvent: {}
+[5.027523] (-) TimerEvent: {}
+[5.128131] (-) TimerEvent: {}
+[5.228624] (-) TimerEvent: {}
+[5.299070] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.303313] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.309995] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.328666] (-) TimerEvent: {}
+[5.362673] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.386571] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.428802] (-) TimerEvent: {}
+[5.523537] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.526064] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.528836] (-) TimerEvent: {}
+[5.629086] (-) TimerEvent: {}
+[5.729755] (-) TimerEvent: {}
+[5.830302] (-) TimerEvent: {}
+[5.930500] (-) TimerEvent: {}
+[6.030702] (-) TimerEvent: {}
+[6.130911] (-) TimerEvent: {}
+[6.231138] (-) TimerEvent: {}
+[6.331370] (-) TimerEvent: {}
+[6.431771] (-) TimerEvent: {}
+[6.532409] (-) TimerEvent: {}
+[6.633090] (-) TimerEvent: {}
+[6.733638] (-) TimerEvent: {}
+[6.834346] (-) TimerEvent: {}
+[6.934971] (-) TimerEvent: {}
+[7.035513] (-) TimerEvent: {}
+[7.135832] (-) TimerEvent: {}
+[7.236580] (-) TimerEvent: {}
+[7.337265] (-) TimerEvent: {}
+[7.437990] (-) TimerEvent: {}
+[7.538671] (-) TimerEvent: {}
+[7.639341] (-) TimerEvent: {}
+[7.739992] (-) TimerEvent: {}
+[7.797665] (nucleo_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.827626] (nucleo_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.840040] (-) TimerEvent: {}
+[7.871926] (nucleo_agent) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.880664] (nucleo_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.940222] (-) TimerEvent: {}
+[8.040895] (-) TimerEvent: {}
+[8.141526] (-) TimerEvent: {}
+[8.242150] (-) TimerEvent: {}
+[8.342886] (-) TimerEvent: {}
+[8.443222] (-) TimerEvent: {}
+[8.460821] (nucleo_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.461045] (nucleo_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.543396] (-) TimerEvent: {}
+[8.643975] (-) TimerEvent: {}
+[8.677620] (nucleo_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.678426] (nucleo_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.744055] (-) TimerEvent: {}
+[8.844276] (-) TimerEvent: {}
+[8.944555] (-) TimerEvent: {}
+[8.961411] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[9.044678] (-) TimerEvent: {}
+[9.063487] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.124099] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.124232] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>\n'}
+[9.124274] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.124564] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.125008] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.125052] (nucleo_agent) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.125245] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.125847] (nucleo_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.131493] (nucleo_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[9.144746] (-) TimerEvent: {}
+[9.228522] (nucleo_agent) StdoutLine: {'line': b'-- Build files have been written to: /ROS_ws/build/nucleo_agent\n'}
+[9.244910] (-) TimerEvent: {}
+[9.249152] (nucleo_agent) CommandEnded: {'returncode': 0}
+[9.249938] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[9.251769] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('OLDPWD', '/ROS_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.304390] (nucleo_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o\x1b[0m\n'}
+[9.345074] (-) TimerEvent: {}
+[9.445716] (-) TimerEvent: {}
+[9.546400] (-) TimerEvent: {}
+[9.646946] (-) TimerEvent: {}
+[9.715842] (nucleo_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nucleo_agent\x1b[0m\n'}
+[9.747164] (-) TimerEvent: {}
+[9.847727] (-) TimerEvent: {}
+[9.912857] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target nucleo_agent\n'}
+[9.938816] (nucleo_agent) CommandEnded: {'returncode': 0}
+[9.947801] (-) TimerEvent: {}
+[9.954295] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'install'}
+[9.962781] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/nucleo_agent'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/ROS_ws'), ('OLDPWD', '/ROS_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.969133] (nucleo_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.969243] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent\n'}
+[9.969453] (nucleo_agent) StdoutLine: {'line': b'-- Set runtime path of "/ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent" to ""\n'}
+[9.969510] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent\n'}
+[9.969574] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent\n'}
+[9.969661] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh\n'}
+[9.969831] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.dsv\n'}
+[9.969992] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.sh\n'}
+[9.970132] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.dsv\n'}
+[9.970247] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.bash\n'}
+[9.970364] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.sh\n'}
+[9.970531] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.zsh\n'}
+[9.970636] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.dsv\n'}
+[9.970680] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.dsv\n'}
+[9.970718] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/packages/nucleo_agent\n'}
+[9.970770] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig.cmake\n'}
+[9.970826] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig-version.cmake\n'}
+[9.970878] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.xml\n'}
+[9.972392] (nucleo_agent) CommandEnded: {'returncode': 0}
+[10.047992] (-) TimerEvent: {}
+[10.148557] (-) TimerEvent: {}
+[10.248838] (-) TimerEvent: {}
+[10.349191] (-) TimerEvent: {}
+[10.449907] (-) TimerEvent: {}
+[10.550527] (-) TimerEvent: {}
+[10.651137] (-) TimerEvent: {}
+[10.751559] (-) TimerEvent: {}
+[10.852165] (-) TimerEvent: {}
+[10.952579] (-) TimerEvent: {}
+[11.053377] (-) TimerEvent: {}
+[11.205634] (-) TimerEvent: {}
+[11.261622] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 0}
+[11.263291] (-) EventReactorShutdown: {}

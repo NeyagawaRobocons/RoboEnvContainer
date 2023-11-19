@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o[0m
+[1.760s] [100%] [32m[1mLinking CXX executable nucleo_agent[0m
+[1.835s] [100%] Built target nucleo_agent
+[1.841s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[1.858s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/nucleo_agent
+[1.864s] -- Install configuration: ""
+[1.864s] -- Installing: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent
+[1.864s] -- Set runtime path of "/ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent" to ""
+[1.864s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent
+[1.864s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent
+[1.864s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh
+[1.864s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.dsv
+[1.864s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.sh
+[1.864s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.dsv
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.bash
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.sh
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.zsh
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.dsv
+[1.865s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.dsv
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/packages/nucleo_agent
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig.cmake
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig-version.cmake
+[1.865s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.xml
+[1.866s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/nucleo_agent
