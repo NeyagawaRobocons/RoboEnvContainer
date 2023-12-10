@@ -1,0 +1,3 @@
+[submodule "ROS_ws/src/nucleo_agent"]
+	path = ROS_ws/src/nucleo_agent
+	url = https://github.com/NeyagawaRobocons/nucleo_agent
