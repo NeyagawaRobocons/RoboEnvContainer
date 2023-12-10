@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000347] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000388] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.006937] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.007562] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.007612] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.043040] (nucleo_agent) StdoutLine: {'line': b'[  3%] Built target nucleo_agent__cpp\n'}
+[0.043204] (nucleo_agent) StdoutLine: {'line': b'[ 12%] Built target nucleo_agent__rosidl_generator_c\n'}
+[0.054049] (nucleo_agent) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_nucleo_agent\n'}
+[0.067929] (nucleo_agent) StdoutLine: {'line': b'[ 21%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp\n'}
+[0.069620] (nucleo_agent) StdoutLine: {'line': b'[ 30%] Built target nucleo_agent__rosidl_typesupport_cpp\n'}
+[0.070154] (nucleo_agent) StdoutLine: {'line': b'[ 39%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp\n'}
+[0.075447] (nucleo_agent) StdoutLine: {'line': b'[ 48%] Built target nucleo_agent__rosidl_typesupport_c\n'}
+[0.075951] (nucleo_agent) StdoutLine: {'line': b'[ 57%] Built target nucleo_agent__rosidl_typesupport_introspection_c\n'}
+[0.076379] (nucleo_agent) StdoutLine: {'line': b'[ 66%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c\n'}
+[0.082881] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent_node\x1b[0m\n'}
+[0.088751] (nucleo_agent) StdoutLine: {'line': b'[ 66%] Built target nucleo_agent\n'}
+[0.093717] (nucleo_agent) StdoutLine: {'line': b'[ 72%] Built target nucleo_agent_node\n'}
+[0.099375] (-) TimerEvent: {}
+[0.099594] (nucleo_agent) StdoutLine: {'line': b'[ 75%] Built target nucleo_agent__py\n'}
+[0.111904] (nucleo_agent) StdoutLine: {'line': b'[ 81%] Built target nucleo_agent__rosidl_generator_py\n'}
+[0.124703] (nucleo_agent) StdoutLine: {'line': b'[ 96%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext\n'}
+[0.124817] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.124856] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target nucleo_agent__rosidl_typesupport_c__pyext\n'}
+[0.184357] (nucleo_agent) StdoutLine: {'line': b'running egg_info\n'}
+[0.184750] (nucleo_agent) StdoutLine: {'line': b'writing nucleo_agent.egg-info/PKG-INFO\n'}
+[0.184873] (nucleo_agent) StdoutLine: {'line': b'writing dependency_links to nucleo_agent.egg-info/dependency_links.txt\n'}
+[0.184951] (nucleo_agent) StdoutLine: {'line': b'writing top-level names to nucleo_agent.egg-info/top_level.txt\n'}
+[0.186160] (nucleo_agent) StdoutLine: {'line': b"reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[0.186395] (nucleo_agent) StdoutLine: {'line': b"writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[0.199472] (-) TimerEvent: {}
+[0.201005] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_nucleo_agent_egg\n'}
+[0.207435] (nucleo_agent) CommandEnded: {'returncode': 0}
+[0.243849] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'install'}
+[0.251725] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/nucleo_agent'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.258247] (nucleo_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.258435] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/rosidl_interfaces/nucleo_agent\n'}
+[0.258588] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.258647] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.258857] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.259052] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.259258] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.h\n'}
+[0.259512] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__functions.c\n'}
+[0.259712] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__functions.h\n'}
+[0.259900] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__struct.h\n'}
+[0.260091] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/odometer_data.h\n'}
+[0.260279] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/library_path.sh\n'}
+[0.260442] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/library_path.dsv\n'}
+[0.260616] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_generator_c.so\n'}
+[0.260948] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.261517] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.262061] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.262525] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.262669] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.262870] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_fastrtps_c.so\n'}
+[0.262980] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.263047] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.263117] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.263194] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__struct.hpp\n'}
+[0.263307] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__builder.hpp\n'}
+[0.263372] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__traits.hpp\n'}
+[0.263437] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/odometer_data.hpp\n'}
+[0.263519] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.263629] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.263731] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.263807] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.263877] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/dds_fastrtps\n'}
+[0.264005] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.264551] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.264748] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.264830] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.264896] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.264968] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.c\n'}
+[0.265036] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_introspection_c.h\n'}
+[0.265106] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.265173] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_introspection_c.so\n'}
+[0.265236] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_c.so\n'}
+[0.265298] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.265374] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.265449] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.265530] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.cpp\n'}
+[0.265591] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.265653] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_introspection_cpp.so\n'}
+[0.265714] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_cpp.so\n'}
+[0.265773] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/pythonpath.sh\n'}
+[0.265836] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/pythonpath.dsv\n'}
+[0.265896] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info\n'}
+[0.265964] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.266023] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.266076] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.266118] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.266154] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent\n'}
+[0.266190] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.266225] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/__init__.py\n'}
+[0.266260] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.266295] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg\n'}
+[0.266328] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_odometer_data.py\n'}
+[0.266361] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_odometer_data_s.c\n'}
+[0.266395] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/__init__.py\n'}
+[0.266428] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/libnucleo_agent__rosidl_generator_py.so\n'}
+[0.266461] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.266528] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.266595] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.266658] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_c.c\n'}
+[0.283680] (nucleo_agent) StdoutLine: {'line': b"Listing '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent'...\n"}
+[0.283766] (nucleo_agent) StdoutLine: {'line': b"Listing '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg'...\n"}
+[0.286112] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.286191] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.286253] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.286305] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_generator_py.so\n'}
+[0.286350] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.idl\n'}
+[0.286396] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.msg\n'}
+[0.286442] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent_node\n'}
+[0.286491] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent\n'}
+[0.286537] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent\n'}
+[0.286598] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh\n'}
+[0.286632] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.dsv\n'}
+[0.286663] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.sh\n'}
+[0.286693] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.dsv\n'}
+[0.286724] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.bash\n'}
+[0.286766] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.sh\n'}
+[0.286827] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.zsh\n'}
+[0.286859] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.dsv\n'}
+[0.286890] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.dsv\n'}
+[0.286946] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/packages/nucleo_agent\n'}
+[0.286978] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cExport.cmake\n'}
+[0.287007] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.287039] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.287068] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.287097] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cppExport.cmake\n'}
+[0.287129] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.287158] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.287205] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.287284] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.287329] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cExport.cmake\n'}
+[0.287377] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.287425] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.287453] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.287479] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cppExport.cmake\n'}
+[0.287505] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.287531] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_pyExport.cmake\n'}
+[0.287561] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.287587] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake-extras.cmake\n'}
+[0.287613] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.287639] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.287665] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.287692] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.287718] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.287744] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.287770] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig.cmake\n'}
+[0.287796] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig-version.cmake\n'}
+[0.287822] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.xml\n'}
+[0.288720] (nucleo_agent) CommandEnded: {'returncode': 0}
+[0.299557] (-) TimerEvent: {}
+[0.335646] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 0}
+[0.336044] (-) EventReactorShutdown: {}

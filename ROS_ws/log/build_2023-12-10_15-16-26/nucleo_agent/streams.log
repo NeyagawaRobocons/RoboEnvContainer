@@ -1,0 +1,55 @@
+[0.009s] Invoking command in '/ROS_ws/build/nucleo_agent': /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent
+[0.041s] -- The C compiler identification is GNU 11.3.0
+[0.075s] -- The CXX compiler identification is GNU 11.3.0
+[0.080s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.230s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.230s] -- Checking for module 'libudev'
+[0.236s] --   Found libudev, version 249
+[0.269s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.458s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.461s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.467s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.524s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.634s] Error parsing '/ROS_ws/src/nucleo_agent/package.xml':
+[0.634s] Traceback (most recent call last):
+[0.634s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.634s]     main()
+[0.634s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.634s]     raise e
+[0.634s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.634s]     package = parse_package_string(
+[0.634s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.634s]     pkg.validate(warnings=warnings)
+[0.634s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.634s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.634s] catkin_pkg.package.InvalidPackage: Error(s) in package '/ROS_ws/src/nucleo_agent/package.xml':
+[0.634s] The package "nucleo_agent" must not "build_depend" on a package with the same name as this package
+[0.634s] The package "nucleo_agent" must not "build_export_depend" on a package with the same name as this package
+[0.634s] The package "nucleo_agent" must not "exec_depend" on a package with the same name as this package
+[0.638s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.639s]   execute_process(/usr/bin/python3.10
+[0.639s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.639s]   /ROS_ws/src/nucleo_agent/package.xml
+[0.639s]   /ROS_ws/build/nucleo_agent/ament_cmake_core/package.cmake) returned error
+[0.639s]   code 1
+[0.639s] Call Stack (most recent call first):
+[0.639s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.639s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.639s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.639s] 
+[0.639s] [0m
+[0.639s] -- Configuring incomplete, errors occurred!
+[0.639s] See also "/ROS_ws/build/nucleo_agent/CMakeFiles/CMakeOutput.log".
+[0.643s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '1': /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent

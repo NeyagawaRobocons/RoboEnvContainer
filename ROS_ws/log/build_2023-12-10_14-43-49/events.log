@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000333] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000703] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.006952] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.007379] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.007785] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/opt/ros/humble')]), 'shell': False}
+[0.025545] (nucleo_agent) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.099771] (-) TimerEvent: {}
+[0.132647] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.134052] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.137813] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.144640] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.154386] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.188114] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.199836] (-) TimerEvent: {}
+[0.300003] (-) TimerEvent: {}
+[0.345549] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400105] (-) TimerEvent: {}
+[0.500315] (-) TimerEvent: {}
+[0.559144] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600473] (-) TimerEvent: {}
+[0.645611] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.660082] (nucleo_agent) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.672724] (nucleo_agent) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.672900] (nucleo_agent) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.672938] (nucleo_agent) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.687328] (nucleo_agent) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700555] (-) TimerEvent: {}
+[0.718742] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.719541] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800641] (-) TimerEvent: {}
+[0.801898] (nucleo_agent) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.882460] (nucleo_agent) StdoutLine: {'line': b'-- Found nucleo_agent: 0.0.0 (/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake)\n'}
+[0.885708] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.890308] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.890721] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>\n'}
+[0.890801] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.890934] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.891370] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.891403] (nucleo_agent) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.891539] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.892321] (nucleo_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.900727] (-) TimerEvent: {}
+[0.911294] (nucleo_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[0.912891] (nucleo_agent) StdoutLine: {'line': b'-- Build files have been written to: /ROS_ws/build/nucleo_agent\n'}
+[0.928303] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_c\x1b[0m\n'}
+[0.933629] (nucleo_agent) StdoutLine: {'line': b'[  6%] Built target nucleo_agent__cpp\n'}
+[0.933821] (nucleo_agent) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o\x1b[0m\n'}
+[0.934001] (nucleo_agent) StdoutLine: {'line': b'[ 15%] Built target nucleo_agent__rosidl_generator_c\n'}
+[0.938709] (nucleo_agent) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_nucleo_agent\n'}
+[0.939123] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.939254] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.939318] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.939664] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c\x1b[0m\n'}
+[0.940324] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.940981] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.945473] (nucleo_agent) StdoutLine: {'line': b'[ 24%] Built target nucleo_agent__rosidl_typesupport_introspection_c\n'}
+[0.947287] (nucleo_agent) StdoutLine: {'line': b'[ 33%] Built target nucleo_agent__rosidl_typesupport_c\n'}
+[0.947492] (nucleo_agent) StdoutLine: {'line': b'[ 42%] Built target nucleo_agent__rosidl_typesupport_cpp\n'}
+[0.947893] (nucleo_agent) StdoutLine: {'line': b'[ 51%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp\n'}
+[0.948471] (nucleo_agent) StdoutLine: {'line': b'[ 60%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp\n'}
+[0.950297] (nucleo_agent) StdoutLine: {'line': b'[ 69%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c\n'}
+[0.964889] (nucleo_agent) StdoutLine: {'line': b'[ 69%] Built target nucleo_agent\n'}
+[0.975866] (nucleo_agent) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.000816] (-) TimerEvent: {}
+[1.049298] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knucleo_agent/msg/odometer_data.hpp: No such file or directory\n'}
+[1.049456] (nucleo_agent) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"nucleo_agent/msg/odometer_data.hpp"\x1b[m\x1b[K\n'}
+[1.049532] (nucleo_agent) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.049590] (nucleo_agent) StderrLine: {'line': b'compilation terminated.\n'}
+[1.050171] (nucleo_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nucleo_agent_node.dir/build.make:76: CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o] Error 1\n'}
+[1.050294] (nucleo_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/nucleo_agent_node.dir/all] Error 2\n'}
+[1.050359] (nucleo_agent) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.059612] (nucleo_agent) StdoutLine: {'line': b'running egg_info\n'}
+[1.060053] (nucleo_agent) StdoutLine: {'line': b'writing nucleo_agent.egg-info/PKG-INFO\n'}
+[1.060192] (nucleo_agent) StdoutLine: {'line': b'writing dependency_links to nucleo_agent.egg-info/dependency_links.txt\n'}
+[1.060305] (nucleo_agent) StdoutLine: {'line': b'writing top-level names to nucleo_agent.egg-info/top_level.txt\n'}
+[1.061524] (nucleo_agent) StdoutLine: {'line': b"reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[1.061873] (nucleo_agent) StdoutLine: {'line': b"writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[1.077504] (nucleo_agent) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_build_nucleo_agent_egg\n'}
+[1.100924] (-) TimerEvent: {}
+[1.176420] (nucleo_agent) StdoutLine: {'line': b'[ 72%] Built target nucleo_agent__py\n'}
+[1.176948] (nucleo_agent) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.178205] (nucleo_agent) CommandEnded: {'returncode': 2}
+[1.201027] (-) TimerEvent: {}
+[1.214682] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 2}
+[1.224991] (-) EventReactorShutdown: {}

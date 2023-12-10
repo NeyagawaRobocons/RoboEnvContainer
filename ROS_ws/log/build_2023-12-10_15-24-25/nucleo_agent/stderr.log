@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findnucleo_agent.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "nucleo_agent", but CMake did not find one.
+
+  Could not find a package configuration file provided by "nucleo_agent" with
+  any of the following names:
+
+    nucleo_agentConfig.cmake
+    nucleo_agent-config.cmake
+
+  Add the installation prefix of "nucleo_agent" to CMAKE_PREFIX_PATH or set
+  "nucleo_agent_DIR" to a directory containing one of the above files.  If
+  "nucleo_agent" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

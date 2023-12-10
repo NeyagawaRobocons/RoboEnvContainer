@@ -1,0 +1,39 @@
+[0.008s] Invoking command in '/ROS_ws/build/nucleo_agent': /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent
+[0.017s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.119s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.121s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.125s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.173s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.280s] Error parsing '/ROS_ws/src/nucleo_agent/package.xml':
+[0.281s] Traceback (most recent call last):
+[0.281s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.281s]     main()
+[0.281s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.281s]     raise e
+[0.281s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.281s]     package = parse_package_string(
+[0.281s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.281s]     pkg.validate(warnings=warnings)
+[0.281s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.281s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.281s] catkin_pkg.package.InvalidPackage: Error(s) in package '/ROS_ws/src/nucleo_agent/package.xml':
+[0.281s] The package "nucleo_agent" must not "build_depend" on a package with the same name as this package
+[0.281s] The package "nucleo_agent" must not "build_export_depend" on a package with the same name as this package
+[0.281s] The package "nucleo_agent" must not "exec_depend" on a package with the same name as this package
+[0.285s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.285s]   execute_process(/usr/bin/python3.10
+[0.285s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.285s]   /ROS_ws/src/nucleo_agent/package.xml
+[0.285s]   /ROS_ws/build/nucleo_agent/ament_cmake_core/package.cmake) returned error
+[0.285s]   code 1
+[0.285s] Call Stack (most recent call first):
+[0.285s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.285s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.285s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.285s] 
+[0.285s] [0m
+[0.286s] -- Configuring incomplete, errors occurred!
+[0.286s] See also "/ROS_ws/build/nucleo_agent/CMakeFiles/CMakeOutput.log".
+[0.289s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '1': /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent

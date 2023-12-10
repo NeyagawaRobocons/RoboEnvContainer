@@ -1,0 +1,6 @@
+{
+  "package_name": "nucleo_agent",
+  "non_idl_tuples": [
+    "/ROS_ws/src/nucleo_agent:msg/OdometerData.msg"
+  ]
+}

@@ -1,11 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o"
-  "CMakeFiles/nucleo_agent.dir/src/nucleo_agent.cpp.o.d"
-  "nucleo_agent"
-  "nucleo_agent.pdb"
+  "CMakeFiles/nucleo_agent"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang )
   include(CMakeFiles/nucleo_agent.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

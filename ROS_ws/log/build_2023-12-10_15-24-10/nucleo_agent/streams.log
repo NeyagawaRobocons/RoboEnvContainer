@@ -1,0 +1,39 @@
+[0.008s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent
+[0.017s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.123s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.172s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.329s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.658s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.658s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.658s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.673s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.703s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.704s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.788s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.877s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[0.877s]   By not providing "Findnucleo_agent.cmake" in CMAKE_MODULE_PATH this project
+[0.877s]   has asked CMake to find a package configuration file provided by
+[0.877s]   "nucleo_agent", but CMake did not find one.
+[0.877s] 
+[0.877s]   Could not find a package configuration file provided by "nucleo_agent" with
+[0.877s]   any of the following names:
+[0.877s] 
+[0.878s]     nucleo_agentConfig.cmake
+[0.878s]     nucleo_agent-config.cmake
+[0.878s] 
+[0.878s]   Add the installation prefix of "nucleo_agent" to CMAKE_PREFIX_PATH or set
+[0.878s]   "nucleo_agent_DIR" to a directory containing one of the above files.  If
+[0.878s]   "nucleo_agent" provides a separate development package or SDK, be sure it
+[0.878s]   has been installed.
+[0.878s] 
+[0.878s] [0m
+[0.878s] -- Configuring incomplete, errors occurred!
+[0.878s] See also "/ROS_ws/build/nucleo_agent/CMakeFiles/CMakeOutput.log".
+[0.882s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent

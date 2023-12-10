@@ -1,0 +1,2 @@
+Invoking command in '/ROS_ws/build/nucleo_agent': /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+Invoked command in '/ROS_ws/build/nucleo_agent' returned '2': /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
