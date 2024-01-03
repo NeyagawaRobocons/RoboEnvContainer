@@ -208,4 +208,10 @@ CMakeFiles/nucleo_agent__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nuc
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.h
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.h \
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__type_support.h \
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__struct.h \
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__functions.h \
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__type_support.h \
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__struct.h \
+ /ROS_ws/build/nucleo_agent/rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__functions.h

@@ -5,4 +5,6 @@ nucleo_agent.egg-info/SOURCES.txt
 nucleo_agent.egg-info/dependency_links.txt
 nucleo_agent.egg-info/top_level.txt
 nucleo_agent/msg/__init__.py
+nucleo_agent/msg/_actuator_commands.py
 nucleo_agent/msg/_odometer_data.py
+nucleo_agent/msg/_sensor_states.py

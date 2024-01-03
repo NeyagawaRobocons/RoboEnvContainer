@@ -671,10 +671,30 @@ CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o: /ROS_ws/src/nucleo_agen
   rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__builder.hpp \
   rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/actuator_commands.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__struct.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__builder.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__traits.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__builder.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__traits.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/sensor_states.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__struct.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__builder.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp \
   /usr/include/c++/11/filesystem \
   /usr/include/c++/11/bits/fs_fwd.h \
   /usr/include/c++/11/bits/fs_path.h \
@@ -744,9 +764,31 @@ CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o: /ROS_ws/src/nucleo_agen
 
 /usr/include/c++/11/filesystem:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__builder.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__struct.hpp:
+
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__traits.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__struct.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__builder.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__builder.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__struct.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/actuator_commands.hpp:
 
 rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__traits.hpp:
 
@@ -775,6 +817,8 @@ rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__traits.hpp:
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
@@ -913,6 +957,8 @@ rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__traits.hpp:
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__struct.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
@@ -1186,6 +1232,8 @@ rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__struct.hpp:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/float64_multi_array.hpp:
+
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
@@ -1424,6 +1472,8 @@ rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__struct.hpp:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__traits.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -1642,6 +1692,8 @@ rosidl_generator_cpp/nucleo_agent/msg/detail/odometer_data__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/sensor_states.hpp:
+
 /usr/include/c++/11/map:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
@@ -1836,6 +1888,8 @@ rosidl_generator_cpp/nucleo_agent/msg/odometer_data.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
 
 /usr/include/c++/11/clocale:
@@ -1950,6 +2004,8 @@ rosidl_generator_cpp/nucleo_agent/msg/odometer_data.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64_multi_array__traits.hpp:
+
 /usr/include/c++/11/cxxabi.h:
 
 /usr/include/c++/11/bits/char_traits.h:
@@ -2038,6 +2094,8 @@ rosidl_generator_cpp/nucleo_agent/msg/odometer_data.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_dimension__traits.hpp:
+
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:
@@ -2077,6 +2135,8 @@ rosidl_generator_cpp/nucleo_agent/msg/odometer_data.hpp:
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 

@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.041s] [  3%] Built target nucleo_agent__cpp
+[0.042s] [ 12%] Built target nucleo_agent__rosidl_generator_c
+[0.052s] [ 12%] Built target ament_cmake_python_copy_nucleo_agent
+[0.073s] [ 21%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp
+[0.076s] [ 30%] Built target nucleo_agent__rosidl_typesupport_cpp
+[0.077s] [ 39%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp
+[0.079s] [ 48%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c
+[0.084s] [ 57%] Built target nucleo_agent__rosidl_typesupport_introspection_c
+[0.094s] [ 66%] Built target nucleo_agent__rosidl_typesupport_c
+[0.102s] [ 69%] [32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o[0m
+[0.105s] [ 69%] Built target nucleo_agent
+[0.118s] [ 72%] Built target nucleo_agent__py
+[0.132s] [ 78%] Built target nucleo_agent__rosidl_generator_py
+[0.146s] [ 90%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext
+[0.146s] [ 90%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext
+[0.147s] [ 96%] Built target nucleo_agent__rosidl_typesupport_c__pyext
+[0.206s] running egg_info
+[0.206s] writing nucleo_agent.egg-info/PKG-INFO
+[0.206s] writing dependency_links to nucleo_agent.egg-info/dependency_links.txt
+[0.206s] writing top-level names to nucleo_agent.egg-info/top_level.txt
+[0.208s] reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[0.209s] writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[0.225s] [ 96%] Built target ament_cmake_python_build_nucleo_agent_egg
+[0.305s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmecha_control/msg/actuator_commands.hpp: No such file or directory
+[0.305s]     3 | #include [01;31m[K"mecha_control/msg/actuator_commands.hpp"[m[K
+[0.305s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.305s] compilation terminated.
+[0.307s] gmake[2]: *** [CMakeFiles/nucleo_agent_node.dir/build.make:76: CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o] Error 1
+[0.307s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/nucleo_agent_node.dir/all] Error 2
+[0.307s] gmake: *** [Makefile:146: all] Error 2
+[0.308s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12

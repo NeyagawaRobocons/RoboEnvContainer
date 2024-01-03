@@ -1,0 +1,22 @@
+[33mCMake Warning at CMakeLists.txt:25 (add_executable):
+  Cannot generate a safe runtime search path for target nucleo_agent_node
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+    dir 1 is [/ROS_ws/install/nucleo_agent/lib]
+      dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]
+    dir 2 is [/ROS_ws/build/nucleo_agent]
+      dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]
+    dir 3 is [/ROS_ws/install/mecha_control/lib]
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmecha_control/msg/sensor_state.hpp: No such file or directory
+    5 | #include [01;31m[K"mecha_control/msg/sensor_state.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nucleo_agent_node.dir/build.make:76: CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/nucleo_agent_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

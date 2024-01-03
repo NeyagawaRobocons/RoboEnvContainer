@@ -1,0 +1,6 @@
+msg/ActuatorCommands.idl
+msg/ActuatorCommands.msg
+msg/MechaState.idl
+msg/MechaState.msg
+msg/SensorStates.idl
+msg/SensorStates.msg

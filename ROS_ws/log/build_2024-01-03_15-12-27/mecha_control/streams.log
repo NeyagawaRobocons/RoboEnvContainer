@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/ROS_ws/build/mecha_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12
+[0.050s] [  2%] Built target mecha_control__cpp
+[0.050s] [ 12%] Built target mecha_control__rosidl_generator_c
+[0.057s] [ 12%] Built target ament_cmake_python_copy_mecha_control
+[0.069s] [ 29%] Built target mecha_control__rosidl_typesupport_introspection_c
+[0.069s] [ 34%] Built target mecha_control__rosidl_typesupport_cpp
+[0.069s] [ 44%] Built target mecha_control__rosidl_typesupport_c
+[0.070s] [ 55%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[0.071s] [ 65%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[0.072s] [ 76%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[0.083s] [ 76%] Built target mecha_control
+[0.094s] [ 78%] Built target mecha_control__py
+[0.107s] [ 87%] Built target mecha_control__rosidl_generator_py
+[0.122s] [ 93%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+[0.122s] [ 95%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[0.124s] [100%] Built target mecha_control__rosidl_typesupport_c__pyext
+[0.191s] running egg_info
+[0.191s] writing mecha_control.egg-info/PKG-INFO
+[0.191s] writing dependency_links to mecha_control.egg-info/dependency_links.txt
+[0.191s] writing top-level names to mecha_control.egg-info/top_level.txt
+[0.192s] reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.193s] writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.210s] [100%] Built target ament_cmake_python_build_mecha_control_egg
+[0.217s] Invoked command in '/ROS_ws/build/mecha_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12

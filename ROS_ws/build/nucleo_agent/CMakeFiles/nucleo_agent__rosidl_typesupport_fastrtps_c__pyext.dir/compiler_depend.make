@@ -249,8 +249,18 @@ CMakeFiles/nucleo_agent__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generat
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.h
+  rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.h \
+  rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__type_support.h \
+  rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__struct.h \
+  rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__functions.h \
+  rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__type_support.h \
+  rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__struct.h \
+  rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__functions.h
 
+
+rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__functions.h:
+
+rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -384,6 +394,8 @@ rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__type_support.h:
 
 /usr/include/python3.10/exports.h:
 
+rosidl_generator_c/nucleo_agent/msg/detail/sensor_states__type_support.h:
+
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
@@ -413,6 +425,8 @@ rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -534,6 +548,8 @@ rosidl_generator_c/nucleo_agent/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__struct.h:
+
 /usr/include/python3.10/cpython/traceback.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -553,6 +569,8 @@ rosidl_generator_c/nucleo_agent/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/typeslots.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+rosidl_generator_c/nucleo_agent/msg/detail/actuator_commands__type_support.h:
 
 rosidl_generator_py/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_fastrtps_c.c:
 

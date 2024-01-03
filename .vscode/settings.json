@@ -76,6 +76,11 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "hash_set": "cpp",
+        "shared_mutex": "cpp",
+        "csignal": "cpp",
+        "strstream": "cpp",
+        "stacktrace": "cpp"
     }
 }

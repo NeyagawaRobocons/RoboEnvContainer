@@ -1,0 +1,20 @@
+[33mCMake Warning at CMakeLists.txt:26 (add_executable):
+  Cannot generate a safe runtime search path for target nucleo_agent_node
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+    dir 1 is [/ROS_ws/install/nucleo_agent/lib]
+      dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]
+    dir 2 is [/ROS_ws/build/nucleo_agent]
+      dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In lambda function:
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:85:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   85 |           for (size_t i = 0; [01;35m[Ki < len[m[K; i++)
+      |                              [01;35m[K~~^~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:76:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   76 |       int [01;35m[Kcount[m[K = 0;
+      |           [01;35m[K^~~~~[m[K

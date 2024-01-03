@@ -1,0 +1,59 @@
+[  3%] Built target nucleo_agent__cpp
+[ 12%] Built target nucleo_agent__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_nucleo_agent
+[ 21%] Built target nucleo_agent__rosidl_typesupport_cpp
+[ 30%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp
+[ 39%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target nucleo_agent__rosidl_typesupport_c
+[ 57%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c
+[ 66%] Built target nucleo_agent__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target nucleo_agent_node[0m
+[ 66%] Built target nucleo_agent
+[ 69%] [32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o[0m
+[ 72%] Built target nucleo_agent__py
+[ 78%] Built target nucleo_agent__rosidl_generator_py
+[ 84%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext
+[ 90%] Built target nucleo_agent__rosidl_typesupport_c__pyext
+[ 96%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing nucleo_agent.egg-info/PKG-INFO
+writing dependency_links to nucleo_agent.egg-info/dependency_links.txt
+writing top-level names to nucleo_agent.egg-info/top_level.txt
+reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_nucleo_agent_egg
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In constructor ‘[01m[KSerialPublisherNode::SerialPublisherNode()[m[K’:
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:28:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdaiza_sennsor_pub_[m[K’
+   28 |     [01;31m[Kdaiza_sennsor_pub_[m[K = create_publisher<mecha_control::msg::SensorStates>("daiza_state", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:30:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Khina_sennsor_pub_[m[K’
+   30 |     [01;31m[Khina_sennsor_pub_[m[K = create_publisher<mecha_control::msg::SensorStates>("hina_state", 10);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In lambda function:
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:92:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   92 |           for (size_t i = 0; [01;35m[Ki < len[m[K; i++)
+      |                              [01;35m[K~~^~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:136:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mecha_control::msg::SensorStates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcylinder_states[m[K’
+  136 |                   message.[01;31m[Kcylinder_states[m[K[i] = (data[2] >> i) & 0x01;
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:138:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mecha_control::msg::SensorStates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kheader[m[K’
+  138 |                 message.[01;31m[Kheader[m[K.stamp = this->now();
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:139:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mecha_control::msg::SensorStates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kheader[m[K’
+  139 |                 message.[01;31m[Kheader[m[K.frame_id = "daiza_state";
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:150:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mecha_control::msg::SensorStates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcylinder_states[m[K’
+  150 |                   message.[01;31m[Kcylinder_states[m[K[i] = (data[2] >> i) & 0x01;
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:158:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mecha_control::msg::SensorStates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kheader[m[K’
+  158 |                 message.[01;31m[Kheader[m[K.stamp = this->now();
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:159:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct mecha_control::msg::SensorStates_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kheader[m[K’
+  159 |                 message.[01;31m[Kheader[m[K.frame_id = "hina_state";
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:83:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   83 |       int [01;35m[Kcount[m[K = 0;
+      |           [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/nucleo_agent_node.dir/build.make:76: CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/nucleo_agent_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
