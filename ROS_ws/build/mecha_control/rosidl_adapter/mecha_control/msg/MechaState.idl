@@ -7,7 +7,7 @@ module mecha_control {
   module msg {
     @verbatim (language="comment", text=
       "mecha_control/msg/MechaState.msg" "\n"
-      "0: 準備" "\n"
+      "4: 準備" "\n"
       "1: 展開" "\n"
       "2: 回収" "\n"
       "3: 設置" "\n"

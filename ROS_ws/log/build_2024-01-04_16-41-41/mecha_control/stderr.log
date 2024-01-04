@@ -1,0 +1,14 @@
+[01m[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:[m[K In constructor ‘[01m[KSequenceController::SequenceController()[m[K’:
+[01m[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:39:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ActuatorCommands = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmotor_expand[m[K’
+   39 |         hina_commands.[01;31m[Kmotor_expand[m[K.resize(1, false);     // モータの展開状態をすべて false（縮んでいる）に初期化
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:[m[K In member function ‘[01m[Kvoid SequenceController::mecha_state_callback(mecha_control::msg::MechaState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:125:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ActuatorCommands = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmotor_expand[m[K’
+  125 |                 hina_commands.[01;31m[Kmotor_expand[m[K[0] = false;
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:150:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing ActuatorCommands = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmotor_expand[m[K’
+  150 |                         hina_commands.[01;31m[Kmotor_expand[m[K[0] = false;
+      |                                       [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sequence_controller.dir/build.make:76: CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/sequence_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

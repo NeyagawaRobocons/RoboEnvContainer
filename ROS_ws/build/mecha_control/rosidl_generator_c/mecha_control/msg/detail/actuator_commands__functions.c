@@ -13,6 +13,7 @@
 
 // Include directives for member types
 // Member `motor_positions`
+// Member `motor_expand`
 // Member `cylinder_states`
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
@@ -24,6 +25,11 @@ mecha_control__msg__ActuatorCommands__init(mecha_control__msg__ActuatorCommands 
   }
   // motor_positions
   if (!rosidl_runtime_c__double__Sequence__init(&msg->motor_positions, 0)) {
+    mecha_control__msg__ActuatorCommands__fini(msg);
+    return false;
+  }
+  // motor_expand
+  if (!rosidl_runtime_c__boolean__Sequence__init(&msg->motor_expand, 0)) {
     mecha_control__msg__ActuatorCommands__fini(msg);
     return false;
   }
@@ -43,6 +49,8 @@ mecha_control__msg__ActuatorCommands__fini(mecha_control__msg__ActuatorCommands 
   }
   // motor_positions
   rosidl_runtime_c__double__Sequence__fini(&msg->motor_positions);
+  // motor_expand
+  rosidl_runtime_c__boolean__Sequence__fini(&msg->motor_expand);
   // cylinder_states
   rosidl_runtime_c__boolean__Sequence__fini(&msg->cylinder_states);
 }
@@ -56,6 +64,12 @@ mecha_control__msg__ActuatorCommands__are_equal(const mecha_control__msg__Actuat
   // motor_positions
   if (!rosidl_runtime_c__double__Sequence__are_equal(
       &(lhs->motor_positions), &(rhs->motor_positions)))
+  {
+    return false;
+  }
+  // motor_expand
+  if (!rosidl_runtime_c__boolean__Sequence__are_equal(
+      &(lhs->motor_expand), &(rhs->motor_expand)))
   {
     return false;
   }
@@ -79,6 +93,12 @@ mecha_control__msg__ActuatorCommands__copy(
   // motor_positions
   if (!rosidl_runtime_c__double__Sequence__copy(
       &(input->motor_positions), &(output->motor_positions)))
+  {
+    return false;
+  }
+  // motor_expand
+  if (!rosidl_runtime_c__boolean__Sequence__copy(
+      &(input->motor_expand), &(output->motor_expand)))
   {
     return false;
   }

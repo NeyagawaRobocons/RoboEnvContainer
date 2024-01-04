@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (mecha_control) JobQueued: {'identifier': 'mecha_control', 'dependencies': OrderedDict()}
+[0.000385] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000398] (pc_robot_controller) JobQueued: {'identifier': 'pc_robot_controller', 'dependencies': OrderedDict()}
+[0.000408] (mecha_control) JobStarted: {'identifier': 'mecha_control'}
+[0.006171] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.009277] (pc_robot_controller) JobStarted: {'identifier': 'pc_robot_controller'}
+[0.013868] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'cmake'}
+[0.014254] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'build'}
+[0.014647] (mecha_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/mecha_control', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/mecha_control', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/mecha_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.016215] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.016619] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.016861] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.017637] (pc_robot_controller) JobProgress: {'identifier': 'pc_robot_controller', 'progress': 'cmake'}
+[0.017847] (pc_robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/ROS_ws/src/pc_robot_controller', '-DCMAKE_INSTALL_PREFIX=/ROS_ws/install/pc_robot_controller'], 'cwd': '/ROS_ws/build/pc_robot_controller', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/pc_robot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.031599] (mecha_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.049641] (nucleo_agent) StdoutLine: {'line': b'[  3%] Built target nucleo_agent__cpp\n'}
+[0.049861] (nucleo_agent) StdoutLine: {'line': b'[ 12%] Built target nucleo_agent__rosidl_generator_c\n'}
+[0.060102] (nucleo_agent) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_nucleo_agent\n'}
+[0.066764] (nucleo_agent) StdoutLine: {'line': b'[ 21%] Built target nucleo_agent__rosidl_typesupport_cpp\n'}
+[0.067111] (nucleo_agent) StdoutLine: {'line': b'[ 30%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp\n'}
+[0.067249] (nucleo_agent) StdoutLine: {'line': b'[ 39%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c\n'}
+[0.067433] (pc_robot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.067517] (nucleo_agent) StdoutLine: {'line': b'[ 48%] Built target nucleo_agent__rosidl_typesupport_introspection_c\n'}
+[0.067682] (nucleo_agent) StdoutLine: {'line': b'[ 66%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp\n'}
+[0.067759] (nucleo_agent) StdoutLine: {'line': b'[ 66%] Built target nucleo_agent__rosidl_typesupport_c\n'}
+[0.074611] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent_node\x1b[0m\n'}
+[0.079079] (nucleo_agent) StdoutLine: {'line': b'[ 66%] Built target nucleo_agent\n'}
+[0.085085] (nucleo_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o\x1b[0m\n'}
+[0.090792] (nucleo_agent) StdoutLine: {'line': b'[ 72%] Built target nucleo_agent__py\n'}
+[0.099903] (-) TimerEvent: {}
+[0.103776] (nucleo_agent) StdoutLine: {'line': b'[ 78%] Built target nucleo_agent__rosidl_generator_py\n'}
+[0.104459] (pc_robot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.110876] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.117821] (nucleo_agent) StdoutLine: {'line': b'[ 87%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.118012] (nucleo_agent) StdoutLine: {'line': b'[ 90%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext\n'}
+[0.122204] (nucleo_agent) StdoutLine: {'line': b'[ 96%] Built target nucleo_agent__rosidl_typesupport_c__pyext\n'}
+[0.138489] (mecha_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.154904] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.157531] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.159019] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.160686] (pc_robot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.161160] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.161566] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.162775] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.164039] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.170349] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.180605] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.191814] (nucleo_agent) StdoutLine: {'line': b'running egg_info\n'}
+[0.192252] (nucleo_agent) StdoutLine: {'line': b'writing nucleo_agent.egg-info/PKG-INFO\n'}
+[0.192373] (nucleo_agent) StdoutLine: {'line': b'writing dependency_links to nucleo_agent.egg-info/dependency_links.txt\n'}
+[0.192452] (nucleo_agent) StdoutLine: {'line': b'writing top-level names to nucleo_agent.egg-info/top_level.txt\n'}
+[0.193769] (nucleo_agent) StdoutLine: {'line': b"reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[0.194085] (nucleo_agent) StdoutLine: {'line': b"writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[0.199976] (-) TimerEvent: {}
+[0.209797] (nucleo_agent) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_nucleo_agent_egg\n'}
+[0.211059] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.215927] (pc_robot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.216127] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.216432] (pc_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.218435] (pc_robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.219058] (mecha_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.220014] (mecha_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300056] (-) TimerEvent: {}
+[0.307602] (mecha_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.326502] (pc_robot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.391183] (pc_robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400135] (-) TimerEvent: {}
+[0.413254] (mecha_control) StdoutLine: {'line': b'-- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.413843] (mecha_control) StdoutLine: {'line': b'-- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)\n'}
+[0.423260] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.424213] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.427719] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.433788] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.444006] (pc_robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.458572] (pc_robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500222] (-) TimerEvent: {}
+[0.507621] (pc_robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.509471] (pc_robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.572795] (pc_robot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.584421] (mecha_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.592944] (pc_robot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600298] (-) TimerEvent: {}
+[0.629894] (pc_robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.637139] (pc_robot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.680434] (pc_robot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.680794] (pc_robot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700386] (-) TimerEvent: {}
+[0.725243] (pc_robot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.726819] (pc_robot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.778093] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800473] (-) TimerEvent: {}
+[0.837371] (pc_robot_controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.839576] (pc_robot_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.853301] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.868798] (mecha_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.883792] (mecha_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.883942] (mecha_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.884004] (mecha_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.894618] (mecha_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.899943] (mecha_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.900332] (mecha_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.900382] (mecha_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.900522] (-) TimerEvent: {}
+[0.900726] (mecha_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.900986] (mecha_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.901177] (mecha_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.901595] (mecha_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.901655] (mecha_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.901890] (mecha_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.902707] (mecha_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.923498] (mecha_control) StdoutLine: {'line': b'-- Generating done\n'}
+[0.925174] (mecha_control) StdoutLine: {'line': b'-- Build files have been written to: /ROS_ws/build/mecha_control\n'}
+[0.941523] (mecha_control) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.943706] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.947480] (mecha_control) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.o\x1b[0m\n'}
+[0.949033] (mecha_control) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.952851] (mecha_control) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_mecha_control\n'}
+[0.958394] (pc_robot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.958576] (pc_robot_controller) StderrLine: {'line': b'  By not providing "Findraylib.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.958648] (pc_robot_controller) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "raylib", but\n'}
+[0.958703] (pc_robot_controller) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.958754] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[0.958802] (pc_robot_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by "raylib" (requested\n'}
+[0.958851] (pc_robot_controller) StderrLine: {'line': b'  version 3.0) with any of the following names:\n'}
+[0.958899] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[0.958946] (pc_robot_controller) StderrLine: {'line': b'    raylibConfig.cmake\n'}
+[0.958996] (pc_robot_controller) StderrLine: {'line': b'    raylib-config.cmake\n'}
+[0.959043] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[0.959089] (pc_robot_controller) StderrLine: {'line': b'  Add the installation prefix of "raylib" to CMAKE_PREFIX_PATH or set\n'}
+[0.959142] (pc_robot_controller) StderrLine: {'line': b'  "raylib_DIR" to a directory containing one of the above files.  If "raylib"\n'}
+[0.959188] (pc_robot_controller) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.959235] (pc_robot_controller) StderrLine: {'line': b'  installed.\n'}
+[0.959282] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[0.959329] (pc_robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.959377] (pc_robot_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.959440] (pc_robot_controller) StdoutLine: {'line': b'See also "/ROS_ws/build/pc_robot_controller/CMakeFiles/CMakeOutput.log".\n'}
+[0.964653] (pc_robot_controller) CommandEnded: {'returncode': 1}
+[0.983118] (pc_robot_controller) JobEnded: {'identifier': 'pc_robot_controller', 'rc': 1}
+[1.000606] (-) TimerEvent: {}
+[1.082365] (mecha_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.082982] (mecha_control) StdoutLine: {'line': b'writing mecha_control.egg-info/PKG-INFO\n'}
+[1.083108] (mecha_control) StdoutLine: {'line': b'writing dependency_links to mecha_control.egg-info/dependency_links.txt\n'}
+[1.083192] (mecha_control) StdoutLine: {'line': b'writing top-level names to mecha_control.egg-info/top_level.txt\n'}
+[1.084656] (mecha_control) StdoutLine: {'line': b"reading manifest file 'mecha_control.egg-info/SOURCES.txt'\n"}
+[1.085058] (mecha_control) StdoutLine: {'line': b"writing manifest file 'mecha_control.egg-info/SOURCES.txt'\n"}
+[1.100579] (mecha_control) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_mecha_control_egg\n'}
+[1.100744] (-) TimerEvent: {}
+[1.200942] (-) TimerEvent: {}
+[1.224649] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_generator_c\x1b[0m\n'}
+[1.232233] (mecha_control) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.o\x1b[0m\n'}
+[1.232416] (mecha_control) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o\x1b[0m\n'}
+[1.232551] (mecha_control) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c.o\x1b[0m\n'}
+[1.261446] (mecha_control) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmecha_control__rosidl_generator_c.so\x1b[0m\n'}
+[1.282928] (mecha_control) StdoutLine: {'line': b'[ 14%] Built target mecha_control__rosidl_generator_c\n'}
+[1.288842] (mecha_control) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.288996] (mecha_control) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.289062] (mecha_control) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.301021] (-) TimerEvent: {}
+[1.373681] (mecha_control) StdoutLine: {'line': b'[ 20%] Built target mecha_control__cpp\n'}
+[1.381731] (mecha_control) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.381888] (mecha_control) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.382048] (mecha_control) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.401114] (-) TimerEvent: {}
+[1.501369] (-) TimerEvent: {}
+[1.602250] (-) TimerEvent: {}
+[1.607308] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_c\x1b[0m\n'}
+[1.617528] (mecha_control) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/actuator_commands__type_support.cpp.o\x1b[0m\n'}
+[1.617680] (mecha_control) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp.o\x1b[0m\n'}
+[1.618433] (mecha_control) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp.o\x1b[0m\n'}
+[1.659614] (mecha_control) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libmecha_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.667759] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.674343] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.679475] (mecha_control) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.o\x1b[0m\n'}
+[1.679658] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.679730] (mecha_control) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/actuator_commands__type_support.cpp.o\x1b[0m\n'}
+[1.680328] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.681767] (mecha_control) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_support.cpp.o\x1b[0m\n'}
+[1.683662] (mecha_control) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/actuator_commands__type_support.c.o\x1b[0m\n'}
+[1.684430] (mecha_control) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.c.o\x1b[0m\n'}
+[1.685910] (mecha_control) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.c.o\x1b[0m\n'}
+[1.693798] (mecha_control) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp.o\x1b[0m\n'}
+[1.694004] (mecha_control) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.cpp.o\x1b[0m\n'}
+[1.696235] (mecha_control) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/actuator_commands__type_support_c.cpp.o\x1b[0m\n'}
+[1.702412] (-) TimerEvent: {}
+[1.702793] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.703003] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:92:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.703115] (nucleo_agent) StderrLine: {'line': b'   92 |           for (size_t i = 0; \x1b[01;35m\x1b[Ki < len\x1b[m\x1b[K; i++)\n'}
+[1.703206] (nucleo_agent) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[1.705869] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:83:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.706033] (nucleo_agent) StderrLine: {'line': b'   83 |       int \x1b[01;35m\x1b[Kcount\x1b[m\x1b[K = 0;\n'}
+[1.706136] (nucleo_agent) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.712278] (mecha_control) StdoutLine: {'line': b'[ 53%] Built target mecha_control__rosidl_typesupport_c\n'}
+[1.713367] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPublisherNode::daiza_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.713570] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:187:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.713675] (nucleo_agent) StderrLine: {'line': b'  187 |     if(msg->cylinder_states.size()==4 && msg->\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K.size()==0 && msg->motor_positions.size()==0){\n'}
+[1.713765] (nucleo_agent) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.714522] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:195:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K< 0\x1b[m\x1b[K\xe2\x80\x99 is always false [\x1b[01;35m\x1b[K-Wtype-limits\x1b[m\x1b[K]\n'}
+[1.714650] (nucleo_agent) StderrLine: {'line': b'  195 |       for (size_t i = 0; \x1b[01;35m\x1b[Ki < 0\x1b[m\x1b[K; i++)\n'}
+[1.714736] (nucleo_agent) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~\x1b[m\x1b[K\n'}
+[1.715830] (nucleo_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.715976] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.716080] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.716198] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.716281] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.716359] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.716432] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.716511] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.716591] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.716698] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.716794] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.716892] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1\x1b[m\x1b[K:\n'}
+[1.717002] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:205:145:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.717090] (nucleo_agent) StderrLine: {'line': b'  205 |       RCLCPP_INFO(this->get_logger(), "invalid daiza_clamp message length (must be 4, 0, 0) : %ld, %ld, %ld", msg->cylinder_states.size(), msg->\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K.size(), msg->motor_positions.size());\n'}
+[1.717173] (nucleo_agent) StderrLine: {'line': b'      |                                                                                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.717592] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPublisherNode::hina_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.717720] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:209:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.717824] (nucleo_agent) StderrLine: {'line': b'  209 |     if(msg->cylinder_states.size()==0 && msg->\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K.size()==1 && msg->motor_positions.size()==1){\n'}
+[1.717908] (nucleo_agent) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.718543] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:215:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.718674] (nucleo_agent) StderrLine: {'line': b'  215 |         send_data[1] = send_data[1] & ((uint8_t)(msg->\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K[i]) << i);\n'}
+[1.718763] (nucleo_agent) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.719915] (nucleo_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.720052] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.720137] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.720230] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.720301] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.720370] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.720440] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.720506] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.720572] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.720650] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.720720] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.720786] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1\x1b[m\x1b[K:\n'}
+[1.720865] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:227:145:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.720946] (nucleo_agent) StderrLine: {'line': b'  227 |       RCLCPP_INFO(this->get_logger(), "invalid daiza_clamp message length (must be 0, 1, 1) : %ld, %ld, %ld", msg->cylinder_states.size(), msg->\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K.size(), msg->motor_positions.size());\n'}
+[1.721041] (nucleo_agent) StderrLine: {'line': b'      |                                                                                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.738990] (mecha_control) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.cpp.o\x1b[0m\n'}
+[1.742475] (mecha_control) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libmecha_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.746789] (mecha_control) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_state__type_support.cpp.o\x1b[0m\n'}
+[1.762080] (mecha_control) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/actuator_commands__type_support.cpp.o\x1b[0m\n'}
+[1.776331] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.802521] (-) TimerEvent: {}
+[1.846589] (mecha_control) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.cpp.o\x1b[0m\n'}
+[1.854641] (mecha_control) StdoutLine: {'line': b'[ 63%] Built target mecha_control__rosidl_typesupport_introspection_c\n'}
+[1.902625] (-) TimerEvent: {}
+[1.903017] (mecha_control) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/actuator_commands__type_support.cpp.o\x1b[0m\n'}
+[2.002731] (-) TimerEvent: {}
+[2.047557] (mecha_control) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.cpp.o\x1b[0m\n'}
+[2.102835] (-) TimerEvent: {}
+[2.112242] (mecha_control) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmecha_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.199867] (mecha_control) StdoutLine: {'line': b'[ 69%] Built target mecha_control__rosidl_typesupport_fastrtps_c\n'}
+[2.202916] (-) TimerEvent: {}
+[2.207913] (mecha_control) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmecha_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.258466] (mecha_control) StdoutLine: {'line': b'[ 71%] Built target mecha_control__rosidl_typesupport_introspection_cpp\n'}
+[2.287443] (mecha_control) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmecha_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.303008] (-) TimerEvent: {}
+[2.316555] (mecha_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmecha_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.333147] (mecha_control) StdoutLine: {'line': b'[ 75%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp\n'}
+[2.342801] (mecha_control) StdoutLine: {'line': b'[ 75%] Built target mecha_control__rosidl_typesupport_cpp\n'}
+[2.354511] (mecha_control) StdoutLine: {'line': b'[ 75%] Built target mecha_control\n'}
+[2.366284] (mecha_control) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.403089] (-) TimerEvent: {}
+[2.503293] (-) TimerEvent: {}
+[2.603512] (-) TimerEvent: {}
+[2.703768] (-) TimerEvent: {}
+[2.742253] (mecha_control) StdoutLine: {'line': b'[ 77%] Built target mecha_control__py\n'}
+[2.748463] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_generator_py\x1b[0m\n'}
+[2.756664] (mecha_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_actuator_commands_s.c.o\x1b[0m\n'}
+[2.756825] (mecha_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.o\x1b[0m\n'}
+[2.756885] (mecha_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_sensor_states_s.c.o\x1b[0m\n'}
+[2.803877] (-) TimerEvent: {}
+[2.824710] (mecha_control) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so\x1b[0m\n'}
+[2.849862] (mecha_control) StdoutLine: {'line': b'[ 85%] Built target mecha_control__rosidl_generator_py\n'}
+[2.856250] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.856416] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.856505] (mecha_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.864308] (mecha_control) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.864477] (mecha_control) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.864542] (mecha_control) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/mecha_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.903964] (-) TimerEvent: {}
+[2.923260] (mecha_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mecha_control/mecha_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.923465] (mecha_control) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mecha_control/mecha_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.925366] (mecha_control) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mecha_control/mecha_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.945254] (mecha_control) StdoutLine: {'line': b'[ 97%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext\n'}
+[2.945415] (mecha_control) StdoutLine: {'line': b'[ 97%] Built target mecha_control__rosidl_typesupport_c__pyext\n'}
+[2.951050] (mecha_control) StdoutLine: {'line': b'[ 97%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.004050] (-) TimerEvent: {}
+[3.014742] (mecha_control) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSequenceController::SequenceController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.014915] (mecha_control) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:39:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ActuatorCommands = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014969] (mecha_control) StderrLine: {'line': b'   39 |         hina_commands.\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K.resize(1, false);     // \xe3\x83\xa2\xe3\x83\xbc\xe3\x82\xbf\xe3\x81\xae\xe5\xb1\x95\xe9\x96\x8b\xe7\x8a\xb6\xe6\x85\x8b\xe3\x82\x92\xe3\x81\x99\xe3\x81\xb9\xe3\x81\xa6 false\xef\xbc\x88\xe7\xb8\xae\xe3\x82\x93\xe3\x81\xa7\xe3\x81\x84\xe3\x82\x8b\xef\xbc\x89\xe3\x81\xab\xe5\x88\x9d\xe6\x9c\x9f\xe5\x8c\x96\n'}
+[3.015004] (mecha_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.018749] (mecha_control) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SequenceController::mecha_state_callback(mecha_control::msg::MechaState_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.018798] (mecha_control) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:125:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ActuatorCommands = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.018829] (mecha_control) StderrLine: {'line': b'  125 |                 hina_commands.\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K[0] = false;\n'}
+[3.018859] (mecha_control) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.019275] (mecha_control) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/mecha_control/src/sequence_controller.cpp:150:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing ActuatorCommands = struct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct mecha_control::msg::ActuatorCommands_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotor_expand\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.019322] (mecha_control) StderrLine: {'line': b'  150 |                         hina_commands.\x1b[01;31m\x1b[Kmotor_expand\x1b[m\x1b[K[0] = false;\n'}
+[3.019353] (mecha_control) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.104140] (-) TimerEvent: {}
+[3.204372] (-) TimerEvent: {}
+[3.304588] (-) TimerEvent: {}
+[3.404794] (-) TimerEvent: {}
+[3.505007] (-) TimerEvent: {}
+[3.605228] (-) TimerEvent: {}
+[3.705453] (-) TimerEvent: {}
+[3.805719] (-) TimerEvent: {}
+[3.905975] (-) TimerEvent: {}
+[4.006247] (-) TimerEvent: {}
+[4.106492] (-) TimerEvent: {}
+[4.206749] (-) TimerEvent: {}
+[4.241186] (nucleo_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nucleo_agent_node.dir/build.make:76: CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o] Error 1\n'}
+[4.241327] (nucleo_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/nucleo_agent_node.dir/all] Error 2\n'}
+[4.241386] (nucleo_agent) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.242840] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 'SIGINT'}
+[4.306831] (-) TimerEvent: {}
+[4.407039] (-) TimerEvent: {}
+[4.507250] (-) TimerEvent: {}
+[4.607458] (-) TimerEvent: {}
+[4.707665] (-) TimerEvent: {}
+[4.807879] (-) TimerEvent: {}
+[4.908114] (-) TimerEvent: {}
+[5.008350] (-) TimerEvent: {}
+[5.108565] (-) TimerEvent: {}
+[5.133036] (mecha_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sequence_controller.dir/build.make:76: CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.o] Error 1\n'}
+[5.133179] (mecha_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/sequence_controller.dir/all] Error 2\n'}
+[5.133257] (mecha_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.134406] (mecha_control) JobEnded: {'identifier': 'mecha_control', 'rc': 'SIGINT'}
+[5.144870] (-) EventReactorShutdown: {}

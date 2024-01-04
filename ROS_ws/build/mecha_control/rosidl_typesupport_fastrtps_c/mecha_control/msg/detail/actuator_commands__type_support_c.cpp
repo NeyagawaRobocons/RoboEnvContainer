@@ -34,8 +34,8 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/primitives_sequence.h"  // cylinder_states, motor_positions
-#include "rosidl_runtime_c/primitives_sequence_functions.h"  // cylinder_states, motor_positions
+#include "rosidl_runtime_c/primitives_sequence.h"  // cylinder_states, motor_expand, motor_positions
+#include "rosidl_runtime_c/primitives_sequence_functions.h"  // cylinder_states, motor_expand, motor_positions
 
 // forward declare type support functions
 
@@ -55,6 +55,14 @@ static bool _ActuatorCommands__cdr_serialize(
   {
     size_t size = ros_message->motor_positions.size;
     auto array_ptr = ros_message->motor_positions.data;
+    cdr << static_cast<uint32_t>(size);
+    cdr.serializeArray(array_ptr, size);
+  }
+
+  // Field name: motor_expand
+  {
+    size_t size = ros_message->motor_expand.size;
+    auto array_ptr = ros_message->motor_expand.data;
     cdr << static_cast<uint32_t>(size);
     cdr.serializeArray(array_ptr, size);
   }
@@ -93,6 +101,26 @@ static bool _ActuatorCommands__cdr_deserialize(
     }
     auto array_ptr = ros_message->motor_positions.data;
     cdr.deserializeArray(array_ptr, size);
+  }
+
+  // Field name: motor_expand
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->motor_expand.data) {
+      rosidl_runtime_c__boolean__Sequence__fini(&ros_message->motor_expand);
+    }
+    if (!rosidl_runtime_c__boolean__Sequence__init(&ros_message->motor_expand, size)) {
+      fprintf(stderr, "failed to create array for field 'motor_expand'");
+      return false;
+    }
+    auto array_ptr = ros_message->motor_expand.data;
+    for (size_t i = 0; i < size; ++i) {
+      uint8_t tmp;
+      cdr >> tmp;
+      array_ptr[i] = tmp ? true : false;
+    }
   }
 
   // Field name: cylinder_states
@@ -136,6 +164,17 @@ size_t get_serialized_size_mecha_control__msg__ActuatorCommands(
   {
     size_t array_size = ros_message->motor_positions.size;
     auto array_ptr = ros_message->motor_positions.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name motor_expand
+  {
+    size_t array_size = ros_message->motor_expand.size;
+    auto array_ptr = ros_message->motor_expand.data;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
@@ -191,6 +230,16 @@ size_t max_serialized_size_mecha_control__msg__ActuatorCommands(
 
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: motor_expand
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    current_alignment += array_size * sizeof(uint8_t);
   }
   // member: cylinder_states
   {

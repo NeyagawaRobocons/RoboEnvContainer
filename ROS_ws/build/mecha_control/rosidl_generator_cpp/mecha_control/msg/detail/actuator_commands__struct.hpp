@@ -48,6 +48,9 @@ struct ActuatorCommands_
   using _motor_positions_type =
     std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>>;
   _motor_positions_type motor_positions;
+  using _motor_expand_type =
+    std::vector<bool, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<bool>>;
+  _motor_expand_type motor_expand;
   using _cylinder_states_type =
     std::vector<bool, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<bool>>;
   _cylinder_states_type cylinder_states;
@@ -57,6 +60,12 @@ struct ActuatorCommands_
     const std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> & _arg)
   {
     this->motor_positions = _arg;
+    return *this;
+  }
+  Type & set__motor_expand(
+    const std::vector<bool, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<bool>> & _arg)
+  {
+    this->motor_expand = _arg;
     return *this;
   }
   Type & set__cylinder_states(
@@ -109,6 +118,9 @@ struct ActuatorCommands_
   bool operator==(const ActuatorCommands_ & other) const
   {
     if (this->motor_positions != other.motor_positions) {
+      return false;
+    }
+    if (this->motor_expand != other.motor_expand) {
       return false;
     }
     if (this->cylinder_states != other.cylinder_states) {

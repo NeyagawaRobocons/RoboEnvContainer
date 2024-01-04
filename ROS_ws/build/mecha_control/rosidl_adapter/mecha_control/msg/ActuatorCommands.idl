@@ -13,6 +13,10 @@ module mecha_control {
       sequence<double> motor_positions;
 
       @verbatim (language="comment", text=
+        "モータとリミットスイッチによる0/1制御のオン指令")
+      sequence<boolean> motor_expand;
+
+      @verbatim (language="comment", text=
         "エアシリンダのオン/オフ状態")
       sequence<boolean> cylinder_states;
     };

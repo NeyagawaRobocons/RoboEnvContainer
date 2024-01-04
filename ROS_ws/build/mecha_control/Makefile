@@ -393,6 +393,19 @@ mecha_control__rosidl_typesupport_c__pyext/fast:
 .PHONY : mecha_control__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
+# Target rules for targets named sequence_controller
+
+# Build rule for target.
+sequence_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sequence_controller
+.PHONY : sequence_controller
+
+# fast build rule for target.
+sequence_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/build
+.PHONY : sequence_controller/fast
+
+#=============================================================================
 # Target rules for targets named mecha_control__py
 
 # Build rule for target.
@@ -1053,6 +1066,30 @@ rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__typ
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.s
 
+src/sequence_controller.o: src/sequence_controller.cpp.o
+.PHONY : src/sequence_controller.o
+
+# target to build an object file
+src/sequence_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.o
+.PHONY : src/sequence_controller.cpp.o
+
+src/sequence_controller.i: src/sequence_controller.cpp.i
+.PHONY : src/sequence_controller.i
+
+# target to preprocess a source file
+src/sequence_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.i
+.PHONY : src/sequence_controller.cpp.i
+
+src/sequence_controller.s: src/sequence_controller.cpp.s
+.PHONY : src/sequence_controller.s
+
+# target to generate assembly for a file
+src/sequence_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.s
+.PHONY : src/sequence_controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1084,6 +1121,7 @@ help:
 	@echo "... mecha_control__rosidl_typesupport_introspection_c"
 	@echo "... mecha_control__rosidl_typesupport_introspection_c__pyext"
 	@echo "... mecha_control__rosidl_typesupport_introspection_cpp"
+	@echo "... sequence_controller"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.o"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.i"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.s"
@@ -1165,6 +1203,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.s"
+	@echo "... src/sequence_controller.o"
+	@echo "... src/sequence_controller.i"
+	@echo "... src/sequence_controller.s"
 .PHONY : help
 
 

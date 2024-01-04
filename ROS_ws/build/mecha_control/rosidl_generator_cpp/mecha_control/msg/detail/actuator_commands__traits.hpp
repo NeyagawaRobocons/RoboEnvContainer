@@ -43,6 +43,24 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
+  // member: motor_expand
+  {
+    if (msg.motor_expand.size() == 0) {
+      out << "motor_expand: []";
+    } else {
+      out << "motor_expand: [";
+      size_t pending_items = msg.motor_expand.size();
+      for (auto item : msg.motor_expand) {
+        rosidl_generator_traits::value_to_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+    out << ", ";
+  }
+
   // member: cylinder_states
   {
     if (msg.cylinder_states.size() == 0) {
@@ -76,6 +94,26 @@ inline void to_block_style_yaml(
     } else {
       out << "motor_positions:\n";
       for (auto item : msg.motor_positions) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "- ";
+        rosidl_generator_traits::value_to_yaml(item, out);
+        out << "\n";
+      }
+    }
+  }
+
+  // member: motor_expand
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.motor_expand.size() == 0) {
+      out << "motor_expand: []\n";
+    } else {
+      out << "motor_expand:\n";
+      for (auto item : msg.motor_expand) {
         if (indentation > 0) {
           out << std::string(indentation, ' ');
         }

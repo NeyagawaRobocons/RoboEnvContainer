@@ -36,6 +36,10 @@ cdr_serialize(
   {
     cdr << ros_message.motor_positions;
   }
+  // Member: motor_expand
+  {
+    cdr << ros_message.motor_expand;
+  }
   // Member: cylinder_states
   {
     cdr << ros_message.cylinder_states;
@@ -52,6 +56,11 @@ cdr_deserialize(
   // Member: motor_positions
   {
     cdr >> ros_message.motor_positions;
+  }
+
+  // Member: motor_expand
+  {
+    cdr >> ros_message.motor_expand;
   }
 
   // Member: cylinder_states
@@ -82,6 +91,16 @@ get_serialized_size(
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     size_t item_size = sizeof(ros_message.motor_positions[0]);
+    current_alignment += array_size * item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: motor_expand
+  {
+    size_t array_size = ros_message.motor_expand.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t item_size = sizeof(ros_message.motor_expand[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -127,6 +146,17 @@ max_serialized_size_ActuatorCommands(
 
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: motor_expand
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: cylinder_states

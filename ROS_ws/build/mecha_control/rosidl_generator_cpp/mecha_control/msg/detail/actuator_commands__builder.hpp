@@ -37,16 +37,32 @@ private:
   ::mecha_control::msg::ActuatorCommands msg_;
 };
 
+class Init_ActuatorCommands_motor_expand
+{
+public:
+  explicit Init_ActuatorCommands_motor_expand(::mecha_control::msg::ActuatorCommands & msg)
+  : msg_(msg)
+  {}
+  Init_ActuatorCommands_cylinder_states motor_expand(::mecha_control::msg::ActuatorCommands::_motor_expand_type arg)
+  {
+    msg_.motor_expand = std::move(arg);
+    return Init_ActuatorCommands_cylinder_states(msg_);
+  }
+
+private:
+  ::mecha_control::msg::ActuatorCommands msg_;
+};
+
 class Init_ActuatorCommands_motor_positions
 {
 public:
   Init_ActuatorCommands_motor_positions()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_ActuatorCommands_cylinder_states motor_positions(::mecha_control::msg::ActuatorCommands::_motor_positions_type arg)
+  Init_ActuatorCommands_motor_expand motor_positions(::mecha_control::msg::ActuatorCommands::_motor_positions_type arg)
   {
     msg_.motor_positions = std::move(arg);
-    return Init_ActuatorCommands_cylinder_states(msg_);
+    return Init_ActuatorCommands_motor_expand(msg_);
   }
 
 private:
