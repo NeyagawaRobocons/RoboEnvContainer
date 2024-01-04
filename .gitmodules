@@ -4,3 +4,6 @@
 [submodule "ROS_ws/src/mecha_control"]
 	path = ROS_ws/src/mecha_control
 	url = https://github.com/NeyagawaRobocons/mecha_control
+[submodule "ROS_ws/src/pc_robot_controller"]
+	path = ROS_ws/src/pc_robot_controller
+	url = https://github.com/NeyagawaRobocons/pc_robot_controller
