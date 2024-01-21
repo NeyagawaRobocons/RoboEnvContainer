@@ -16,5 +16,10 @@ RUN apt-get update \
 RUN pip3 install -U \
     argcomplete
 
+# install raylib
+RUN git clone https://github.com/raysan5/raylib.git raylib \
+    && cd raylib && mkdir build && cd build \
+    && cmake .. && make && sudo make install
+
 RUN echo ". /opt/ros/humble/setup.bash" >> ~/.profile
 RUN echo ". /ROS_ws/install/setup.bash" >> ~/.profile

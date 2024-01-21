@@ -14,6 +14,7 @@
 
 // Include directives for member types
 // Member `motor_positions`
+// Member `motor_expand`
 // Member `cylinder_states`
 #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
@@ -91,6 +92,61 @@ bool mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__r
   return rosidl_runtime_c__double__Sequence__init(member, size);
 }
 
+size_t mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__size_function__ActuatorCommands__motor_expand(
+  const void * untyped_member)
+{
+  const rosidl_runtime_c__boolean__Sequence * member =
+    (const rosidl_runtime_c__boolean__Sequence *)(untyped_member);
+  return member->size;
+}
+
+const void * mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__get_const_function__ActuatorCommands__motor_expand(
+  const void * untyped_member, size_t index)
+{
+  const rosidl_runtime_c__boolean__Sequence * member =
+    (const rosidl_runtime_c__boolean__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void * mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__get_function__ActuatorCommands__motor_expand(
+  void * untyped_member, size_t index)
+{
+  rosidl_runtime_c__boolean__Sequence * member =
+    (rosidl_runtime_c__boolean__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__fetch_function__ActuatorCommands__motor_expand(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const bool * item =
+    ((const bool *)
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__get_const_function__ActuatorCommands__motor_expand(untyped_member, index));
+  bool * value =
+    (bool *)(untyped_value);
+  *value = *item;
+}
+
+void mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__assign_function__ActuatorCommands__motor_expand(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  bool * item =
+    ((bool *)
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__get_function__ActuatorCommands__motor_expand(untyped_member, index));
+  const bool * value =
+    (const bool *)(untyped_value);
+  *item = *value;
+}
+
+bool mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__resize_function__ActuatorCommands__motor_expand(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__boolean__Sequence * member =
+    (rosidl_runtime_c__boolean__Sequence *)(untyped_member);
+  rosidl_runtime_c__boolean__Sequence__fini(member);
+  return rosidl_runtime_c__boolean__Sequence__init(member, size);
+}
+
 size_t mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__size_function__ActuatorCommands__cylinder_states(
   const void * untyped_member)
 {
@@ -146,7 +202,7 @@ bool mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__r
   return rosidl_runtime_c__boolean__Sequence__init(member, size);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__ActuatorCommands_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__ActuatorCommands_message_member_array[3] = {
   {
     "motor_positions",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
@@ -163,6 +219,23 @@ static rosidl_typesupport_introspection_c__MessageMember mecha_control__msg__Act
     mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__fetch_function__ActuatorCommands__motor_positions,  // fetch(index, &value) function pointer
     mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__assign_function__ActuatorCommands__motor_positions,  // assign(index, value) function pointer
     mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__resize_function__ActuatorCommands__motor_positions  // resize(index) function pointer
+  },
+  {
+    "motor_expand",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(mecha_control__msg__ActuatorCommands, motor_expand),  // bytes offset in struct
+    NULL,  // default value
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__size_function__ActuatorCommands__motor_expand,  // size() function pointer
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__get_const_function__ActuatorCommands__motor_expand,  // get_const(index) function pointer
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__get_function__ActuatorCommands__motor_expand,  // get(index) function pointer
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__fetch_function__ActuatorCommands__motor_expand,  // fetch(index, &value) function pointer
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__assign_function__ActuatorCommands__motor_expand,  // assign(index, value) function pointer
+    mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__resize_function__ActuatorCommands__motor_expand  // resize(index) function pointer
   },
   {
     "cylinder_states",  // name
@@ -186,7 +259,7 @@ static rosidl_typesupport_introspection_c__MessageMember mecha_control__msg__Act
 static const rosidl_typesupport_introspection_c__MessageMembers mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__ActuatorCommands_message_members = {
   "mecha_control__msg",  // message namespace
   "ActuatorCommands",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(mecha_control__msg__ActuatorCommands),
   mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__ActuatorCommands_message_member_array,  // message members
   mecha_control__msg__ActuatorCommands__rosidl_typesupport_introspection_c__ActuatorCommands_init_function,  // function to initialize message memory (memory has to be allocated)

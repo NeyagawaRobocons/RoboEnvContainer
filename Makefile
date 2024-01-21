@@ -10,9 +10,10 @@ clone:
 	mkdir -p ROS_ws/src
 run:
 	$(RUNNER) run \
-	-it -d --rm --net=host --privileged \
+	-it -d --rm --net=host --ipc=host --privileged --group-add keep-groups \
 	--env="DISPLAY" \
 	--env="PS1=""\[\e[1;36m\][\u@\h \W]\\$ \[\e[m\]""" \
+	--volume="/dev:/dev:rw" \
 	--volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
 	--volume="$(MAKEFILE_DIR)$(WS_CONTAINER):$(WS_CONTAINER)" \
 	--workdir="$(WS_CONTAINER)" \

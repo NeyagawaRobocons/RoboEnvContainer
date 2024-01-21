@@ -61,16 +61,19 @@ class ActuatorCommands(metaclass=Metaclass_ActuatorCommands):
 
     __slots__ = [
         '_motor_positions',
+        '_motor_expand',
         '_cylinder_states',
     ]
 
     _fields_and_field_types = {
         'motor_positions': 'sequence<double>',
+        'motor_expand': 'sequence<boolean>',
         'cylinder_states': 'sequence<boolean>',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('double')),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('boolean')),  # noqa: E501
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('boolean')),  # noqa: E501
     )
 
@@ -79,6 +82,7 @@ class ActuatorCommands(metaclass=Metaclass_ActuatorCommands):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.motor_positions = array.array('d', kwargs.get('motor_positions', []))
+        self.motor_expand = kwargs.get('motor_expand', [])
         self.cylinder_states = kwargs.get('cylinder_states', [])
 
     def __repr__(self):
@@ -111,6 +115,8 @@ class ActuatorCommands(metaclass=Metaclass_ActuatorCommands):
         if not isinstance(other, self.__class__):
             return False
         if self.motor_positions != other.motor_positions:
+            return False
+        if self.motor_expand != other.motor_expand:
             return False
         if self.cylinder_states != other.cylinder_states:
             return False
@@ -148,6 +154,29 @@ class ActuatorCommands(metaclass=Metaclass_ActuatorCommands):
                  all(not (val < -1.7976931348623157e+308 or val > 1.7976931348623157e+308) or math.isinf(val) for val in value)), \
                 "The 'motor_positions' field must be a set or sequence and each value of type 'float' and each double in [-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000, 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000]"
         self._motor_positions = array.array('d', value)
+
+    @builtins.property
+    def motor_expand(self):
+        """Message field 'motor_expand'."""
+        return self._motor_expand
+
+    @motor_expand.setter
+    def motor_expand(self, value):
+        if __debug__:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
+            assert \
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, bool) for v in value) and
+                 True), \
+                "The 'motor_expand' field must be a set or sequence and each value of type 'bool'"
+        self._motor_expand = value
 
     @builtins.property
     def cylinder_states(self):

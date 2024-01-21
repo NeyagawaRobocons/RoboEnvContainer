@@ -82,6 +82,35 @@ void resize_function__ActuatorCommands__motor_positions(void * untyped_member, s
   member->resize(size);
 }
 
+size_t size_function__ActuatorCommands__motor_expand(const void * untyped_member)
+{
+  const auto * member = reinterpret_cast<const std::vector<bool> *>(untyped_member);
+  return member->size();
+}
+
+void fetch_function__ActuatorCommands__motor_expand(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & member = *reinterpret_cast<const std::vector<bool> *>(untyped_member);
+  auto & value = *reinterpret_cast<bool *>(untyped_value);
+  value = member[index];
+}
+
+void assign_function__ActuatorCommands__motor_expand(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & member = *reinterpret_cast<std::vector<bool> *>(untyped_member);
+  const auto & value = *reinterpret_cast<const bool *>(untyped_value);
+  member[index] = value;
+}
+
+void resize_function__ActuatorCommands__motor_expand(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<bool> *>(untyped_member);
+  member->resize(size);
+}
+
 size_t size_function__ActuatorCommands__cylinder_states(const void * untyped_member)
 {
   const auto * member = reinterpret_cast<const std::vector<bool> *>(untyped_member);
@@ -111,7 +140,7 @@ void resize_function__ActuatorCommands__cylinder_states(void * untyped_member, s
   member->resize(size);
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember ActuatorCommands_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember ActuatorCommands_message_member_array[3] = {
   {
     "motor_positions",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
@@ -128,6 +157,23 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ActuatorComma
     fetch_function__ActuatorCommands__motor_positions,  // fetch(index, &value) function pointer
     assign_function__ActuatorCommands__motor_positions,  // assign(index, value) function pointer
     resize_function__ActuatorCommands__motor_positions  // resize(index) function pointer
+  },
+  {
+    "motor_expand",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(mecha_control::msg::ActuatorCommands, motor_expand),  // bytes offset in struct
+    nullptr,  // default value
+    size_function__ActuatorCommands__motor_expand,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    fetch_function__ActuatorCommands__motor_expand,  // fetch(index, &value) function pointer
+    assign_function__ActuatorCommands__motor_expand,  // assign(index, value) function pointer
+    resize_function__ActuatorCommands__motor_expand  // resize(index) function pointer
   },
   {
     "cylinder_states",  // name
@@ -151,7 +197,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ActuatorComma
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers ActuatorCommands_message_members = {
   "mecha_control::msg",  // message namespace
   "ActuatorCommands",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(mecha_control::msg::ActuatorCommands),
   ActuatorCommands_message_member_array,  // message members
   ActuatorCommands_init_function,  // function to initialize message memory (memory has to be allocated)

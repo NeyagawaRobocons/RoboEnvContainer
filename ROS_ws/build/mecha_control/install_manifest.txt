@@ -88,8 +88,10 @@
 /ROS_ws/install/mecha_control/share/mecha_control/msg/SensorStates.msg
 /ROS_ws/install/mecha_control/share/mecha_control/msg/ActuatorCommands.msg
 /ROS_ws/install/mecha_control/share/mecha_control/msg/MechaState.msg
+/ROS_ws/install/mecha_control/lib/mecha_control/sequence_controller
 /ROS_ws/install/mecha_control/lib/mecha_control/dummy_node.py
 /ROS_ws/install/mecha_control/lib/mecha_control/debug_controller.py
+/ROS_ws/install/mecha_control/lib/mecha_control/debug_sequence_controller.py
 /ROS_ws/install/mecha_control/share/ament_index/resource_index/package_run_dependencies/mecha_control
 /ROS_ws/install/mecha_control/share/ament_index/resource_index/parent_prefix_path/mecha_control
 /ROS_ws/install/mecha_control/share/mecha_control/environment/ament_prefix_path.sh

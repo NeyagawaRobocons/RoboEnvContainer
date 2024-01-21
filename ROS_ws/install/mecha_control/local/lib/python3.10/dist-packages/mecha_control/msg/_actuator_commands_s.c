@@ -115,6 +115,68 @@ bool mecha_control__msg__actuator_commands__convert_from_py(PyObject * _pymsg, v
     }
     Py_DECREF(field);
   }
+  {  // motor_expand
+    PyObject * field = PyObject_GetAttrString(_pymsg, "motor_expand");
+    if (!field) {
+      return false;
+    }
+    if (PyObject_CheckBuffer(field)) {
+      // Optimization for converting arrays of primitives
+      Py_buffer view;
+      int rc = PyObject_GetBuffer(field, &view, PyBUF_SIMPLE);
+      if (rc < 0) {
+        Py_DECREF(field);
+        return false;
+      }
+      Py_ssize_t size = view.len / sizeof(bool);
+      if (!rosidl_runtime_c__boolean__Sequence__init(&(ros_message->motor_expand), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create boolean__Sequence ros_message");
+        PyBuffer_Release(&view);
+        Py_DECREF(field);
+        return false;
+      }
+      bool * dest = ros_message->motor_expand.data;
+      rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
+      if (rc < 0) {
+        PyBuffer_Release(&view);
+        Py_DECREF(field);
+        return false;
+      }
+      PyBuffer_Release(&view);
+    } else {
+      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'motor_expand'");
+      if (!seq_field) {
+        Py_DECREF(field);
+        return false;
+      }
+      Py_ssize_t size = PySequence_Size(field);
+      if (-1 == size) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+      if (!rosidl_runtime_c__boolean__Sequence__init(&(ros_message->motor_expand), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create boolean__Sequence ros_message");
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+      bool * dest = ros_message->motor_expand.data;
+      for (Py_ssize_t i = 0; i < size; ++i) {
+        PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
+        if (!item) {
+          Py_DECREF(seq_field);
+          Py_DECREF(field);
+          return false;
+        }
+        assert(PyBool_Check(item));
+        bool tmp = (item == Py_True);
+        memcpy(&dest[i], &tmp, sizeof(bool));
+      }
+      Py_DECREF(seq_field);
+    }
+    Py_DECREF(field);
+  }
   {  // cylinder_states
     PyObject * field = PyObject_GetAttrString(_pymsg, "cylinder_states");
     if (!field) {
@@ -255,6 +317,28 @@ PyObject * mecha_control__msg__actuator_commands__convert_to_py(void * raw_ros_m
       Py_DECREF(ret);
     }
     Py_DECREF(field);
+  }
+  {  // motor_expand
+    PyObject * field = NULL;
+    size_t size = ros_message->motor_expand.size;
+    bool * src = ros_message->motor_expand.data;
+    field = PyList_New(size);
+    if (!field) {
+      return NULL;
+    }
+    for (size_t i = 0; i < size; ++i) {
+      int rc = PyList_SetItem(field, i, PyBool_FromLong(src[i] ? 1 : 0));
+      (void)rc;
+      assert(rc == 0);
+    }
+    assert(PySequence_Check(field));
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "motor_expand", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
   }
   {  // cylinder_states
     PyObject * field = NULL;

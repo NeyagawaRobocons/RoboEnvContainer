@@ -20,6 +20,7 @@ extern "C"
 
 // Include directives for member types
 // Member 'motor_positions'
+// Member 'motor_expand'
 // Member 'cylinder_states'
 #include "rosidl_runtime_c/primitives_sequence.h"
 
@@ -31,6 +32,8 @@ typedef struct mecha_control__msg__ActuatorCommands
 {
   /// モータの位置や角度を制御するための値
   rosidl_runtime_c__double__Sequence motor_positions;
+  /// モータとリミットスイッチによる0/1制御のオン指令
+  rosidl_runtime_c__boolean__Sequence motor_expand;
   /// エアシリンダのオン/オフ状態
   rosidl_runtime_c__boolean__Sequence cylinder_states;
 } mecha_control__msg__ActuatorCommands;

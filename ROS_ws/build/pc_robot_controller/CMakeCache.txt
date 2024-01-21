@@ -277,6 +277,9 @@ ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_cppcheck.
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/share/ament_cmake_cppcheck/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
 
@@ -298,6 +301,9 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_targets/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_flake8.
+ament_cmake_flake8_DIR:PATH=/opt/ros/humble/share/ament_cmake_flake8/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/share/ament_cmake_gen_version_h/cmake
 
@@ -306,6 +312,12 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_inclu
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_libraries/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
+ament_cmake_lint_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake_lint_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pep257.
+ament_cmake_pep257_DIR:PATH=/opt/ros/humble/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
 ament_cmake_python_DIR:PATH=/opt/ros/humble/share/ament_cmake_python/cmake
@@ -316,11 +328,35 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_targe
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_uncrustify.
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/humble/share/ament_cmake_uncrustify/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_xmllint.
+ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
+
+//Path to a program.
+ament_cppcheck_BIN:FILEPATH=/opt/ros/humble/bin/ament_cppcheck
+
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
+
+//The directory containing a CMake configuration file for ament_lint_auto.
+ament_lint_auto_DIR:PATH=/opt/ros/humble/share/ament_lint_auto/cmake
+
+//Path to a program.
+ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/bin/ament_lint_cmake
+
+//The directory containing a CMake configuration file for ament_lint_common.
+ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
+
+//Path to a program.
+ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
+
+//Path to a program.
+ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
@@ -349,6 +385,12 @@ libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/c
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
 
+//The directory containing a CMake configuration file for mecha_control.
+mecha_control_DIR:PATH=/ROS_ws/install/mecha_control/share/mecha_control/cmake
+
+//The directory containing a CMake configuration file for nucleo_agent.
+nucleo_agent_DIR:PATH=/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake
+
 //Value Computed by CMake
 pc_robot_controller_BINARY_DIR:STATIC=/ROS_ws/build/pc_robot_controller
 
@@ -359,13 +401,22 @@ pc_robot_controller_IS_TOP_LEVEL:STATIC=ON
 pc_robot_controller_SOURCE_DIR:STATIC=/ROS_ws/src/pc_robot_controller
 
 //Path to a library.
+pkgcfg_lib_PC_RAYLIB_raylib:FILEPATH=/usr/local/lib/libraylib.a
+
+//Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
 //The directory containing a CMake configuration file for raylib.
-raylib_DIR:PATH=raylib_DIR-NOTFOUND
+raylib_DIR:PATH=/usr/local/lib/cmake/raylib
+
+//Path to a file.
+raylib_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+raylib_LIBRARY:FILEPATH=/usr/local/lib/libraylib.a
 
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
@@ -480,6 +531,9 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
+
+//Path to a program.
+xmllint_BIN:FILEPATH=/usr/bin/xmllint
 
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/humble/cmake
@@ -644,12 +698,49 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcryp
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding raylib
+FIND_PACKAGE_MESSAGE_DETAILS_raylib:INTERNAL=[/usr/local/lib/libraylib.a][/usr/local/include][v(3.0)]
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_SSL_LIBRARY
 OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
+PC_RAYLIB_CFLAGS:INTERNAL=-I/usr/local/include
+PC_RAYLIB_CFLAGS_I:INTERNAL=
+PC_RAYLIB_CFLAGS_OTHER:INTERNAL=
+PC_RAYLIB_FOUND:INTERNAL=1
+PC_RAYLIB_INCLUDEDIR:INTERNAL=/usr/local/include
+PC_RAYLIB_INCLUDE_DIRS:INTERNAL=/usr/local/include
+PC_RAYLIB_LDFLAGS:INTERNAL=-L/usr/local/lib;-lraylib
+PC_RAYLIB_LDFLAGS_OTHER:INTERNAL=
+PC_RAYLIB_LIBDIR:INTERNAL=/usr/local/lib
+PC_RAYLIB_LIBRARIES:INTERNAL=raylib
+PC_RAYLIB_LIBRARY_DIRS:INTERNAL=/usr/local/lib
+PC_RAYLIB_LIBS:INTERNAL=
+PC_RAYLIB_LIBS_L:INTERNAL=
+PC_RAYLIB_LIBS_OTHER:INTERNAL=
+PC_RAYLIB_LIBS_PATHS:INTERNAL=
+PC_RAYLIB_MODULE_NAME:INTERNAL=raylib
+PC_RAYLIB_PREFIX:INTERNAL=/usr/local
+PC_RAYLIB_STATIC_CFLAGS:INTERNAL=-I/usr/local/include
+PC_RAYLIB_STATIC_CFLAGS_I:INTERNAL=
+PC_RAYLIB_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_RAYLIB_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/include
+PC_RAYLIB_STATIC_LDFLAGS:INTERNAL=-L/usr/local/lib;-lraylib
+PC_RAYLIB_STATIC_LDFLAGS_OTHER:INTERNAL=
+PC_RAYLIB_STATIC_LIBDIR:INTERNAL=
+PC_RAYLIB_STATIC_LIBRARIES:INTERNAL=raylib
+PC_RAYLIB_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/lib
+PC_RAYLIB_STATIC_LIBS:INTERNAL=
+PC_RAYLIB_STATIC_LIBS_L:INTERNAL=
+PC_RAYLIB_STATIC_LIBS_OTHER:INTERNAL=
+PC_RAYLIB_STATIC_LIBS_PATHS:INTERNAL=
+PC_RAYLIB_VERSION:INTERNAL=5.0.0
+PC_RAYLIB_raylib_INCLUDEDIR:INTERNAL=
+PC_RAYLIB_raylib_LIBDIR:INTERNAL=
+PC_RAYLIB_raylib_PREFIX:INTERNAL=
+PC_RAYLIB_raylib_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_ARGN
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
@@ -694,11 +785,19 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
+__pkg_config_arguments_PC_RAYLIB:INTERNAL=QUIET;raylib
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
+__pkg_config_checked_PC_RAYLIB:INTERNAL=1
 __pkg_config_checked__OPENSSL:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_RAYLIB_raylib
+pkgcfg_lib_PC_RAYLIB_raylib-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=/usr/local/lib
+//ADVANCED property for variable: raylib_INCLUDE_DIR
+raylib_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: raylib_LIBRARY
+raylib_LIBRARY-ADVANCED:INTERNAL=1
 

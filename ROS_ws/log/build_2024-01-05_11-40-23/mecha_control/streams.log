@@ -1,0 +1,38 @@
+[7.657s] Invoking command in '/ROS_ws/build/mecha_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12
+[13.377s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_generator_c[0m
+[13.377s] [35m[1mConsolidate compiler generated dependencies of target sequence_controller[0m
+[13.377s] [  2%] Built target mecha_control__cpp
+[13.377s] [  2%] Built target ament_cmake_python_copy_mecha_control
+[13.377s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_cpp[0m
+[13.377s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_cpp[0m
+[13.377s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_cpp[0m
+[13.378s] running egg_info
+[13.378s] writing mecha_control.egg-info/PKG-INFO
+[13.378s] writing dependency_links to mecha_control.egg-info/dependency_links.txt
+[13.378s] [ 16%] [32mBuilding CXX object CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.o[0m
+[13.378s] writing top-level names to mecha_control.egg-info/top_level.txt
+[13.378s] [ 24%] Built target mecha_control__rosidl_typesupport_cpp
+[13.378s] [ 24%] Built target mecha_control__rosidl_generator_c
+[13.378s] reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+[13.378s] writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[13.378s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_c[0m
+[13.378s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_c[0m
+[13.378s] [ 44%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[13.378s] [ 44%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[13.378s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_c[0m
+[13.380s] [ 57%] Built target mecha_control__rosidl_typesupport_c
+[13.380s] [ 57%] Built target ament_cmake_python_build_mecha_control_egg
+[13.380s] [ 67%] Built target mecha_control__rosidl_typesupport_introspection_c
+[13.380s] [ 75%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[13.389s] [ 75%] Built target mecha_control
+[13.401s] [ 77%] Built target mecha_control__py
+[13.408s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_generator_py[0m
+[14.208s] [ 85%] Built target mecha_control__rosidl_generator_py
+[14.215s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_c__pyext[0m
+[14.215s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[14.216s] [35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_c__pyext[0m
+[17.137s] [ 93%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[17.137s] [ 93%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+[17.137s] [ 97%] Built target mecha_control__rosidl_typesupport_c__pyext
+[32.077s] [100%] [32m[1mLinking CXX executable sequence_controller[0m
+[35.031s] [100%] Built target sequence_controller
