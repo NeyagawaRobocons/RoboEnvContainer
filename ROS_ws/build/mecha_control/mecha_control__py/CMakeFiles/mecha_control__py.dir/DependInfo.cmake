@@ -19,6 +19,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_actuator_commands_s.c" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_mecha_state.py" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state.py" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array.py" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_sensor_states.py" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_sensor_states_s.c" "/ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c"
   )

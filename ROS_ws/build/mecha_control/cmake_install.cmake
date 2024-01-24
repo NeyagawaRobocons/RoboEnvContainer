@@ -368,6 +368,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mecha_control/msg" TYPE FILE FILES "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/PointAndMechaState.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mecha_control/msg" TYPE FILE FILES "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mecha_control/msg" TYPE FILE FILES "/ROS_ws/src/mecha_control/msg/SensorStates.msg")
 endif()
 
@@ -380,30 +388,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mecha_control" TYPE EXECUTABLE FILES "/ROS_ws/build/mecha_control/sequence_controller")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller"
-         OLD_RPATH "/opt/ros/humble/lib:/ROS_ws/install/mecha_control/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mecha_control/sequence_controller")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mecha_control/msg" TYPE FILE FILES "/ROS_ws/src/mecha_control/msg/PointAndMechaState.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mecha_control/msg" TYPE FILE FILES "/ROS_ws/src/mecha_control/msg/PointAndMechaStateArray.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mecha_control" TYPE PROGRAM FILES
+    "/ROS_ws/src/mecha_control/mecha_control/mecha_control_node.py"
     "/ROS_ws/src/mecha_control/mecha_control/dummy_node.py"
     "/ROS_ws/src/mecha_control/mecha_control/debug_controller.py"
     "/ROS_ws/src/mecha_control/mecha_control/debug_sequence_controller.py"
+    "/ROS_ws/src/mecha_control/mecha_control/path_command_publisher.py"
     )
 endif()
 

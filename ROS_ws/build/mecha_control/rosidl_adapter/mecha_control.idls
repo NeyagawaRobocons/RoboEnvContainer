@@ -1,3 +1,5 @@
 /ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/SensorStates.idl
 /ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/ActuatorCommands.idl
 /ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/MechaState.idl
+/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaState.idl
+/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaStateArray.idl

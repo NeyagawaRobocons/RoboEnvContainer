@@ -7,10 +7,10 @@ module mecha_control {
   module msg {
     @verbatim (language="comment", text=
       "mecha_control/msg/MechaState.msg" "\n"
-      "4: 準備" "\n"
       "1: 展開" "\n"
       "2: 回収" "\n"
       "3: 設置" "\n"
+      "4: 格納" "\n"
       "false: ぼんぼりオフ" "\n"
       "true: ぼんぼり点灯")
     struct MechaState {

@@ -211,4 +211,10 @@ CMakeFiles/mecha_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/me
  /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.h \
  /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__type_support.h \
  /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__struct.h \
- /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.h
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.h \
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__type_support.h \
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__struct.h \
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.h \
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.h \
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__struct.h \
+ /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.h

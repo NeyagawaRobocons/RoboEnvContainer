@@ -111,11 +111,41 @@ CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_cont
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c -o CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.s
 
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o: CMakeFiles/mecha_control__rosidl_generator_py.dir/flags.make
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o: CMakeFiles/mecha_control__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o -MF CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o.d -o CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o -c /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c
+
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c > CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i
+
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c -o CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s
+
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o: CMakeFiles/mecha_control__rosidl_generator_py.dir/flags.make
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o: CMakeFiles/mecha_control__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o -MF CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o.d -o CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o -c /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c
+
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c > CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i
+
+CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c -o CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s
+
 # Object files for target mecha_control__rosidl_generator_py
 mecha_control__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_sensor_states_s.c.o" \
 "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_actuator_commands_s.c.o" \
-"CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.o"
+"CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.o" \
+"CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o" \
+"CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o"
 
 # External object files for target mecha_control__rosidl_generator_py
 mecha_control__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -123,6 +153,8 @@ mecha_control__rosidl_generator_py_EXTERNAL_OBJECTS =
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_sensor_states_s.c.o
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_actuator_commands_s.c.o
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.o
+rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o
+rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: libmecha_control__rosidl_typesupport_c.so
@@ -130,7 +162,7 @@ rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: libm
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so: CMakeFiles/mecha_control__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/mecha_control/libmecha_control__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mecha_control__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

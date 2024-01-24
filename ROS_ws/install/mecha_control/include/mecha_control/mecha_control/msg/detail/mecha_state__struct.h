@@ -21,10 +21,10 @@ extern "C"
 /// Struct defined in msg/MechaState in the package mecha_control.
 /**
   * mecha_control/msg/MechaState.msg
-  * 4: 準備
   * 1: 展開
   * 2: 回収
   * 3: 設置
+  * 4: 格納
   * false: ぼんぼりオフ
   * true: ぼんぼり点灯
  */

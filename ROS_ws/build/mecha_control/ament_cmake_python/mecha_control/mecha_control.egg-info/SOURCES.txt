@@ -7,4 +7,6 @@ mecha_control.egg-info/top_level.txt
 mecha_control/msg/__init__.py
 mecha_control/msg/_actuator_commands.py
 mecha_control/msg/_mecha_state.py
+mecha_control/msg/_point_and_mecha_state.py
+mecha_control/msg/_point_and_mecha_state_array.py
 mecha_control/msg/_sensor_states.py

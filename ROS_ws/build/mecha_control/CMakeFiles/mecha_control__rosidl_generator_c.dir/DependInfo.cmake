@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c.o" "gcc" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c.o.d"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.o" "gcc" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.o.d"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o" "gcc" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o.d"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o" "gcc" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o.d"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o" "gcc" "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o.d"
   )
 
@@ -24,11 +26,21 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__struct.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/mecha_state__type_support.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__struct.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__type_support.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__struct.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/sensor_states__struct.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/sensor_states__type_support.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/mecha_state.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/point_and_mecha_state.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/point_and_mecha_state_array.h" "/ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/sensor_states.h"
   )
 
 

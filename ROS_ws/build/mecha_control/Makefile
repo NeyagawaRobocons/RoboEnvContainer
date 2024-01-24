@@ -393,19 +393,6 @@ mecha_control__rosidl_typesupport_c__pyext/fast:
 .PHONY : mecha_control__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
-# Target rules for targets named sequence_controller
-
-# Build rule for target.
-sequence_controller: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sequence_controller
-.PHONY : sequence_controller
-
-# fast build rule for target.
-sequence_controller/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/build
-.PHONY : sequence_controller/fast
-
-#=============================================================================
 # Target rules for targets named mecha_control__py
 
 # Build rule for target.
@@ -465,6 +452,54 @@ rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.s: rosidl_gen
 rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.s
 .PHONY : rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.s
+
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.o: rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.o
+
+# target to build an object file
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o
+
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.i: rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.i
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.i
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.i
+
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.s: rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.s
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.s
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.s
+
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.o: rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.o
+
+# target to build an object file
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o
+
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.i: rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.i
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.i
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.i
+
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.s: rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.s
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.s
+.PHONY : rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.s
 
 rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.o: rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o
 .PHONY : rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.o
@@ -610,6 +645,54 @@ rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.s
 .PHONY : rosidl_generator_py/mecha_control/msg/_mecha_state_s.c.s
 
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.o: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.o
+
+# target to build an object file
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.o
+
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.i: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.i
+
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.s: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c.s
+
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.o: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.o
+
+# target to build an object file
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.o
+
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.i: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.i
+
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.s: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_generator_py.dir/build.make CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s
+.PHONY : rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.c.s
+
 rosidl_generator_py/mecha_control/msg/_sensor_states_s.o: rosidl_generator_py/mecha_control/msg/_sensor_states_s.c.o
 .PHONY : rosidl_generator_py/mecha_control/msg/_sensor_states_s.o
 
@@ -681,6 +764,54 @@ rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.s: rosidl_types
 rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp.s
+
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.o: rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.o
+
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.i: rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.i
+
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.s: rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.s
+
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.o: rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o
+
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.i: rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i
+
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.s: rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s
 
 rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.o: rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.o
@@ -754,6 +885,54 @@ rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.cpp.s
 
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.o: rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.o
+
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.i: rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.i
+
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.s: rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.cpp.s
+
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.o: rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o
+
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.i: rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.i
+
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.s: rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.s
+
 rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.o: rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.o
 
@@ -825,6 +1004,54 @@ rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support
 rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.o: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.i: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.s: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.o: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.i: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.s: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.o: rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.o
@@ -898,6 +1125,54 @@ rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_stat
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_state__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.o: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.i: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.s: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.o: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.i: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.s: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.o: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.o
 
@@ -969,6 +1244,54 @@ rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_su
 rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.c.s
+
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.o: rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.o
+
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.i: rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.i
+
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.s: rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.c.s
+
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.o: rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.o
+
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.i: rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.i
+
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.s: rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c.s
 
 rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.o: rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.o
@@ -1042,6 +1365,54 @@ rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.o: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.i: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.s: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.o: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.i: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.s: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.o: rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.o
 
@@ -1065,30 +1436,6 @@ rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__typ
 rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mecha_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.cpp.s
-
-src/sequence_controller.o: src/sequence_controller.cpp.o
-.PHONY : src/sequence_controller.o
-
-# target to build an object file
-src/sequence_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.o
-.PHONY : src/sequence_controller.cpp.o
-
-src/sequence_controller.i: src/sequence_controller.cpp.i
-.PHONY : src/sequence_controller.i
-
-# target to preprocess a source file
-src/sequence_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.i
-.PHONY : src/sequence_controller.cpp.i
-
-src/sequence_controller.s: src/sequence_controller.cpp.s
-.PHONY : src/sequence_controller.s
-
-# target to generate assembly for a file
-src/sequence_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sequence_controller.dir/build.make CMakeFiles/sequence_controller.dir/src/sequence_controller.cpp.s
-.PHONY : src/sequence_controller.cpp.s
 
 # Help Target
 help:
@@ -1121,13 +1468,18 @@ help:
 	@echo "... mecha_control__rosidl_typesupport_introspection_c"
 	@echo "... mecha_control__rosidl_typesupport_introspection_c__pyext"
 	@echo "... mecha_control__rosidl_typesupport_introspection_cpp"
-	@echo "... sequence_controller"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.o"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.i"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.s"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.o"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.i"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.s"
+	@echo "... rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.o"
+	@echo "... rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.i"
+	@echo "... rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.s"
+	@echo "... rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.o"
+	@echo "... rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.i"
+	@echo "... rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.s"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.o"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.i"
 	@echo "... rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.s"
@@ -1146,6 +1498,12 @@ help:
 	@echo "... rosidl_generator_py/mecha_control/msg/_mecha_state_s.o"
 	@echo "... rosidl_generator_py/mecha_control/msg/_mecha_state_s.i"
 	@echo "... rosidl_generator_py/mecha_control/msg/_mecha_state_s.s"
+	@echo "... rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.o"
+	@echo "... rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.i"
+	@echo "... rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.s"
+	@echo "... rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.o"
+	@echo "... rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.i"
+	@echo "... rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_s.s"
 	@echo "... rosidl_generator_py/mecha_control/msg/_sensor_states_s.o"
 	@echo "... rosidl_generator_py/mecha_control/msg/_sensor_states_s.i"
 	@echo "... rosidl_generator_py/mecha_control/msg/_sensor_states_s.s"
@@ -1155,6 +1513,12 @@ help:
 	@echo "... rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.o"
 	@echo "... rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.i"
 	@echo "... rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.o"
+	@echo "... rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.i"
+	@echo "... rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.o"
+	@echo "... rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.i"
+	@echo "... rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.s"
 	@echo "... rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.o"
 	@echo "... rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.i"
 	@echo "... rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.s"
@@ -1164,6 +1528,12 @@ help:
 	@echo "... rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.o"
 	@echo "... rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.i"
 	@echo "... rosidl_typesupport_cpp/mecha_control/msg/mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.o"
+	@echo "... rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.i"
+	@echo "... rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.o"
+	@echo "... rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.i"
+	@echo "... rosidl_typesupport_cpp/mecha_control/msg/point_and_mecha_state_array__type_support.s"
 	@echo "... rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.o"
 	@echo "... rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.i"
 	@echo "... rosidl_typesupport_cpp/mecha_control/msg/sensor_states__type_support.s"
@@ -1173,6 +1543,12 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/mecha_state__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/mecha_control/msg/detail/sensor_states__type_support_c.s"
@@ -1182,6 +1558,12 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_state__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_state__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.s"
@@ -1191,6 +1573,12 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/mecha_control/msg/detail/sensor_states__type_support.s"
@@ -1200,12 +1588,15 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/point_and_mecha_state_array__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/mecha_control/msg/detail/sensor_states__type_support.s"
-	@echo "... src/sequence_controller.o"
-	@echo "... src/sequence_controller.i"
-	@echo "... src/sequence_controller.s"
 .PHONY : help
 
 

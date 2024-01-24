@@ -2,5 +2,9 @@ msg/ActuatorCommands.idl
 msg/ActuatorCommands.msg
 msg/MechaState.idl
 msg/MechaState.msg
+msg/PointAndMechaState.idl
+msg/PointAndMechaState.msg
+msg/PointAndMechaStateArray.idl
+msg/PointAndMechaStateArray.msg
 msg/SensorStates.idl
 msg/SensorStates.msg

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mecha_control/msg/PointAndMechaState.msg
+// generated code does not contain a copyright notice
+
+#include "mecha_control/msg/MechaState.idl"
+
+module mecha_control {
+  module msg {
+    @verbatim (language="comment", text=
+      "PointAndMechaState.msg")
+    struct PointAndMechaState {
+      @verbatim (language="comment", text=
+        "X座標")
+      double x;
+
+      @verbatim (language="comment", text=
+        "Y座標")
+      double y;
+
+      @verbatim (language="comment", text=
+        "ロボットの向き（ラジアンまたは度）")
+      double angle;
+
+      @verbatim (language="comment", text=
+        "そのポイントでのコマンド")
+      mecha_control::msg::MechaState command;
+    };
+  };
+};

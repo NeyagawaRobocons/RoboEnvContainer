@@ -19,10 +19,18 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__builder.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__struct.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__traits.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__builder.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__struct.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__traits.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__builder.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__struct.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__traits.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/sensor_states__builder.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/sensor_states__struct.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/detail/sensor_states__traits.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/mecha_state.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state_array.hpp" "/ROS_ws/build/mecha_control/rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
   )
 
 

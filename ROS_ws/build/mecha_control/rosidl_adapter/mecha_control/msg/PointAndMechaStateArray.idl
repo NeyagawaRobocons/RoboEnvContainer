@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mecha_control/msg/PointAndMechaStateArray.msg
+// generated code does not contain a copyright notice
+
+#include "mecha_control/msg/PointAndMechaState.idl"
+
+module mecha_control {
+  module msg {
+    @verbatim (language="comment", text=
+      "PointAndMechaStateArray.msg")
+    struct PointAndMechaStateArray {
+      @verbatim (language="comment", text=
+        "パスポイントとMechaStateコマンドの配列")
+      sequence<mecha_control::msg::PointAndMechaState> points;
+    };
+  };
+};

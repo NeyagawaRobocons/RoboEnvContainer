@@ -78,6 +78,14 @@ CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/mecha_stat
 CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__builder.hpp
 CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__struct.hpp
 CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__traits.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__builder.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__struct.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__traits.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state_array.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__builder.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__struct.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__traits.hpp
 
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -97,6 +105,8 @@ rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/share/
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/msg/SensorStates.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/msg/ActuatorCommands.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/msg/MechaState.idl
+rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/msg/PointAndMechaState.idl
+rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /ROS_ws/build/mecha_control/rosidl_generator_cpp__arguments.json
 
@@ -133,6 +143,30 @@ rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__struct.hpp: rosidl_ge
 rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__traits.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__traits.hpp
 
+rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state.hpp
+
+rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__builder.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__builder.hpp
+
+rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__struct.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__struct.hpp
+
+rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__traits.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__traits.hpp
+
+rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state_array.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state_array.hpp
+
+rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__builder.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__builder.hpp
+
+rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__struct.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__struct.hpp
+
+rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__traits.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__traits.hpp
+
 mecha_control__cpp: CMakeFiles/mecha_control__cpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/actuator_commands.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/actuator_commands__builder.hpp
@@ -141,10 +175,18 @@ mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/actuator_comma
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__builder.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__struct.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/mecha_state__traits.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__builder.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__struct.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state__traits.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__builder.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__struct.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/point_and_mecha_state_array__traits.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/sensor_states__builder.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/sensor_states__struct.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/sensor_states__traits.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/mecha_state.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state_array.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
 mecha_control__cpp: CMakeFiles/mecha_control__cpp.dir/build.make
 .PHONY : mecha_control__cpp

@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/actuator_commands__type_support.cpp" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/actuator_commands__type_support.cpp.o" "gcc" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/actuator_commands__type_support.cpp.o.d"
   "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp.o" "gcc" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp.o.d"
+  "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.o" "gcc" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp.o.d"
+  "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o" "gcc" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp.o.d"
   "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp.o" "gcc" "CMakeFiles/mecha_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp.o.d"
   )
 
@@ -17,6 +19,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/actuator_commands__type_support.cpp" "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp"
   "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/mecha_state__type_support.cpp" "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp"
+  "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state__type_support.cpp" "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp"
+  "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/point_and_mecha_state_array__type_support.cpp" "/ROS_ws/build/mecha_control/rosidl_typesupport_c/mecha_control/msg/sensor_states__type_support.cpp"
   )
 
 

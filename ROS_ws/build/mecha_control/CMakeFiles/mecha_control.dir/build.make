@@ -69,6 +69,8 @@ include CMakeFiles/mecha_control.dir/progress.make
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/SensorStates.msg
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/ActuatorCommands.msg
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/MechaState.msg
+CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/PointAndMechaState.msg
+CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/PointAndMechaStateArray.msg
 
 mecha_control: CMakeFiles/mecha_control
 mecha_control: CMakeFiles/mecha_control.dir/build.make

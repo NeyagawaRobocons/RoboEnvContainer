@@ -5,7 +5,9 @@
   "idl_tuples": [
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/SensorStates.idl",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/ActuatorCommands.idl",
-    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/MechaState.idl"
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/MechaState.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaState.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaStateArray.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -25,6 +27,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/SensorStates.idl",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/ActuatorCommands.idl",
-    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/MechaState.idl"
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/MechaState.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/PointAndMechaState.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl"
   ]
 }
