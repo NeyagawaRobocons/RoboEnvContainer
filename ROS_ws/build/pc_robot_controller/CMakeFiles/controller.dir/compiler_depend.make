@@ -684,7 +684,8 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
   /usr/local/include/raylib.h \
   /ROS_ws/src/pc_robot_controller/src/vector_calc.hpp \
   /ROS_ws/src/pc_robot_controller/src/slider.hpp \
-  /ROS_ws/src/pc_robot_controller/src/button.hpp
+  /ROS_ws/src/pc_robot_controller/src/button.hpp \
+  /ROS_ws/src/pc_robot_controller/src/label.hpp
 
 
 /ROS_ws/src/pc_robot_controller/src/button.hpp:
@@ -908,6 +909,8 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/future:
+
+/ROS_ws/src/pc_robot_controller/src/label.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
