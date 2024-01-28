@@ -1,0 +1,558 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (mecha_control) JobQueued: {'identifier': 'mecha_control', 'dependencies': OrderedDict()}
+[0.000467] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000479] (pc_robot_controller) JobQueued: {'identifier': 'pc_robot_controller', 'dependencies': OrderedDict()}
+[0.000489] (mecha_control) JobStarted: {'identifier': 'mecha_control'}
+[0.005886] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.009103] (pc_robot_controller) JobStarted: {'identifier': 'pc_robot_controller'}
+[0.013841] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'cmake'}
+[0.014274] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'build'}
+[0.014688] (mecha_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/mecha_control', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/mecha_control', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/mecha_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.016173] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.016495] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.016891] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.018443] (pc_robot_controller) JobProgress: {'identifier': 'pc_robot_controller', 'progress': 'cmake'}
+[0.018727] (pc_robot_controller) JobProgress: {'identifier': 'pc_robot_controller', 'progress': 'build'}
+[0.018942] (pc_robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/pc_robot_controller', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/pc_robot_controller', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/pc_robot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.046562] (nucleo_agent) StdoutLine: {'line': b'[  3%] Built target nucleo_agent__cpp\n'}
+[0.046738] (mecha_control) StdoutLine: {'line': b'[  1%] Built target mecha_control__cpp\n'}
+[0.046930] (pc_robot_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[0.048430] (mecha_control) StdoutLine: {'line': b'[ 12%] Built target mecha_control__rosidl_generator_c\n'}
+[0.049569] (nucleo_agent) StdoutLine: {'line': b'[ 12%] Built target nucleo_agent__rosidl_generator_c\n'}
+[0.054717] (nucleo_agent) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_nucleo_agent\n'}
+[0.055018] (mecha_control) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_mecha_control\n'}
+[0.062250] (pc_robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.066630] (nucleo_agent) StdoutLine: {'line': b'[ 21%] Built target nucleo_agent__rosidl_typesupport_cpp\n'}
+[0.068590] (nucleo_agent) StdoutLine: {'line': b'[ 39%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp\n'}
+[0.068734] (nucleo_agent) StdoutLine: {'line': b'[ 39%] Built target nucleo_agent__rosidl_typesupport_introspection_c\n'}
+[0.069260] (nucleo_agent) StdoutLine: {'line': b'[ 48%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp\n'}
+[0.073748] (nucleo_agent) StdoutLine: {'line': b'[ 57%] Built target nucleo_agent__rosidl_typesupport_c\n'}
+[0.076484] (mecha_control) StdoutLine: {'line': b'[ 23%] Built target mecha_control__rosidl_typesupport_cpp\n'}
+[0.076683] (mecha_control) StdoutLine: {'line': b'[ 34%] Built target mecha_control__rosidl_typesupport_introspection_c\n'}
+[0.076888] (mecha_control) StdoutLine: {'line': b'[ 46%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp\n'}
+[0.077233] (mecha_control) StdoutLine: {'line': b'[ 57%] Built target mecha_control__rosidl_typesupport_introspection_cpp\n'}
+[0.077630] (mecha_control) StdoutLine: {'line': b'[ 68%] Built target mecha_control__rosidl_typesupport_c\n'}
+[0.083115] (nucleo_agent) StdoutLine: {'line': b'[ 66%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c\n'}
+[0.083601] (mecha_control) StdoutLine: {'line': b'[ 79%] Built target mecha_control__rosidl_typesupport_fastrtps_c\n'}
+[0.089895] (nucleo_agent) StdoutLine: {'line': b'[ 72%] Built target nucleo_agent_node\n'}
+[0.094862] (nucleo_agent) StdoutLine: {'line': b'[ 72%] Built target nucleo_agent\n'}
+[0.096187] (mecha_control) StdoutLine: {'line': b'[ 79%] Built target mecha_control\n'}
+[0.099639] (-) TimerEvent: {}
+[0.107148] (mecha_control) StdoutLine: {'line': b'[ 80%] Built target mecha_control__py\n'}
+[0.107295] (nucleo_agent) StdoutLine: {'line': b'[ 75%] Built target nucleo_agent__py\n'}
+[0.127939] (mecha_control) StdoutLine: {'line': b'[ 90%] Built target mecha_control__rosidl_generator_py\n'}
+[0.137896] (nucleo_agent) StdoutLine: {'line': b'[ 81%] Built target nucleo_agent__rosidl_generator_py\n'}
+[0.148929] (mecha_control) StdoutLine: {'line': b'[ 93%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext\n'}
+[0.149263] (mecha_control) StdoutLine: {'line': b'[ 96%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.150566] (mecha_control) StdoutLine: {'line': b'[100%] Built target mecha_control__rosidl_typesupport_c__pyext\n'}
+[0.154092] (nucleo_agent) StdoutLine: {'line': b'[ 87%] Built target nucleo_agent__rosidl_typesupport_c__pyext\n'}
+[0.155817] (nucleo_agent) StdoutLine: {'line': b'[ 93%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.155948] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199725] (-) TimerEvent: {}
+[0.213997] (mecha_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.214401] (mecha_control) StdoutLine: {'line': b'writing mecha_control.egg-info/PKG-INFO\n'}
+[0.214555] (mecha_control) StdoutLine: {'line': b'writing dependency_links to mecha_control.egg-info/dependency_links.txt\n'}
+[0.214668] (mecha_control) StdoutLine: {'line': b'writing top-level names to mecha_control.egg-info/top_level.txt\n'}
+[0.215971] (mecha_control) StdoutLine: {'line': b"reading manifest file 'mecha_control.egg-info/SOURCES.txt'\n"}
+[0.216355] (mecha_control) StdoutLine: {'line': b"writing manifest file 'mecha_control.egg-info/SOURCES.txt'\n"}
+[0.232005] (mecha_control) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_mecha_control_egg\n'}
+[0.238740] (mecha_control) CommandEnded: {'returncode': 0}
+[0.253823] (nucleo_agent) StdoutLine: {'line': b'running egg_info\n'}
+[0.254423] (nucleo_agent) StdoutLine: {'line': b'writing nucleo_agent.egg-info/PKG-INFO\n'}
+[0.254608] (nucleo_agent) StdoutLine: {'line': b'writing dependency_links to nucleo_agent.egg-info/dependency_links.txt\n'}
+[0.254712] (nucleo_agent) StdoutLine: {'line': b'writing top-level names to nucleo_agent.egg-info/top_level.txt\n'}
+[0.256506] (nucleo_agent) StdoutLine: {'line': b"reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[0.257034] (nucleo_agent) StdoutLine: {'line': b"writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[0.275603] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_nucleo_agent_egg\n'}
+[0.281898] (nucleo_agent) CommandEnded: {'returncode': 0}
+[0.299101] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'install'}
+[0.299791] (-) TimerEvent: {}
+[0.304768] (mecha_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/mecha_control'], 'cwd': '/ROS_ws/build/mecha_control', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/mecha_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.309470] (mecha_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.309669] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/ament_index/resource_index/rosidl_interfaces/mecha_control\n'}
+[0.309740] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control\n'}
+[0.309793] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg\n'}
+[0.309841] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/point_and_mecha_state.h\n'}
+[0.309890] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.309928] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/sensor_states.h\n'}
+[0.309963] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail\n'}
+[0.309998] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__type_support.h\n'}
+[0.310031] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__struct.h\n'}
+[0.310065] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__functions.c\n'}
+[0.310100] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__type_support.h\n'}
+[0.310134] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__functions.h\n'}
+[0.310235] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__functions.c\n'}
+[0.310488] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__functions.h\n'}
+[0.310552] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__struct.h\n'}
+[0.310604] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__type_support.h\n'}
+[0.310651] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__type_support.h\n'}
+[0.310707] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__struct.h\n'}
+[0.310755] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__struct.h\n'}
+[0.310803] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__type_support.h\n'}
+[0.310848] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__functions.h\n'}
+[0.310893] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__functions.c\n'}
+[0.310940] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.h\n'}
+[0.310990] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__functions.h\n'}
+[0.311039] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__functions.c\n'}
+[0.311222] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__functions.h\n'}
+[0.311273] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__functions.c\n'}
+[0.311318] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/actuator_commands.h\n'}
+[0.311365] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.h\n'}
+[0.311410] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/point_and_mecha_state_array.h\n'}
+[0.311460] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/library_path.sh\n'}
+[0.311507] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/library_path.dsv\n'}
+[0.311571] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_generator_c.so\n'}
+[0.311619] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control\n'}
+[0.311666] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg\n'}
+[0.311713] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail\n'}
+[0.311760] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311812] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311913] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311962] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312013] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312065] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.312112] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_typesupport_fastrtps_c.so\n'}
+[0.312157] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control\n'}
+[0.312338] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg\n'}
+[0.312645] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/point_and_mecha_state.hpp\n'}
+[0.312700] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/sensor_states.hpp\n'}
+[0.312750] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail\n'}
+[0.312801] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__builder.hpp\n'}
+[0.312853] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__traits.hpp\n'}
+[0.312903] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__traits.hpp\n'}
+[0.313023] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.hpp\n'}
+[0.313076] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__traits.hpp\n'}
+[0.313125] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__struct.hpp\n'}
+[0.313172] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__struct.hpp\n'}
+[0.313242] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__builder.hpp\n'}
+[0.313291] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__struct.hpp\n'}
+[0.313339] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__builder.hpp\n'}
+[0.313389] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__struct.hpp\n'}
+[0.313438] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__builder.hpp\n'}
+[0.314040] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__builder.hpp\n'}
+[0.314246] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__traits.hpp\n'}
+[0.314297] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__traits.hpp\n'}
+[0.314344] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/actuator_commands.hpp\n'}
+[0.314393] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/point_and_mecha_state_array.hpp\n'}
+[0.314442] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.hpp\n'}
+[0.314491] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control\n'}
+[0.314538] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg\n'}
+[0.314582] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.314626] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail\n'}
+[0.314670] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.314713] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/dds_fastrtps\n'}
+[0.314757] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.314800] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.314845] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.314891] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.314937] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.314984] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control\n'}
+[0.315032] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg\n'}
+[0.315080] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail\n'}
+[0.315128] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__type_support.c\n'}
+[0.315176] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__type_support.c\n'}
+[0.315221] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__rosidl_typesupport_introspection_c.h\n'}
+[0.315286] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__rosidl_typesupport_introspection_c.h\n'}
+[0.315336] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__rosidl_typesupport_introspection_c.h\n'}
+[0.315419] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__rosidl_typesupport_introspection_c.h\n'}
+[0.315465] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__type_support.c\n'}
+[0.315510] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__rosidl_typesupport_introspection_c.h\n'}
+[0.315565] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__type_support.c\n'}
+[0.315609] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__type_support.c\n'}
+[0.315655] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.315702] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_typesupport_introspection_c.so\n'}
+[0.315749] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'install'}
+[0.315766] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_typesupport_c.so\n'}
+[0.315815] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control\n'}
+[0.315890] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg\n'}
+[0.315934] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail\n'}
+[0.315976] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.316021] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.316063] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.316106] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.316151] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__type_support.cpp\n'}
+[0.316193] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__type_support.cpp\n'}
+[0.316235] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.316277] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state_array__type_support.cpp\n'}
+[0.316322] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/sensor_states__type_support.cpp\n'}
+[0.316365] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/point_and_mecha_state__type_support.cpp\n'}
+[0.316408] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_typesupport_introspection_cpp.so\n'}
+[0.316454] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_typesupport_cpp.so\n'}
+[0.316497] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/pythonpath.sh\n'}
+[0.316540] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/pythonpath.dsv\n'}
+[0.316584] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control-0.0.0-py3.10.egg-info\n'}
+[0.316627] (mecha_control) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.316673] (mecha_control) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.316725] (mecha_control) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.316771] (mecha_control) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.316813] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control\n'}
+[0.316855] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/mecha_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.316899] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.316942] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/libmecha_control__rosidl_generator_py.so\n'}
+[0.316986] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/__init__.py\n'}
+[0.317030] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg\n'}
+[0.317073] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_point_and_mecha_state_array.py\n'}
+[0.317115] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_sensor_states.py\n'}
+[0.317156] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_point_and_mecha_state_array_s.c\n'}
+[0.317198] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_mecha_state_s.c\n'}
+[0.317240] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_sensor_states_s.c\n'}
+[0.317285] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_actuator_commands.py\n'}
+[0.317334] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/__init__.py\n'}
+[0.317379] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_point_and_mecha_state_s.c\n'}
+[0.317422] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_point_and_mecha_state.py\n'}
+[0.317471] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_actuator_commands_s.c\n'}
+[0.317518] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg/_mecha_state.py\n'}
+[0.317562] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/mecha_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.317605] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/mecha_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.317648] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/_mecha_control_s.ep.rosidl_typesupport_c.c\n'}
+[0.317693] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/_mecha_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.317738] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/nucleo_agent'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[0.318558] (nucleo_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.318681] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/rosidl_interfaces/nucleo_agent\n'}
+[0.318733] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.318779] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.318822] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.319067] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/sensor_states.h\n'}
+[0.319186] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.319250] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__type_support.h\n'}
+[0.319309] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__functions.h\n'}
+[0.319364] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.h\n'}
+[0.319415] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__struct.h\n'}
+[0.319464] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__type_support.h\n'}
+[0.319510] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__functions.c\n'}
+[0.319554] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__struct.h\n'}
+[0.319600] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__functions.h\n'}
+[0.319647] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__struct.h\n'}
+[0.319693] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__functions.c\n'}
+[0.319742] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__functions.h\n'}
+[0.319791] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__functions.c\n'}
+[0.319852] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/actuator_commands.h\n'}
+[0.319911] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/odometer_data.h\n'}
+[0.320067] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/library_path.sh\n'}
+[0.320125] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/library_path.dsv\n'}
+[0.320178] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_generator_c.so\n'}
+[0.320233] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.320287] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.320340] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.320443] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[0.320510] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_fastrtps_c.h\n'}
+[0.320562] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.320615] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.320668] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_fastrtps_c.so\n'}
+[0.320724] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.320778] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.320832] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/sensor_states.hpp\n'}
+[0.320886] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.320939] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__traits.hpp\n'}
+[0.320993] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__struct.hpp\n'}
+[0.321050] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__traits.hpp\n'}
+[0.321105] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__struct.hpp\n'}
+[0.321157] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__builder.hpp\n'}
+[0.321211] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__traits.hpp\n'}
+[0.321263] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__builder.hpp\n'}
+[0.321314] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__struct.hpp\n'}
+[0.321363] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__builder.hpp\n'}
+[0.321410] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/odometer_data.hpp\n'}
+[0.321463] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/actuator_commands.hpp\n'}
+[0.321512] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.321565] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.321618] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.321675] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.321727] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/dds_fastrtps\n'}
+[0.321848] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.321900] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.321952] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.322002] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.322051] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.322102] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.322153] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.322345] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.c\n'}
+[0.322414] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__type_support.c\n'}
+[0.322467] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_introspection_c.h\n'}
+[0.322514] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_introspection_c.h\n'}
+[0.322560] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_introspection_c.h\n'}
+[0.322608] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__type_support.c\n'}
+[0.322673] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.322722] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_introspection_c.so\n'}
+[0.322768] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_c.so\n'}
+[0.322815] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent\n'}
+[0.322864] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg\n'}
+[0.322910] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail\n'}
+[0.322956] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.323005] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.323057] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__type_support.cpp\n'}
+[0.323108] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.cpp\n'}
+[0.323157] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__type_support.cpp\n'}
+[0.323205] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.323258] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_introspection_cpp.so\n'}
+[0.323307] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_cpp.so\n'}
+[0.323354] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/pythonpath.sh\n'}
+[0.323398] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/pythonpath.dsv\n'}
+[0.323440] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info\n'}
+[0.323486] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.323533] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.323579] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.323626] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.323673] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent\n'}
+[0.323727] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.323775] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/__init__.py\n'}
+[0.323822] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.323870] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg\n'}
+[0.323917] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_sensor_states.py\n'}
+[0.323967] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_odometer_data.py\n'}
+[0.324017] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_odometer_data_s.c\n'}
+[0.324066] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_sensor_states_s.c\n'}
+[0.324111] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_actuator_commands.py\n'}
+[0.324154] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/__init__.py\n'}
+[0.324194] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_actuator_commands_s.c\n'}
+[0.324238] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/libnucleo_agent__rosidl_generator_py.so\n'}
+[0.324286] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.324348] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.324399] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.324450] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_c.c\n'}
+[0.334464] (mecha_control) StdoutLine: {'line': b"Listing '/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control'...\n"}
+[0.334608] (mecha_control) StdoutLine: {'line': b"Listing '/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/msg'...\n"}
+[0.337365] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/mecha_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.337567] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/mecha_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.337755] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages/mecha_control/mecha_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.337946] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/libmecha_control__rosidl_generator_py.so\n'}
+[0.338069] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/SensorStates.idl\n'}
+[0.338136] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/ActuatorCommands.idl\n'}
+[0.338198] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/MechaState.idl\n'}
+[0.338239] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/PointAndMechaState.idl\n'}
+[0.338283] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/PointAndMechaStateArray.idl\n'}
+[0.338314] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/SensorStates.msg\n'}
+[0.338346] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/ActuatorCommands.msg\n'}
+[0.338392] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/MechaState.msg\n'}
+[0.338460] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/PointAndMechaState.msg\n'}
+[0.338492] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/msg/PointAndMechaStateArray.msg\n'}
+[0.338523] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/mecha_control/mecha_control_node.py\n'}
+[0.338552] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/mecha_control/dummy_node.py\n'}
+[0.338580] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/mecha_control/debug_controller.py\n'}
+[0.338609] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/mecha_control/debug_sequence_controller.py\n'}
+[0.338638] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/lib/mecha_control/path_command_publisher.py\n'}
+[0.338667] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/ament_index/resource_index/package_run_dependencies/mecha_control\n'}
+[0.338713] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/ament_index/resource_index/parent_prefix_path/mecha_control\n'}
+[0.338773] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/ament_prefix_path.sh\n'}
+[0.338801] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/ament_prefix_path.dsv\n'}
+[0.338828] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/path.sh\n'}
+[0.339102] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/environment/path.dsv\n'}
+[0.339149] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/local_setup.bash\n'}
+[0.339178] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/local_setup.sh\n'}
+[0.339256] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/local_setup.zsh\n'}
+[0.339287] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/local_setup.dsv\n'}
+[0.339315] (mecha_control) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/mecha_control/share/mecha_control/package.dsv\n'}
+[0.339344] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/ament_index/resource_index/packages/mecha_control\n'}
+[0.339373] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_generator_cExport.cmake\n'}
+[0.339401] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.339430] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.339458] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.339486] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_generator_cppExport.cmake\n'}
+[0.339514] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.339581] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.339611] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.339639] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.339668] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_cExport.cmake\n'}
+[0.339696] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.339738] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.339768] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.339797] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_cppExport.cmake\n'}
+[0.339854] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.339884] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_generator_pyExport.cmake\n'}
+[0.339913] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/export_mecha_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.339941] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/rosidl_cmake-extras.cmake\n'}
+[0.339969] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.339997] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.340026] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.340071] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.340129] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.340158] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.340185] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_controlConfig.cmake\n'}
+[0.340212] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/cmake/mecha_controlConfig-version.cmake\n'}
+[0.340238] (mecha_control) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/mecha_control/share/mecha_control/package.xml\n'}
+[0.341704] (mecha_control) CommandEnded: {'returncode': 0}
+[0.342294] (nucleo_agent) StdoutLine: {'line': b"Listing '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent'...\n"}
+[0.342380] (nucleo_agent) StdoutLine: {'line': b"Listing '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg'...\n"}
+[0.344782] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.344986] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.345350] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.345500] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_generator_py.so\n'}
+[0.345623] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.idl\n'}
+[0.345684] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.msg\n'}
+[0.345720] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent_node\n'}
+[0.345863] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent\n'}
+[0.345907] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent\n'}
+[0.346057] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh\n'}
+[0.346094] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.dsv\n'}
+[0.346129] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.sh\n'}
+[0.346162] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.dsv\n'}
+[0.346194] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.bash\n'}
+[0.346227] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.sh\n'}
+[0.346312] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.zsh\n'}
+[0.346358] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.dsv\n'}
+[0.346392] (nucleo_agent) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.dsv\n'}
+[0.346425] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/packages/nucleo_agent\n'}
+[0.346458] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cExport.cmake\n'}
+[0.346492] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.346524] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.346557] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.346589] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cppExport.cmake\n'}
+[0.346622] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.346848] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.346941] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.346979] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.347015] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cExport.cmake\n'}
+[0.347050] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.347083] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.347159] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.347196] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cppExport.cmake\n'}
+[0.347233] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.347281] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_pyExport.cmake\n'}
+[0.347318] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.347354] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake-extras.cmake\n'}
+[0.347389] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.347425] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.347460] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.347496] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.347530] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.347566] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.347602] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig.cmake\n'}
+[0.347637] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig-version.cmake\n'}
+[0.347673] (nucleo_agent) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.xml\n'}
+[0.355892] (nucleo_agent) CommandEnded: {'returncode': 0}
+[0.399937] (-) TimerEvent: {}
+[0.400470] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 0}
+[0.424166] (mecha_control) JobEnded: {'identifier': 'mecha_control', 'rc': 0}
+[0.500045] (-) TimerEvent: {}
+[0.600278] (-) TimerEvent: {}
+[0.700510] (-) TimerEvent: {}
+[0.800747] (-) TimerEvent: {}
+[0.901034] (-) TimerEvent: {}
+[1.001275] (-) TimerEvent: {}
+[1.101585] (-) TimerEvent: {}
+[1.201861] (-) TimerEvent: {}
+[1.302099] (-) TimerEvent: {}
+[1.402350] (-) TimerEvent: {}
+[1.457346] (pc_robot_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:16\x1b[m\x1b[K:\n'}
+[1.457476] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Touch::process()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.457517] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:23:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.457553] (pc_robot_controller) StderrLine: {'line': b'   23 |         for (size_t i = 0; \x1b[01;35m\x1b[Ki < num\x1b[m\x1b[K; i++)\n'}
+[1.457584] (pc_robot_controller) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[1.467560] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Controller::ui_main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.467678] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.467738] (pc_robot_controller) StderrLine: {'line': b'   57 |         robot.origin = Vector2{\x1b[01;35m\x1b[KscreenWidth/2\x1b[m\x1b[K, screenHeight/2};\n'}
+[1.467772] (pc_robot_controller) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.467806] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenHeight / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.467844] (pc_robot_controller) StderrLine: {'line': b'   57 |         robot.origin = Vector2{screenWidth/2, \x1b[01;35m\x1b[KscreenHeight/2\x1b[m\x1b[K};\n'}
+[1.467875] (pc_robot_controller) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.467905] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:96:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 210)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.467936] (pc_robot_controller) StderrLine: {'line': b'   96 |         label title_mech("mech state", {\x1b[01;35m\x1b[KscreenWidth -210\x1b[m\x1b[K, 70}, 20);\n'}
+[1.467965] (pc_robot_controller) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.467993] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:97:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468022] (pc_robot_controller) StderrLine: {'line': b'   97 |         push_button daiza_seq({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 100}, 180, 70, GRAY, PINK);\n'}
+[1.468051] (pc_robot_controller) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468102] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:98:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468138] (pc_robot_controller) StderrLine: {'line': b'   98 |         push_button hina_seq({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 200}, 180, 70, GRAY, PINK);\n'}
+[1.468168] (pc_robot_controller) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468300] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:99:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468333] (pc_robot_controller) StderrLine: {'line': b'   99 |         toggle_button hina_servo({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 300}, 180, 70, GRAY, PINK);\n'}
+[1.468365] (pc_robot_controller) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468393] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:100:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 200)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468426] (pc_robot_controller) StderrLine: {'line': b'  100 |         toggle_button bonbori_seq({\x1b[01;35m\x1b[KscreenWidth -200\x1b[m\x1b[K, 500}, 130, 70, GRAY, PINK);\n'}
+[1.468453] (pc_robot_controller) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468479] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:111:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468507] (pc_robot_controller) StderrLine: {'line': b'  111 |       label label_daiza_seq(text_label_daiza_seq, {\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 125}, 20);\n'}
+[1.468533] (pc_robot_controller) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468561] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[1.468586] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:112:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468613] (pc_robot_controller) StderrLine: {'line': b'  112 |         label label_hina_seq(text_label_hina_seq, {\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 225}, 20);\n'}
+[1.468639] (pc_robot_controller) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468664] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:113:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468691] (pc_robot_controller) StderrLine: {'line': b'  113 |         label label_hina_servo("hina servo", {\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 325}, 20);\n'}
+[1.468716] (pc_robot_controller) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468743] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:114:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 190)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468769] (pc_robot_controller) StderrLine: {'line': b'  114 |         label label_bonbori_seq("bonbori", {\x1b[01;35m\x1b[KscreenWidth -190\x1b[m\x1b[K, 525}, 20);\n'}
+[1.468794] (pc_robot_controller) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468821] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:145:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 210)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468847] (pc_robot_controller) StderrLine: {'line': b'  145 |             title_mech.move({\x1b[01;35m\x1b[KscreenWidth -210\x1b[m\x1b[K, 70});\n'}
+[1.468878] (pc_robot_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468905] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:146:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.468932] (pc_robot_controller) StderrLine: {'line': b'  146 |             daiza_seq.move({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 100});\n'}
+[1.468958] (pc_robot_controller) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.468984] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:147:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469013] (pc_robot_controller) StderrLine: {'line': b'  147 |             hina_seq.move({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 200});\n'}
+[1.469039] (pc_robot_controller) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469065] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:148:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469091] (pc_robot_controller) StderrLine: {'line': b'  148 |             hina_servo.move({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 300});\n'}
+[1.469116] (pc_robot_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469141] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:149:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 200)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469169] (pc_robot_controller) StderrLine: {'line': b'  149 |             bonbori_seq.move({\x1b[01;35m\x1b[KscreenWidth -200\x1b[m\x1b[K, 500});\n'}
+[1.469194] (pc_robot_controller) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469219] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:150:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469247] (pc_robot_controller) StderrLine: {'line': b'  150 |             label_daiza_seq.move({\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 125});\n'}
+[1.469272] (pc_robot_controller) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469297] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:151:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469328] (pc_robot_controller) StderrLine: {'line': b'  151 |             label_hina_seq.move({\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 225});\n'}
+[1.469354] (pc_robot_controller) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469380] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:152:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469405] (pc_robot_controller) StderrLine: {'line': b'  152 |             label_hina_servo.move({\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 325});\n'}
+[1.469431] (pc_robot_controller) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469456] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:153:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 190)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469482] (pc_robot_controller) StderrLine: {'line': b'  153 |             label_bonbori_seq.move({\x1b[01;35m\x1b[KscreenWidth -190\x1b[m\x1b[K, 525});\n'}
+[1.469507] (pc_robot_controller) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.469532] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469559] (pc_robot_controller) StderrLine: {'line': b'  154 |             robot.origin = Vector2{\x1b[01;35m\x1b[KscreenWidth/2\x1b[m\x1b[K, screenHeight/2};\n'}
+[1.469584] (pc_robot_controller) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.469609] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenHeight / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[1.469634] (pc_robot_controller) StderrLine: {'line': b'  154 |             robot.origin = Vector2{screenWidth/2, \x1b[01;35m\x1b[KscreenHeight/2\x1b[m\x1b[K};\n'}
+[1.469659] (pc_robot_controller) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.502431] (-) TimerEvent: {}
+[1.602655] (-) TimerEvent: {}
+[1.702885] (-) TimerEvent: {}
+[1.803120] (-) TimerEvent: {}
+[1.903342] (-) TimerEvent: {}
+[2.003576] (-) TimerEvent: {}
+[2.103812] (-) TimerEvent: {}
+[2.204053] (-) TimerEvent: {}
+[2.304276] (-) TimerEvent: {}
+[2.404502] (-) TimerEvent: {}
+[2.504721] (-) TimerEvent: {}
+[2.604939] (-) TimerEvent: {}
+[2.705159] (-) TimerEvent: {}
+[2.805388] (-) TimerEvent: {}
+[2.905589] (-) TimerEvent: {}
+[3.005794] (-) TimerEvent: {}
+[3.106007] (-) TimerEvent: {}
+[3.206236] (-) TimerEvent: {}
+[3.306492] (-) TimerEvent: {}
+[3.406720] (-) TimerEvent: {}
+[3.506952] (-) TimerEvent: {}
+[3.604386] (pc_robot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[3.607039] (-) TimerEvent: {}
+[3.707227] (-) TimerEvent: {}
+[3.786161] (pc_robot_controller) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[3.791887] (pc_robot_controller) CommandEnded: {'returncode': 0}
+[3.804598] (pc_robot_controller) JobProgress: {'identifier': 'pc_robot_controller', 'progress': 'install'}
+[3.804779] (pc_robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/pc_robot_controller'], 'cwd': '/ROS_ws/build/pc_robot_controller', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble'), ('PWD', '/ROS_ws/build/pc_robot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/opt/ros/humble')]), 'shell': False}
+[3.807313] (-) TimerEvent: {}
+[3.809273] (pc_robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.809374] (pc_robot_controller) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/pc_robot_controller/lib/pc_robot_controller/controller\n'}
+[3.813057] (pc_robot_controller) StdoutLine: {'line': b'-- Set runtime path of "/ROS_ws/install/pc_robot_controller/lib/pc_robot_controller/controller" to ""\n'}
+[3.813183] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/ament_index/resource_index/package_run_dependencies/pc_robot_controller\n'}
+[3.813248] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/ament_index/resource_index/parent_prefix_path/pc_robot_controller\n'}
+[3.813310] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/ament_prefix_path.sh\n'}
+[3.813356] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/ament_prefix_path.dsv\n'}
+[3.813402] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/path.sh\n'}
+[3.813463] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/path.dsv\n'}
+[3.813511] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.bash\n'}
+[3.813557] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.sh\n'}
+[3.813602] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.zsh\n'}
+[3.813647] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.dsv\n'}
+[3.813692] (pc_robot_controller) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/package.dsv\n'}
+[3.813737] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/ament_index/resource_index/packages/pc_robot_controller\n'}
+[3.813809] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/cmake/pc_robot_controllerConfig.cmake\n'}
+[3.813856] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/cmake/pc_robot_controllerConfig-version.cmake\n'}
+[3.813900] (pc_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/package.xml\n'}
+[3.814516] (pc_robot_controller) CommandEnded: {'returncode': 0}
+[3.838111] (pc_robot_controller) JobEnded: {'identifier': 'pc_robot_controller', 'rc': 0}
+[3.838697] (-) EventReactorShutdown: {}

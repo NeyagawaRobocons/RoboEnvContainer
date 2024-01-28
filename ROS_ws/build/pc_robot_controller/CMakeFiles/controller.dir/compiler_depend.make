@@ -681,6 +681,10 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
   /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__struct.hpp \
   /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__builder.hpp \
   /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__traits.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__builder.hpp \
+  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__traits.hpp \
   /usr/local/include/raylib.h \
   /ROS_ws/src/pc_robot_controller/src/vector_calc.hpp \
   /ROS_ws/src/pc_robot_controller/src/slider.hpp \
@@ -695,6 +699,10 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
 /ROS_ws/src/pc_robot_controller/src/vector_calc.hpp:
 
 /usr/local/include/raylib.h:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__builder.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.hpp:
 
 /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__builder.hpp:
 
@@ -1364,6 +1372,8 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
 
 /usr/include/c++/11/bits/stl_tree.h:
 
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__traits.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -1769,6 +1779,8 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
 /opt/ros/humble/include/rmw/rmw/event.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
+
+/ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
 

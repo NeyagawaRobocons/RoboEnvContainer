@@ -28,7 +28,7 @@ bool bonbori_state
 下降モータを動かす：moveDown
 アームを展開する：expandArm
 アームを格納する：contractArm
-開放モータを動かす：open
+開放モータを動かす：push
 
 """
 
@@ -44,20 +44,23 @@ bool bonbori_state
 # 人形機構
 人形展開：expandArm, delay(1 sec), moveDown
 人形回収：contractArm, delay(1 sec), moveUp
-人形設置：expandArm, delay(1 sec), open, delay(1 sec), contractArm
+人形設置：expandArm, delay(1 sec), push
 人形格納：contractArm
 
 """
 
 import rclpy
 from rclpy.node import Node
+from std_msgs.msg import String
 from mecha_control.msg import MechaState
 import PySimpleGUI as sg
 import serial
 import threading
 from serial.tools import list_ports
+import time
 
 # board_type = 'Arduino Mega 2560'
+# board_type = 'Arduino Uno'
 board_type = 'ttyACM0'
 
 def find_arduino_uno_port(_board_type):
@@ -110,8 +113,15 @@ class MechaControlNode(Node):
         # メカ制御の状態をsubscribe
         self.subscription_ = self.create_subscription(
             MechaState, '/mecha_state', self.mecha_state_callback, 10)
-        
+        self.direct_subscription = self.create_subscription(
+            String, '/direct_mecha_command', self.direct_callback, 10)
         self.subscription_  # prevent unused variable warning
+        self.direct_subscription
+
+    def direct_callback(self, msg):
+        if msg.data is not None:
+            send_command(msg.data)
+            self.get_logger().info(f"direct control: {msg.data}")
 
     def mecha_state_callback(self, msg):
         # # メカ制御の状態を表示
@@ -133,7 +143,8 @@ class MechaControlNode(Node):
         elif msg.hina_state == bytes([3]):
             self.hina_setti()
         elif msg.hina_state == bytes([4]):
-            self.hina_kakunou()
+            # self.hina_kakunou()
+            pass
         if msg.bonbori_state == True:
             self.bonbori_tento()
 
@@ -161,15 +172,23 @@ class MechaControlNode(Node):
     
     def hina_tenkai(self):
         self.get_logger().info('hina_tenkai')
+        send_command('expandArm')
+        send_command('moveDown')
 
     def hina_kaishu(self):
         self.get_logger().info('hina_kaishu')
+        send_command('contractArm')
+        send_command('moveUp')
 
     def hina_setti(self):
         self.get_logger().info('hina_setti')
+        send_command('expandArm')
+        time.sleep(1)
+        send_command('push')
 
     def bonbori_tento(self):
         self.get_logger().info('bonbori_tento')
+        send_command('bonbori')
 
 def main(args=None):
     rclpy.init(args=args)

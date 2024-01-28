@@ -682,6 +682,10 @@ CMakeFiles/controller.dir/src/controller.cpp.o
  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__struct.hpp
  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__builder.hpp
  /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/actuator_commands__traits.hpp
+ /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/mecha_state.hpp
+ /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__struct.hpp
+ /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__builder.hpp
+ /ROS_ws/install/mecha_control/include/mecha_control/mecha_control/msg/detail/mecha_state__traits.hpp
  /usr/local/include/raylib.h
  /ROS_ws/src/pc_robot_controller/src/vector_calc.hpp
  /ROS_ws/src/pc_robot_controller/src/slider.hpp
