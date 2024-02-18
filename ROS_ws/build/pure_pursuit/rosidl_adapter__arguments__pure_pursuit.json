@@ -1,0 +1,8 @@
+{
+  "package_name": "pure_pursuit",
+  "non_idl_tuples": [
+    "/ROS_ws/src/chassis_haru_robo2024/pure_pursuit:msg/PointAndAngle.msg",
+    "/ROS_ws/src/chassis_haru_robo2024/pure_pursuit:msg/Path2DWithAngles.msg",
+    "/ROS_ws/src/chassis_haru_robo2024/pure_pursuit:action/PathAndFeedback.action"
+  ]
+}

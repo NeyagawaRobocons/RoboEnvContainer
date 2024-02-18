@@ -689,7 +689,8 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
   /ROS_ws/src/pc_robot_controller/src/vector_calc.hpp \
   /ROS_ws/src/pc_robot_controller/src/slider.hpp \
   /ROS_ws/src/pc_robot_controller/src/button.hpp \
-  /ROS_ws/src/pc_robot_controller/src/label.hpp
+  /ROS_ws/src/pc_robot_controller/src/label.hpp \
+  /ROS_ws/src/pc_robot_controller/src/touch.hpp
 
 
 /ROS_ws/src/pc_robot_controller/src/button.hpp:
@@ -1381,6 +1382,8 @@ CMakeFiles/controller.dir/src/controller.cpp.o: /ROS_ws/src/pc_robot_controller/
 /usr/include/c++/11/tuple:
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
+
+/ROS_ws/src/pc_robot_controller/src/touch.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
 

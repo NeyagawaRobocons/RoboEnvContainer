@@ -1,0 +1,25 @@
+[0.172s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.219s] [  8%] Built target nucleo_agent__rosidl_generator_c
+[0.226s] [ 11%] Built target nucleo_agent__cpp
+[0.245s] [ 20%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c
+[0.246s] [ 28%] Built target nucleo_agent__rosidl_typesupport_introspection_c
+[0.248s] [ 37%] Built target nucleo_agent__rosidl_typesupport_c
+[0.251s] [ 37%] Built target ament_cmake_python_copy_nucleo_agent
+[0.256s] [ 45%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp
+[0.271s] [ 54%] Built target nucleo_agent__rosidl_typesupport_cpp
+[0.271s] [ 62%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp
+[0.281s] [ 68%] Built target nucleo_agent_node
+[0.285s] [ 74%] Built target rp_encoder_agent_node
+[0.286s] [ 74%] Built target nucleo_agent
+[0.305s] [ 77%] Built target nucleo_agent__py
+[0.315s] [ 82%] Built target nucleo_agent__rosidl_generator_py
+[0.332s] [ 94%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext
+[0.332s] [ 94%] Built target nucleo_agent__rosidl_typesupport_c__pyext
+[0.332s] [100%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext
+[0.431s] running egg_info
+[0.431s] writing nucleo_agent.egg-info/PKG-INFO
+[0.431s] writing dependency_links to nucleo_agent.egg-info/dependency_links.txt
+[0.431s] writing top-level names to nucleo_agent.egg-info/top_level.txt
+[0.432s] reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[0.433s] writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[0.450s] [100%] Built target ament_cmake_python_build_nucleo_agent_egg

@@ -623,4 +623,5 @@ CMakeFiles/controller.dir/src/controller.cpp.o: \
  /ROS_ws/src/pc_robot_controller/src/vector_calc.hpp \
  /ROS_ws/src/pc_robot_controller/src/slider.hpp \
  /ROS_ws/src/pc_robot_controller/src/button.hpp \
- /ROS_ws/src/pc_robot_controller/src/label.hpp
+ /ROS_ws/src/pc_robot_controller/src/label.hpp \
+ /ROS_ws/src/pc_robot_controller/src/touch.hpp

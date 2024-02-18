@@ -1,0 +1,623 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (calc_vel) JobQueued: {'identifier': 'calc_vel', 'dependencies': OrderedDict()}
+[0.000345] (calc_wheel_vel) JobQueued: {'identifier': 'calc_wheel_vel', 'dependencies': OrderedDict()}
+[0.000356] (ldlidar) JobQueued: {'identifier': 'ldlidar', 'dependencies': OrderedDict()}
+[0.000365] (localize) JobQueued: {'identifier': 'localize', 'dependencies': OrderedDict()}
+[0.000373] (mecha_control) JobQueued: {'identifier': 'mecha_control', 'dependencies': OrderedDict()}
+[0.000383] (nucleo_agent) JobQueued: {'identifier': 'nucleo_agent', 'dependencies': OrderedDict()}
+[0.000392] (odometry_calculator) JobQueued: {'identifier': 'odometry_calculator', 'dependencies': OrderedDict()}
+[0.000400] (pc_robot_controller) JobQueued: {'identifier': 'pc_robot_controller', 'dependencies': OrderedDict()}
+[0.000409] (robot_master) JobQueued: {'identifier': 'robot_master', 'dependencies': OrderedDict()}
+[0.000417] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict([('mecha_control', '/ROS_ws/install/mecha_control'), ('robot_master', '/ROS_ws/install/robot_master')])}
+[0.000429] (mecha_control) JobStarted: {'identifier': 'mecha_control'}
+[0.006190] (robot_master) JobStarted: {'identifier': 'robot_master'}
+[0.009535] (calc_vel) JobStarted: {'identifier': 'calc_vel'}
+[0.014986] (calc_wheel_vel) JobStarted: {'identifier': 'calc_wheel_vel'}
+[0.018359] (ldlidar) JobStarted: {'identifier': 'ldlidar'}
+[0.021779] (localize) JobStarted: {'identifier': 'localize'}
+[0.025117] (nucleo_agent) JobStarted: {'identifier': 'nucleo_agent'}
+[0.028650] (odometry_calculator) JobStarted: {'identifier': 'odometry_calculator'}
+[0.032000] (pc_robot_controller) JobStarted: {'identifier': 'pc_robot_controller'}
+[0.040027] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'cmake'}
+[0.040456] (mecha_control) JobProgress: {'identifier': 'mecha_control', 'progress': 'build'}
+[0.040882] (mecha_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/mecha_control', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/mecha_control', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/mecha_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.042307] (robot_master) JobProgress: {'identifier': 'robot_master', 'progress': 'cmake'}
+[0.042771] (robot_master) JobProgress: {'identifier': 'robot_master', 'progress': 'build'}
+[0.043105] (robot_master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/robot_master', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/robot_master', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/robot_master'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.099427] (-) TimerEvent: {}
+[0.178341] (calc_wheel_vel) JobProgress: {'identifier': 'calc_wheel_vel', 'progress': 'cmake'}
+[0.178671] (calc_wheel_vel) JobProgress: {'identifier': 'calc_wheel_vel', 'progress': 'build'}
+[0.179396] (calc_wheel_vel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/calc_wheel_vel', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/calc_wheel_vel', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/calc_wheel_vel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.180053] (ldlidar) JobProgress: {'identifier': 'ldlidar', 'progress': 'cmake'}
+[0.180142] (ldlidar) JobProgress: {'identifier': 'ldlidar', 'progress': 'build'}
+[0.180327] (ldlidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/ldlidar', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/ldlidar', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/ldlidar'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.181193] (localize) JobProgress: {'identifier': 'localize', 'progress': 'cmake'}
+[0.181287] (localize) JobProgress: {'identifier': 'localize', 'progress': 'build'}
+[0.181485] (localize) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/localize', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/localize', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/localize'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.182327] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'cmake'}
+[0.182501] (nucleo_agent) JobProgress: {'identifier': 'nucleo_agent', 'progress': 'build'}
+[0.182711] (nucleo_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/nucleo_agent', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/nucleo_agent', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/nucleo_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.183649] (odometry_calculator) JobProgress: {'identifier': 'odometry_calculator', 'progress': 'cmake'}
+[0.183871] (odometry_calculator) JobProgress: {'identifier': 'odometry_calculator', 'progress': 'build'}
+[0.184373] (odometry_calculator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/odometry_calculator', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/odometry_calculator', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/odometry_calculator'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.186887] (mecha_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.187342] (mecha_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.187414] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.187472] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.187526] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.187576] (robot_master) StdoutLine: {'line': b'[100%] Built target robot_master_node\n'}
+[0.188103] (robot_master) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[0.188650] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.189473] (pc_robot_controller) JobProgress: {'identifier': 'pc_robot_controller', 'progress': 'cmake'}
+[0.189961] (pc_robot_controller) JobProgress: {'identifier': 'pc_robot_controller', 'progress': 'build'}
+[0.190283] (pc_robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ROS_ws/build/pc_robot_controller', '--', '-j12', '-l12'], 'cwd': '/ROS_ws/build/pc_robot_controller', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/pc_robot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.193108] (robot_master) CommandEnded: {'returncode': 0}
+[0.199510] (-) TimerEvent: {}
+[0.201533] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.206074] (nucleo_agent) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.209443] (pc_robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.210700] (robot_master) JobProgress: {'identifier': 'robot_master', 'progress': 'install'}
+[0.218666] (robot_master) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/robot_master'], 'cwd': '/ROS_ws/build/robot_master', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/robot_master'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.222032] (localize) StdoutLine: {'line': b'[ 33%] Built target timestamp_publisher_node\n'}
+[0.224427] (localize) StdoutLine: {'line': b'[ 66%] Built target tempo_localize_node\n'}
+[0.225763] (calc_wheel_vel) StdoutLine: {'line': b'[100%] Built target calc_wheel_vel\n'}
+[0.225952] (robot_master) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.226076] (ldlidar) StdoutLine: {'line': b'[100%] Built target ldlidar\n'}
+[0.226383] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/lib/robot_master/robot_master_node\n'}
+[0.226708] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/lib/robot_master/action_server\n'}
+[0.226821] (localize) StdoutLine: {'line': b'[100%] Built target localize_node\n'}
+[0.226955] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/ament_index/resource_index/package_run_dependencies/robot_master\n'}
+[0.227063] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/ament_index/resource_index/parent_prefix_path/robot_master\n'}
+[0.227130] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/ament_prefix_path.sh\n'}
+[0.227191] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/ament_prefix_path.dsv\n'}
+[0.227303] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/path.sh\n'}
+[0.227368] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/path.dsv\n'}
+[0.227423] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.bash\n'}
+[0.227474] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.sh\n'}
+[0.227525] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.zsh\n'}
+[0.227572] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.dsv\n'}
+[0.227614] (robot_master) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/robot_master/share/robot_master/package.dsv\n'}
+[0.227698] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/ament_index/resource_index/packages/robot_master\n'}
+[0.227756] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/cmake/robot_masterConfig.cmake\n'}
+[0.227803] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/cmake/robot_masterConfig-version.cmake\n'}
+[0.227846] (robot_master) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/package.xml\n'}
+[0.228947] (robot_master) CommandEnded: {'returncode': 0}
+[0.231037] (odometry_calculator) StdoutLine: {'line': b'[100%] Built target odometry_node\n'}
+[0.240756] (calc_wheel_vel) CommandEnded: {'returncode': 0}
+[0.241550] (ldlidar) CommandEnded: {'returncode': 0}
+[0.242292] (odometry_calculator) CommandEnded: {'returncode': 0}
+[0.243821] (localize) CommandEnded: {'returncode': 0}
+[0.252899] (mecha_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.254096] (mecha_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.263699] (robot_master) JobEnded: {'identifier': 'robot_master', 'rc': 0}
+[0.264690] (odometry_calculator) JobProgress: {'identifier': 'odometry_calculator', 'progress': 'install'}
+[0.265020] (odometry_calculator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/odometry_calculator'], 'cwd': '/ROS_ws/build/odometry_calculator', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/odometry_calculator'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.265564] (ldlidar) JobProgress: {'identifier': 'ldlidar', 'progress': 'install'}
+[0.265829] (ldlidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/ldlidar'], 'cwd': '/ROS_ws/build/ldlidar', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/ldlidar'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.266369] (calc_wheel_vel) JobProgress: {'identifier': 'calc_wheel_vel', 'progress': 'install'}
+[0.266892] (calc_wheel_vel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/calc_wheel_vel'], 'cwd': '/ROS_ws/build/calc_wheel_vel', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/calc_wheel_vel'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.267342] (localize) JobProgress: {'identifier': 'localize', 'progress': 'install'}
+[0.267607] (localize) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ROS_ws/build/localize'], 'cwd': '/ROS_ws/build/localize', 'env': OrderedDict([('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('container', 'podman'), ('COLCON_PREFIX_PATH', '/ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble'), ('PWD', '/ROS_ws/build/localize'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble')]), 'shell': False}
+[0.270238] (odometry_calculator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.271386] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/lib/odometry_calculator/odometry_node\n'}
+[0.271527] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/ament_index/resource_index/package_run_dependencies/odometry_calculator\n'}
+[0.271592] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/ament_index/resource_index/parent_prefix_path/odometry_calculator\n'}
+[0.271645] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/environment/ament_prefix_path.sh\n'}
+[0.271700] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/environment/ament_prefix_path.dsv\n'}
+[0.271791] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/environment/path.sh\n'}
+[0.271849] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/environment/path.dsv\n'}
+[0.272001] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/local_setup.bash\n'}
+[0.272061] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/local_setup.sh\n'}
+[0.272114] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/local_setup.zsh\n'}
+[0.272166] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/local_setup.dsv\n'}
+[0.272220] (odometry_calculator) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/odometry_calculator/share/odometry_calculator/package.dsv\n'}
+[0.272570] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/ament_index/resource_index/packages/odometry_calculator\n'}
+[0.272774] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/cmake/odometry_calculatorConfig.cmake\n'}
+[0.272839] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/cmake/odometry_calculatorConfig-version.cmake\n'}
+[0.272895] (odometry_calculator) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/odometry_calculator/share/odometry_calculator/package.xml\n'}
+[0.272949] (calc_wheel_vel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.275088] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/lib/calc_wheel_vel/calc_wheel_vel\n'}
+[0.275300] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/ament_index/resource_index/package_run_dependencies/calc_wheel_vel\n'}
+[0.275369] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/ament_index/resource_index/parent_prefix_path/calc_wheel_vel\n'}
+[0.275426] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/environment/ament_prefix_path.sh\n'}
+[0.275480] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/environment/ament_prefix_path.dsv\n'}
+[0.275535] (ldlidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.275653] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/lib/ldlidar/ldlidar\n'}
+[0.275714] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/launch\n'}
+[0.275767] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/launch/ldlidar.launch.py\n'}
+[0.275821] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/rviz\n'}
+[0.275871] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/rviz/ldlidar.rviz\n'}
+[0.275923] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/environment/path.sh\n'}
+[0.275972] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar\n'}
+[0.276021] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/environment/path.dsv\n'}
+[0.276074] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/local_setup.bash\n'}
+[0.276125] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/local_setup.sh\n'}
+[0.276175] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/local_setup.zsh\n'}
+[0.276223] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/local_setup.dsv\n'}
+[0.276275] (calc_wheel_vel) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/package.dsv\n'}
+[0.276326] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/ament_index/resource_index/packages/calc_wheel_vel\n'}
+[0.276384] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/cmake/calc_wheel_velConfig.cmake\n'}
+[0.276436] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/cmake/calc_wheel_velConfig-version.cmake\n'}
+[0.276490] (calc_wheel_vel) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/calc_wheel_vel/share/calc_wheel_vel/package.xml\n'}
+[0.276540] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar\n'}
+[0.276718] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh\n'}
+[0.276776] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv\n'}
+[0.276828] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/environment/path.sh\n'}
+[0.276878] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/environment/path.dsv\n'}
+[0.276926] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/local_setup.bash\n'}
+[0.276974] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/local_setup.sh\n'}
+[0.277026] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/local_setup.zsh\n'}
+[0.277082] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/local_setup.dsv\n'}
+[0.277132] (odometry_calculator) CommandEnded: {'returncode': 0}
+[0.277319] (ldlidar) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/ldlidar/share/ldlidar/package.dsv\n'}
+[0.277381] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ament_index/resource_index/packages/ldlidar\n'}
+[0.277433] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake\n'}
+[0.277484] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake\n'}
+[0.277535] (ldlidar) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/ldlidar/share/ldlidar/package.xml\n'}
+[0.277590] (localize) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.277780] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/lib/localize/localize_node\n'}
+[0.277840] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/lib/localize/timestamp_publisher_node\n'}
+[0.277892] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/lib/localize/localize_node\n'}
+[0.277950] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/lib/localize/tempo_localize_node\n'}
+[0.278037] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/lib/localize/timestamp_publisher_node\n'}
+[0.278092] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/launch\n'}
+[0.278144] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/launch/emcl2_test.launch.py\n'}
+[0.278196] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/yaml\n'}
+[0.278246] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/yaml/map_data.pgm\n'}
+[0.278296] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/yaml/map_data.yaml\n'}
+[0.278347] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/ament_index/resource_index/package_run_dependencies/localize\n'}
+[0.278400] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/ament_index/resource_index/parent_prefix_path/localize\n'}
+[0.278452] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/environment/ament_prefix_path.sh\n'}
+[0.278509] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/environment/ament_prefix_path.dsv\n'}
+[0.278561] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/environment/path.sh\n'}
+[0.278635] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/environment/path.dsv\n'}
+[0.278699] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/local_setup.bash\n'}
+[0.278762] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/local_setup.sh\n'}
+[0.278814] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/local_setup.zsh\n'}
+[0.278881] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/local_setup.dsv\n'}
+[0.278932] (localize) StdoutLine: {'line': b'-- Installing: /ROS_ws/install/localize/share/localize/package.dsv\n'}
+[0.279852] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/ament_index/resource_index/packages/localize\n'}
+[0.279929] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.279981] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/cmake/localizeConfig.cmake\n'}
+[0.280028] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/cmake/localizeConfig-version.cmake\n'}
+[0.280070] (localize) StdoutLine: {'line': b'-- Up-to-date: /ROS_ws/install/localize/share/localize/package.xml\n'}
+[0.284516] (calc_wheel_vel) CommandEnded: {'returncode': 0}
+[0.293815] (ldlidar) CommandEnded: {'returncode': 0}
+[0.300751] (-) TimerEvent: {}
+[0.303372] (localize) CommandEnded: {'returncode': 0}
+[0.321397] (odometry_calculator) JobEnded: {'identifier': 'odometry_calculator', 'rc': 0}
+[0.328935] (calc_wheel_vel) JobEnded: {'identifier': 'calc_wheel_vel', 'rc': 0}
+[0.330732] (pc_robot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.338678] (ldlidar) JobEnded: {'identifier': 'ldlidar', 'rc': 0}
+[0.343591] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.346586] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.348611] (localize) JobEnded: {'identifier': 'localize', 'rc': 0}
+[0.350989] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.351153] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.353412] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.355476] (mecha_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.358469] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.359910] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.368623] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.371692] (pc_robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.387541] (pc_robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.398763] (calc_vel) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/calc_vel', 'build', '--build-base', '/ROS_ws/build/calc_vel/build', 'install', '--record', '/ROS_ws/build/calc_vel/install.log', '--single-version-externally-managed'], 'cwd': '/ROS_ws/src/chassis_haru_robo2024/calc_vel', 'env': {'SHLVL': '1', 'LD_LIBRARY_PATH': '/ROS_ws/install/nucleo_agent/lib:/ROS_ws/install/mecha_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'container': 'podman', 'COLCON_PREFIX_PATH': '/ROS_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar:/opt/ros/humble', 'PWD': '/ROS_ws/build/calc_vel', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ROS_ws/build/calc_vel/prefix_override:/ROS_ws/install/calc_vel/lib/python3.10/site-packages:/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages:/ROS_ws/install/mecha_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ROS_ws/install/pc_robot_controller:/ROS_ws/install/nucleo_agent:/ROS_ws/install/mecha_control:/ROS_ws/install/ldlidar'}, 'shell': False}
+[0.400820] (-) TimerEvent: {}
+[0.403499] (nucleo_agent) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.426527] (pc_robot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.427464] (pc_robot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.471343] (mecha_control) StdoutLine: {'line': b'-- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.471524] (mecha_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.498910] (mecha_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500898] (-) TimerEvent: {}
+[0.515729] (pc_robot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.520622] (calc_vel) StdoutLine: {'line': b'running egg_info\n'}
+[0.521128] (calc_vel) StdoutLine: {'line': b'writing ../../../build/calc_vel/calc_vel.egg-info/PKG-INFO\n'}
+[0.521221] (calc_vel) StdoutLine: {'line': b'writing dependency_links to ../../../build/calc_vel/calc_vel.egg-info/dependency_links.txt\n'}
+[0.521332] (calc_vel) StdoutLine: {'line': b'writing entry points to ../../../build/calc_vel/calc_vel.egg-info/entry_points.txt\n'}
+[0.521406] (calc_vel) StdoutLine: {'line': b'writing requirements to ../../../build/calc_vel/calc_vel.egg-info/requires.txt\n'}
+[0.521465] (calc_vel) StdoutLine: {'line': b'writing top-level names to ../../../build/calc_vel/calc_vel.egg-info/top_level.txt\n'}
+[0.522571] (calc_vel) StdoutLine: {'line': b"reading manifest file '../../../build/calc_vel/calc_vel.egg-info/SOURCES.txt'\n"}
+[0.523106] (calc_vel) StdoutLine: {'line': b"writing manifest file '../../../build/calc_vel/calc_vel.egg-info/SOURCES.txt'\n"}
+[0.523210] (calc_vel) StdoutLine: {'line': b'running build\n'}
+[0.523283] (calc_vel) StdoutLine: {'line': b'running build_py\n'}
+[0.523650] (calc_vel) StdoutLine: {'line': b'running install\n'}
+[0.523747] (calc_vel) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.523797] (calc_vel) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.523938] (calc_vel) StdoutLine: {'line': b'running install_lib\n'}
+[0.524856] (calc_vel) StdoutLine: {'line': b'running install_data\n'}
+[0.525214] (calc_vel) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.526253] (calc_vel) StdoutLine: {'line': b"removing '/ROS_ws/install/calc_vel/lib/python3.10/site-packages/calc_vel-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.526400] (calc_vel) StdoutLine: {'line': b'Copying ../../../build/calc_vel/calc_vel.egg-info to /ROS_ws/install/calc_vel/lib/python3.10/site-packages/calc_vel-0.0.0-py3.10.egg-info\n'}
+[0.526759] (calc_vel) StdoutLine: {'line': b'running install_scripts\n'}
+[0.540475] (calc_vel) StdoutLine: {'line': b'Installing PI_simulator script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.540605] (calc_vel) StdoutLine: {'line': b'Installing goal_tf_node script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.540665] (calc_vel) StdoutLine: {'line': b'Installing localize_node script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.540719] (calc_vel) StdoutLine: {'line': b'Installing param_control_node script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.540754] (calc_vel) StdoutLine: {'line': b'Installing pose_PI_controller script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.540786] (calc_vel) StdoutLine: {'line': b'Installing robot_tf_node script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.540830] (calc_vel) StdoutLine: {'line': b'Installing stl_marker_publisher script to /ROS_ws/install/calc_vel/lib/calc_vel\n'}
+[0.541013] (calc_vel) StdoutLine: {'line': b"writing list of installed files to '/ROS_ws/build/calc_vel/install.log'\n"}
+[0.571810] (calc_vel) CommandEnded: {'returncode': 0}
+[0.576748] (calc_vel) JobEnded: {'identifier': 'calc_vel', 'rc': 0}
+[0.582897] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600990] (-) TimerEvent: {}
+[0.633747] (pc_robot_controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.634030] (pc_robot_controller) StdoutLine: {'line': b'-- Found nucleo_agent: 0.0.0 (/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake)\n'}
+[0.659349] (pc_robot_controller) StdoutLine: {'line': b'-- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)\n'}
+[0.668153] (pc_robot_controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.686008] (mecha_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.701067] (-) TimerEvent: {}
+[0.753489] (pc_robot_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.766705] (pc_robot_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801154] (-) TimerEvent: {}
+[0.810624] (pc_robot_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.810795] (pc_robot_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/pc_robot_controller/include>\n'}
+[0.810878] (pc_robot_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.811190] (pc_robot_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.811672] (pc_robot_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.811777] (pc_robot_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.811906] (pc_robot_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.812499] (pc_robot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.813879] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.823679] (pc_robot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[0.824615] (pc_robot_controller) StdoutLine: {'line': b'-- Build files have been written to: /ROS_ws/build/pc_robot_controller\n'}
+[0.840819] (pc_robot_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[0.850618] (pc_robot_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.874625] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901231] (-) TimerEvent: {}
+[0.909390] (nucleo_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.924724] (nucleo_agent) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.940183] (nucleo_agent) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.940299] (nucleo_agent) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.940336] (nucleo_agent) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.949125] (mecha_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.959799] (nucleo_agent) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.963238] (mecha_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.977271] (mecha_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.977381] (mecha_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.977419] (mecha_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.984907] (mecha_control) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[0.985031] (mecha_control) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'mecha_control' was not\n"}
+[0.985070] (mecha_control) StderrLine: {'line': b'  found before\n'}
+[0.985101] (mecha_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.985132] (mecha_control) StderrLine: {'line': b'  CMakeLists.txt:38 (ament_target_dependencies)\n'}
+[0.985161] (mecha_control) StderrLine: {'line': b'\n'}
+[0.985189] (mecha_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.985215] (mecha_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.985247] (mecha_control) StdoutLine: {'line': b'See also "/ROS_ws/build/mecha_control/CMakeFiles/CMakeOutput.log".\n'}
+[0.989127] (mecha_control) StderrLine: {'line': b'gmake: *** [Makefile:1827: cmake_check_build_system] Error 1\n'}
+[0.990392] (mecha_control) CommandEnded: {'returncode': 2}
+[0.990825] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.991518] (nucleo_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001305] (-) TimerEvent: {}
+[1.064008] (mecha_control) JobEnded: {'identifier': 'mecha_control', 'rc': 2}
+[1.080267] (nucleo_agent) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101392] (-) TimerEvent: {}
+[1.163185] (nucleo_agent) StdoutLine: {'line': b'-- Found nucleo_agent: 0.0.0 (/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake)\n'}
+[1.187074] (nucleo_agent) StdoutLine: {'line': b'-- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)\n'}
+[1.198405] (nucleo_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201447] (-) TimerEvent: {}
+[1.204501] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.205242] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>\n'}
+[1.205284] (nucleo_agent) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.205584] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.205943] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.206256] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.206973] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.207050] (nucleo_agent) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.207255] (nucleo_agent) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.208518] (nucleo_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.235856] (nucleo_agent) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:26 (add_executable):\n'}
+[1.235983] (nucleo_agent) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target nucleo_agent_node\n'}
+[1.236022] (nucleo_agent) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[1.236055] (nucleo_agent) StderrLine: {'line': b'\n'}
+[1.236086] (nucleo_agent) StderrLine: {'line': b'    dir 0 is [/opt/ros/humble/lib]\n'}
+[1.236116] (nucleo_agent) StderrLine: {'line': b'    dir 1 is [/ROS_ws/install/nucleo_agent/lib]\n'}
+[1.236146] (nucleo_agent) StderrLine: {'line': b'      dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]\n'}
+[1.236174] (nucleo_agent) StderrLine: {'line': b'    dir 2 is [/ROS_ws/build/nucleo_agent]\n'}
+[1.236201] (nucleo_agent) StderrLine: {'line': b'      dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]\n'}
+[1.236229] (nucleo_agent) StderrLine: {'line': b'    dir 3 is [/ROS_ws/install/mecha_control/lib]\n'}
+[1.236255] (nucleo_agent) StderrLine: {'line': b'\n'}
+[1.236282] (nucleo_agent) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.236308] (nucleo_agent) StderrLine: {'line': b'\n'}
+[1.236337] (nucleo_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[1.239302] (nucleo_agent) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:47 (add_executable):\n'}
+[1.239367] (nucleo_agent) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target rp_encoder_agent_node\n'}
+[1.239400] (nucleo_agent) StderrLine: {'line': b'  because there is a cycle in the constraint graph:\n'}
+[1.239430] (nucleo_agent) StderrLine: {'line': b'\n'}
+[1.239460] (nucleo_agent) StderrLine: {'line': b'    dir 0 is [/opt/ros/humble/lib]\n'}
+[1.239489] (nucleo_agent) StderrLine: {'line': b'    dir 1 is [/ROS_ws/install/nucleo_agent/lib]\n'}
+[1.239517] (nucleo_agent) StderrLine: {'line': b'      dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]\n'}
+[1.239545] (nucleo_agent) StderrLine: {'line': b'    dir 2 is [/ROS_ws/build/nucleo_agent]\n'}
+[1.239571] (nucleo_agent) StderrLine: {'line': b'      dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]\n'}
+[1.239608] (nucleo_agent) StderrLine: {'line': b'    dir 3 is [/ROS_ws/install/mecha_control/lib]\n'}
+[1.239634] (nucleo_agent) StderrLine: {'line': b'\n'}
+[1.239661] (nucleo_agent) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.239689] (nucleo_agent) StderrLine: {'line': b'\n'}
+[1.239715] (nucleo_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[1.244980] (nucleo_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[1.247520] (nucleo_agent) StdoutLine: {'line': b'-- Build files have been written to: /ROS_ws/build/nucleo_agent\n'}
+[1.265125] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_c\x1b[0m\n'}
+[1.270632] (nucleo_agent) StdoutLine: {'line': b'[  2%] Built target nucleo_agent__cpp\n'}
+[1.271150] (nucleo_agent) StdoutLine: {'line': b'[ 11%] Built target nucleo_agent__rosidl_generator_c\n'}
+[1.277306] (nucleo_agent) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_nucleo_agent\n'}
+[1.277469] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c\x1b[0m\n'}
+[1.278321] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.278520] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.278600] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.278662] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.278798] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.284345] (nucleo_agent) StdoutLine: {'line': b'[ 20%] Built target nucleo_agent__rosidl_typesupport_c\n'}
+[1.286728] (nucleo_agent) StdoutLine: {'line': b'[ 28%] Built target nucleo_agent__rosidl_typesupport_introspection_c\n'}
+[1.286901] (nucleo_agent) StdoutLine: {'line': b'[ 37%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp\n'}
+[1.287029] (nucleo_agent) StdoutLine: {'line': b'[ 45%] Built target nucleo_agent__rosidl_typesupport_cpp\n'}
+[1.287909] (nucleo_agent) StdoutLine: {'line': b'[ 54%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp\n'}
+[1.288076] (nucleo_agent) StdoutLine: {'line': b'[ 62%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c\n'}
+[1.293065] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent_node\x1b[0m\n'}
+[1.293342] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rp_encoder_agent_node\x1b[0m\n'}
+[1.298800] (nucleo_agent) StdoutLine: {'line': b'[ 62%] Built target nucleo_agent\n'}
+[1.301543] (-) TimerEvent: {}
+[1.303457] (nucleo_agent) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable rp_encoder_agent_node\x1b[0m\n'}
+[1.303608] (nucleo_agent) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o\x1b[0m\n'}
+[1.310209] (nucleo_agent) StdoutLine: {'line': b'[ 71%] Built target nucleo_agent__py\n'}
+[1.317020] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_py\x1b[0m\n'}
+[1.324893] (nucleo_agent) StdoutLine: {'line': b'[ 77%] Built target nucleo_agent__rosidl_generator_py\n'}
+[1.331777] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.332002] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.332132] (nucleo_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.341552] (nucleo_agent) StdoutLine: {'line': b'[ 88%] Built target nucleo_agent__rosidl_typesupport_c__pyext\n'}
+[1.341711] (nucleo_agent) StdoutLine: {'line': b'[ 88%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.343817] (nucleo_agent) StdoutLine: {'line': b'[ 94%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext\n'}
+[1.401628] (-) TimerEvent: {}
+[1.415580] (nucleo_agent) StdoutLine: {'line': b'running egg_info\n'}
+[1.416032] (nucleo_agent) StdoutLine: {'line': b'writing nucleo_agent.egg-info/PKG-INFO\n'}
+[1.416151] (nucleo_agent) StdoutLine: {'line': b'writing dependency_links to nucleo_agent.egg-info/dependency_links.txt\n'}
+[1.416237] (nucleo_agent) StdoutLine: {'line': b'writing top-level names to nucleo_agent.egg-info/top_level.txt\n'}
+[1.417517] (nucleo_agent) StdoutLine: {'line': b"reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[1.417852] (nucleo_agent) StdoutLine: {'line': b"writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'\n"}
+[1.434985] (nucleo_agent) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_nucleo_agent_egg\n'}
+[1.463543] (nucleo_agent) StdoutLine: {'line': b'[ 97%] Built target rp_encoder_agent_node\n'}
+[1.501716] (-) TimerEvent: {}
+[1.601935] (-) TimerEvent: {}
+[1.702152] (-) TimerEvent: {}
+[1.802373] (-) TimerEvent: {}
+[1.902601] (-) TimerEvent: {}
+[2.002832] (-) TimerEvent: {}
+[2.103059] (-) TimerEvent: {}
+[2.203283] (-) TimerEvent: {}
+[2.229303] (pc_robot_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:16\x1b[m\x1b[K:\n'}
+[2.229461] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Touch::process()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.229506] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:23:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.229543] (pc_robot_controller) StderrLine: {'line': b'   23 |         for (size_t i = 0; \x1b[01;35m\x1b[Ki < num\x1b[m\x1b[K; i++)\n'}
+[2.229574] (pc_robot_controller) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[2.239787] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Controller::ui_main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.239899] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.239940] (pc_robot_controller) StderrLine: {'line': b'   57 |         robot.origin = Vector2{\x1b[01;35m\x1b[KscreenWidth/2\x1b[m\x1b[K, screenHeight/2};\n'}
+[2.240014] (pc_robot_controller) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.240048] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenHeight / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240117] (pc_robot_controller) StderrLine: {'line': b'   57 |         robot.origin = Vector2{screenWidth/2, \x1b[01;35m\x1b[KscreenHeight/2\x1b[m\x1b[K};\n'}
+[2.240149] (pc_robot_controller) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.240241] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:96:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 210)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240275] (pc_robot_controller) StderrLine: {'line': b'   96 |         label title_mech("mech state", {\x1b[01;35m\x1b[KscreenWidth -210\x1b[m\x1b[K, 70}, 20);\n'}
+[2.240307] (pc_robot_controller) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.240339] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:97:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240396] (pc_robot_controller) StderrLine: {'line': b'   97 |         push_button daiza_seq({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 100}, 180, 70, GRAY, PINK);\n'}
+[2.240432] (pc_robot_controller) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.240464] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:98:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240495] (pc_robot_controller) StderrLine: {'line': b'   98 |         push_button hina_seq({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 200}, 180, 70, GRAY, PINK);\n'}
+[2.240525] (pc_robot_controller) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.240553] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:99:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240585] (pc_robot_controller) StderrLine: {'line': b'   99 |         toggle_button hina_servo({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 300}, 180, 70, GRAY, PINK);\n'}
+[2.240802] (pc_robot_controller) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.240860] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:100:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 200)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240898] (pc_robot_controller) StderrLine: {'line': b'  100 |         toggle_button bonbori_seq({\x1b[01;35m\x1b[KscreenWidth -200\x1b[m\x1b[K, 500}, 130, 70, GRAY, PINK);\n'}
+[2.240935] (pc_robot_controller) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.240963] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:111:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.240994] (pc_robot_controller) StderrLine: {'line': b'  111 |    label label_daiza_seq(text_label_daiza_seq, {\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 125}, 20);\n'}
+[2.241021] (pc_robot_controller) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241051] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[2.241081] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:112:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241110] (pc_robot_controller) StderrLine: {'line': b'  112 |      label label_hina_seq(text_label_hina_seq, {\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 225}, 20);\n'}
+[2.241139] (pc_robot_controller) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241166] (pc_robot_controller) StderrLine: {'line': b'\n'}
+[2.241193] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:113:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241222] (pc_robot_controller) StderrLine: {'line': b'  113 |         label label_hina_servo("hina servo", {\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 325}, 20);\n'}
+[2.241249] (pc_robot_controller) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241277] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:114:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 190)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241312] (pc_robot_controller) StderrLine: {'line': b'  114 |         label label_bonbori_seq("bonbori", {\x1b[01;35m\x1b[KscreenWidth -190\x1b[m\x1b[K, 525}, 20);\n'}
+[2.241343] (pc_robot_controller) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241370] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:145:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 210)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241399] (pc_robot_controller) StderrLine: {'line': b'  145 |             title_mech.move({\x1b[01;35m\x1b[KscreenWidth -210\x1b[m\x1b[K, 70});\n'}
+[2.241426] (pc_robot_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241455] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:146:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241481] (pc_robot_controller) StderrLine: {'line': b'  146 |             daiza_seq.move({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 100});\n'}
+[2.241509] (pc_robot_controller) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241534] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:147:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241560] (pc_robot_controller) StderrLine: {'line': b'  147 |             hina_seq.move({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 200});\n'}
+[2.241586] (pc_robot_controller) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241611] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:148:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 250)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241637] (pc_robot_controller) StderrLine: {'line': b'  148 |             hina_servo.move({\x1b[01;35m\x1b[KscreenWidth -250\x1b[m\x1b[K, 300});\n'}
+[2.241662] (pc_robot_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241687] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:149:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 200)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241714] (pc_robot_controller) StderrLine: {'line': b'  149 |             bonbori_seq.move({\x1b[01;35m\x1b[KscreenWidth -200\x1b[m\x1b[K, 500});\n'}
+[2.241739] (pc_robot_controller) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241764] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:150:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241789] (pc_robot_controller) StderrLine: {'line': b'  150 |             label_daiza_seq.move({\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 125});\n'}
+[2.241815] (pc_robot_controller) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241840] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:151:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241869] (pc_robot_controller) StderrLine: {'line': b'  151 |             label_hina_seq.move({\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 225});\n'}
+[2.241897] (pc_robot_controller) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.241923] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:152:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 240)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.241949] (pc_robot_controller) StderrLine: {'line': b'  152 |             label_hina_servo.move({\x1b[01;35m\x1b[KscreenWidth -240\x1b[m\x1b[K, 325});\n'}
+[2.241974] (pc_robot_controller) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.242000] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:153:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth - 190)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.242026] (pc_robot_controller) StderrLine: {'line': b'  153 |             label_bonbori_seq.move({\x1b[01;35m\x1b[KscreenWidth -190\x1b[m\x1b[K, 525});\n'}
+[2.242051] (pc_robot_controller) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.242080] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenWidth / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.242112] (pc_robot_controller) StderrLine: {'line': b'  154 |             robot.origin = Vector2{\x1b[01;35m\x1b[KscreenWidth/2\x1b[m\x1b[K, screenHeight/2};\n'}
+[2.242139] (pc_robot_controller) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.242163] (pc_robot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(screenHeight / 2)\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[2.242190] (pc_robot_controller) StderrLine: {'line': b'  154 |             robot.origin = Vector2{screenWidth/2, \x1b[01;35m\x1b[KscreenHeight/2\x1b[m\x1b[K};\n'}
+[2.242216] (pc_robot_controller) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.303372] (-) TimerEvent: {}
+[2.403599] (-) TimerEvent: {}
+[2.503840] (-) TimerEvent: {}
+[2.604086] (-) TimerEvent: {}
+[2.704320] (-) TimerEvent: {}
+[2.731270] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.731401] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:93:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.731453] (nucleo_agent) StderrLine: {'line': b'   93 |           for (size_t i = 0; \x1b[01;35m\x1b[Ki < len\x1b[m\x1b[K; i++)\n'}
+[2.731485] (nucleo_agent) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[2.732343] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:84:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.732382] (nucleo_agent) StderrLine: {'line': b'   84 |       int \x1b[01;35m\x1b[Kcount\x1b[m\x1b[K = 0;\n'}
+[2.732411] (nucleo_agent) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.734556] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPublisherNode::motor_3omni_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.734624] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:182:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kencoded_data\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[2.734667] (nucleo_agent) StderrLine: {'line': b'  182 |       auto \x1b[01;35m\x1b[Kencoded_data\x1b[m\x1b[K = cobs_encode(send_data);\n'}
+[2.734698] (nucleo_agent) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.735310] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPublisherNode::motor_4omni_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.735369] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:202:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kencoded_data\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[2.735407] (nucleo_agent) StderrLine: {'line': b'  202 |       auto \x1b[01;35m\x1b[Kencoded_data\x1b[m\x1b[K = cobs_encode(send_data);\n'}
+[2.735437] (nucleo_agent) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.737920] (nucleo_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.738006] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.738039] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.738071] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.738152] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.738181] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.738209] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.738236] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.738263] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.738296] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.738326] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.738352] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1\x1b[m\x1b[K:\n'}
+[2.738379] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPublisherNode::daiza_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.738408] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:246:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.738439] (nucleo_agent) StderrLine: {'line': b'  246 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"daiza write return : %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())\x1b[m\x1b[K);\n'}
+[2.738468] (nucleo_agent) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738496] (nucleo_agent) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.738523] (nucleo_agent) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[2.738550] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:246:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.738576] (nucleo_agent) StderrLine: {'line': b'  246 |       RCLCPP_INFO(this->get_logger(), "daiza write return : \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));\n'}
+[2.738602] (nucleo_agent) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.738629] (nucleo_agent) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.738655] (nucleo_agent) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.738681] (nucleo_agent) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.738706] (nucleo_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.738732] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.738760] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.738786] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.738812] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.738839] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.738867] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.738893] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.738920] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.738947] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.738974] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.739002] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1\x1b[m\x1b[K:\n'}
+[2.739029] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:247:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.739059] (nucleo_agent) StderrLine: {'line': b'  247 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"daiza write return : %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())\x1b[m\x1b[K);\n'}
+[2.739087] (nucleo_agent) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.739113] (nucleo_agent) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.739140] (nucleo_agent) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[2.739166] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:247:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.739193] (nucleo_agent) StderrLine: {'line': b'  247 |       RCLCPP_INFO(this->get_logger(), "daiza write return : \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));\n'}
+[2.739386] (nucleo_agent) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.739419] (nucleo_agent) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.739448] (nucleo_agent) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.739478] (nucleo_agent) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.739564] (nucleo_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.739598] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.739628] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.739658] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.739686] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.739834] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.739862] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.739888] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.739914] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.739942] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.739968] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.739994] (nucleo_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1\x1b[m\x1b[K:\n'}
+[2.740020] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPublisherNode::hina_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.740050] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:283:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[2.740079] (nucleo_agent) StderrLine: {'line': b'  283 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"hina write return : %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())\x1b[m\x1b[K);\n'}
+[2.740107] (nucleo_agent) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.740134] (nucleo_agent) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.740161] (nucleo_agent) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[2.740188] (nucleo_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:283:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.740214] (nucleo_agent) StderrLine: {'line': b'  283 |       RCLCPP_INFO(this->get_logger(), "hina write return : \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));\n'}
+[2.740240] (nucleo_agent) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.740271] (nucleo_agent) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.740297] (nucleo_agent) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.740323] (nucleo_agent) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.804401] (-) TimerEvent: {}
+[2.904625] (-) TimerEvent: {}
+[3.004854] (-) TimerEvent: {}
+[3.105070] (-) TimerEvent: {}
+[3.205286] (-) TimerEvent: {}
+[3.305499] (-) TimerEvent: {}
+[3.405715] (-) TimerEvent: {}
+[3.505936] (-) TimerEvent: {}
+[3.606153] (-) TimerEvent: {}
+[3.706366] (-) TimerEvent: {}
+[3.806583] (-) TimerEvent: {}
+[3.906881] (-) TimerEvent: {}
+[4.007097] (-) TimerEvent: {}
+[4.093566] (pc_robot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[4.107188] (-) TimerEvent: {}
+[4.207417] (-) TimerEvent: {}
+[4.307658] (-) TimerEvent: {}
+[4.323585] (pc_robot_controller) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[4.329931] (pc_robot_controller) JobEnded: {'identifier': 'pc_robot_controller', 'rc': 'SIGINT'}
+[4.407745] (-) TimerEvent: {}
+[4.507985] (-) TimerEvent: {}
+[4.608219] (-) TimerEvent: {}
+[4.708447] (-) TimerEvent: {}
+[4.808721] (-) TimerEvent: {}
+[4.908953] (-) TimerEvent: {}
+[5.009169] (-) TimerEvent: {}
+[5.109388] (-) TimerEvent: {}
+[5.209595] (-) TimerEvent: {}
+[5.309803] (-) TimerEvent: {}
+[5.410005] (-) TimerEvent: {}
+[5.510214] (-) TimerEvent: {}
+[5.610421] (-) TimerEvent: {}
+[5.710631] (-) TimerEvent: {}
+[5.810857] (-) TimerEvent: {}
+[5.911117] (-) TimerEvent: {}
+[6.011347] (-) TimerEvent: {}
+[6.111587] (-) TimerEvent: {}
+[6.211840] (-) TimerEvent: {}
+[6.312098] (-) TimerEvent: {}
+[6.412343] (-) TimerEvent: {}
+[6.512578] (-) TimerEvent: {}
+[6.612816] (-) TimerEvent: {}
+[6.713053] (-) TimerEvent: {}
+[6.813291] (-) TimerEvent: {}
+[6.913531] (-) TimerEvent: {}
+[7.013765] (-) TimerEvent: {}
+[7.114005] (-) TimerEvent: {}
+[7.214242] (-) TimerEvent: {}
+[7.314480] (-) TimerEvent: {}
+[7.414678] (-) TimerEvent: {}
+[7.514916] (-) TimerEvent: {}
+[7.615154] (-) TimerEvent: {}
+[7.715393] (-) TimerEvent: {}
+[7.815632] (-) TimerEvent: {}
+[7.915869] (-) TimerEvent: {}
+[8.016111] (-) TimerEvent: {}
+[8.116351] (-) TimerEvent: {}
+[8.216594] (-) TimerEvent: {}
+[8.316838] (-) TimerEvent: {}
+[8.417086] (-) TimerEvent: {}
+[8.517336] (-) TimerEvent: {}
+[8.556329] (nucleo_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable nucleo_agent_node\x1b[0m\n'}
+[8.617428] (-) TimerEvent: {}
+[8.717676] (-) TimerEvent: {}
+[8.817936] (-) TimerEvent: {}
+[8.912598] (nucleo_agent) StdoutLine: {'line': b'[100%] Built target nucleo_agent_node\n'}
+[8.917997] (-) TimerEvent: {}
+[8.918603] (nucleo_agent) JobEnded: {'identifier': 'nucleo_agent', 'rc': 'SIGINT'}
+[8.928982] (pure_pursuit) JobSkipped: {'identifier': 'pure_pursuit'}
+[8.929065] (-) EventReactorShutdown: {}

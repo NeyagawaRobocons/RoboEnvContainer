@@ -1,0 +1,43 @@
+[0.191s] Invoking command in '/ROS_ws/build/localize': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/localize -- -j12 -l12
+[0.230s] [ 16%] [32mBuilding CXX object CMakeFiles/localize_node.dir/src/localize_node.cpp.o[0m
+[0.231s] [ 33%] [32mBuilding CXX object CMakeFiles/timestamp_publisher_node.dir/src/mcl_pose_test.cpp.o[0m
+[0.233s] [ 50%] [32mBuilding CXX object CMakeFiles/tempo_localize_node.dir/src/emcl2_posestamped.cpp.o[0m
+[4.393s] [ 66%] [32m[1mLinking CXX executable timestamp_publisher_node[0m
+[4.615s] [ 66%] Built target timestamp_publisher_node
+[8.478s] [ 83%] [32m[1mLinking CXX executable tempo_localize_node[0m
+[8.789s] [ 83%] Built target tempo_localize_node
+[11.888s] [100%] [32m[1mLinking CXX executable localize_node[0m
+[12.288s] [100%] Built target localize_node
+[12.295s] Invoked command in '/ROS_ws/build/localize' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/localize -- -j12 -l12
+[12.312s] Invoking command in '/ROS_ws/build/localize': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/localize
+[12.317s] -- Install configuration: ""
+[12.317s] -- Installing: /ROS_ws/install/localize/lib/localize/localize_node
+[12.321s] -- Set runtime path of "/ROS_ws/install/localize/lib/localize/localize_node" to ""
+[12.321s] -- Installing: /ROS_ws/install/localize/lib/localize/timestamp_publisher_node
+[12.321s] -- Set runtime path of "/ROS_ws/install/localize/lib/localize/timestamp_publisher_node" to ""
+[12.321s] -- Up-to-date: /ROS_ws/install/localize/lib/localize/localize_node
+[12.322s] -- Installing: /ROS_ws/install/localize/lib/localize/tempo_localize_node
+[12.324s] -- Set runtime path of "/ROS_ws/install/localize/lib/localize/tempo_localize_node" to ""
+[12.324s] -- Up-to-date: /ROS_ws/install/localize/lib/localize/timestamp_publisher_node
+[12.324s] -- Installing: /ROS_ws/install/localize/share/localize/launch
+[12.324s] -- Installing: /ROS_ws/install/localize/share/localize/launch/emcl2_test.launch.py
+[12.324s] -- Installing: /ROS_ws/install/localize/share/localize/yaml
+[12.324s] -- Installing: /ROS_ws/install/localize/share/localize/yaml/map_data.pgm
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/yaml/map_data.yaml
+[12.338s] -- Installing: /ROS_ws/install/localize/share/ament_index/resource_index/package_run_dependencies/localize
+[12.338s] -- Installing: /ROS_ws/install/localize/share/ament_index/resource_index/parent_prefix_path/localize
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/environment/ament_prefix_path.sh
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/environment/ament_prefix_path.dsv
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/environment/path.sh
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/environment/path.dsv
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/local_setup.bash
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/local_setup.sh
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/local_setup.zsh
+[12.338s] -- Installing: /ROS_ws/install/localize/share/localize/local_setup.dsv
+[12.339s] -- Installing: /ROS_ws/install/localize/share/localize/package.dsv
+[12.339s] -- Installing: /ROS_ws/install/localize/share/ament_index/resource_index/packages/localize
+[12.339s] -- Installing: /ROS_ws/install/localize/share/localize/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.339s] -- Installing: /ROS_ws/install/localize/share/localize/cmake/localizeConfig.cmake
+[12.339s] -- Installing: /ROS_ws/install/localize/share/localize/cmake/localizeConfig-version.cmake
+[12.339s] -- Installing: /ROS_ws/install/localize/share/localize/package.xml
+[12.342s] Invoked command in '/ROS_ws/build/localize' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/localize

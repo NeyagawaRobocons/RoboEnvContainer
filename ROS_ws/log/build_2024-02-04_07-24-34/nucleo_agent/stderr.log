@@ -1,0 +1,18 @@
+[01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:[m[K In lambda function:
+[01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:84:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   84 |           for (size_t i = 0; [01;35m[Ki < len[m[K; i++)
+      |                              [01;35m[K~~^~~~~[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:101:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouoble[m[K’ was not declared in this scope; did you mean ‘[01m[Kdouble[m[K’?
+  101 |                   message.rotation[i] = ([01;31m[Kdouoble[m[K)rotation / 400f;
+      |                                          [01;31m[K^~~~~~~[m[K
+      |                                          [32m[Kdouble[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:107:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouoble[m[K’ was not declared in this scope; did you mean ‘[01m[Kdouble[m[K’?
+  107 |                   message.angular_vel[i] = ([01;31m[Kdouoble[m[K)angular_vel / 0x100 / 400f;
+      |                                             [01;31m[K^~~~~~~[m[K
+      |                                             [32m[Kdouble[m[K
+[01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:75:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   75 |       int [01;35m[Kcount[m[K = 0;
+      |           [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rp_encoder_agent_node.dir/build.make:76: CMakeFiles/rp_encoder_agent_node.dir/src/rp_encoder_agent.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/rp_encoder_agent_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

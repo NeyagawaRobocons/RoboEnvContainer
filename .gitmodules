@@ -10,3 +10,9 @@
 [submodule "ROS_ws/src/chassis_haru_robo2024"]
 	path = ROS_ws/src/chassis_haru_robo2024
 	url = https://github.com/NeyagawaRobocons/chassis_haru_robo2024
+[submodule "ROS_ws/src/ldlidar"]
+	path = ROS_ws/src/ldlidar
+	url = https://github.com/linorobot/ldlidar
+[submodule "ROS_ws/src/robot_master"]
+	path = ROS_ws/src/robot_master
+	url = https://github.com/NeyagawaRobocons/robot_master

@@ -1,0 +1,75 @@
+[0.038s] Invoking command in '/ROS_ws/build/mecha_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12
+[0.201s] [  1%] Built target mecha_control__cpp
+[0.201s] [ 12%] Built target mecha_control__rosidl_generator_c
+[0.201s] [ 12%] Built target ament_cmake_python_copy_mecha_control
+[0.201s] [ 23%] Built target mecha_control__rosidl_typesupport_cpp
+[0.201s] [ 45%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[0.201s] [ 45%] Built target mecha_control__rosidl_typesupport_c
+[0.201s] [ 56%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[0.201s] [ 67%] Built target mecha_control__rosidl_typesupport_introspection_c
+[0.201s] [ 78%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target cmd_seq[0m
+[0.201s] [ 78%] Built target mecha_control
+[0.201s] [ 79%] [32mBuilding CXX object CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o[0m
+[0.201s] [ 80%] Built target mecha_control__py
+[0.202s] [ 90%] Built target mecha_control__rosidl_generator_py
+[0.202s] [ 97%] Built target mecha_control__rosidl_typesupport_c__pyext
+[0.202s] [ 97%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[0.202s] [ 98%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+[0.217s] running egg_info
+[0.218s] writing mecha_control.egg-info/PKG-INFO
+[0.219s] writing dependency_links to mecha_control.egg-info/dependency_links.txt
+[0.219s] writing top-level names to mecha_control.egg-info/top_level.txt
+[0.222s] reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.222s] writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.254s] [ 98%] Built target ament_cmake_python_build_mecha_control_egg
+[1.496s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.496s]                  from [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:1[m[K:
+[1.496s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:[m[K In lambda function:
+[1.496s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.496s]    41 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "bonbori: %d", request->data);
+[1.496s]       |                         [01;31m[K^~~~[m[K
+[1.496s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.496s]    41 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "bonbori: %d", request->data);
+[1.496s]       |                         [01;31m[K^~~~[m[K
+[1.496s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:41:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ is not captured
+[1.496s]    41 |             RCLCPP_INFO(this->get_logger(), "bonbori: %d", [01;31m[Krequest[m[K->data);
+[1.497s]       |                                                            [01;31m[K^~~~~~~[m[K
+[1.497s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:40:22:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.497s]    40 |         std::thread([[01;36m[K][m[K{
+[1.497s]       |                      [01;36m[K^[m[K
+[1.497s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:35:86:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::shared_ptr<std_srvs::srv::SetBool_Request_<std::allocator<void> > > request[m[K’ declared here
+[1.497s]    35 |     void set_bonbori_callback([01;36m[Kconst std::shared_ptr<std_srvs::srv::SetBool::Request> request[m[K,
+[1.497s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.497s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.497s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.497s]                  from [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:1[m[K:
+[1.497s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:43:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.497s]    43 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "bonbori: wait_ended");
+[1.497s]       |                         [01;31m[K^~~~[m[K
+[1.497s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:43:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.497s]    43 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "bonbori: wait_ended");
+[1.497s]       |                         [01;31m[K^~~~[m[K
+[1.946s] gmake[2]: *** [CMakeFiles/cmd_seq.dir/build.make:76: CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o] Error 1
+[1.946s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/cmd_seq.dir/all] Error 2
+[1.946s] gmake: *** [Makefile:146: all] Error 2
+[1.947s] Invoked command in '/ROS_ws/build/mecha_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12

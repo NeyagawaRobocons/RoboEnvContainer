@@ -1,3 +1,5 @@
+action/MechCmd.action
+action/MechCmd.idl
 msg/ActuatorCommands.idl
 msg/ActuatorCommands.msg
 msg/MechaState.idl
@@ -8,3 +10,7 @@ msg/PointAndMechaStateArray.idl
 msg/PointAndMechaStateArray.msg
 msg/SensorStates.idl
 msg/SensorStates.msg
+srv/MechCmd.idl
+srv/MechCmd.srv
+srv/MechCmd_Request.msg
+srv/MechCmd_Response.msg

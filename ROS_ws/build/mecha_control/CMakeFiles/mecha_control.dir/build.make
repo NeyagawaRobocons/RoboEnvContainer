@@ -71,6 +71,14 @@ CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/ActuatorCommands.msg
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/MechaState.msg
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/PointAndMechaState.msg
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/msg/PointAndMechaStateArray.msg
+CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/srv/MechCmd.srv
+CMakeFiles/mecha_control: rosidl_cmake/srv/MechCmd_Request.msg
+CMakeFiles/mecha_control: rosidl_cmake/srv/MechCmd_Response.msg
+CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/action/MechCmd.action
+CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 mecha_control: CMakeFiles/mecha_control
 mecha_control: CMakeFiles/mecha_control.dir/build.make

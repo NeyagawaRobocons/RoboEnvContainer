@@ -1,0 +1,33 @@
+[0.038s] Invoking command in '/ROS_ws/build/mecha_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12
+[0.201s] [  1%] Built target mecha_control__cpp
+[0.201s] [ 12%] Built target mecha_control__rosidl_generator_c
+[0.201s] [ 12%] Built target ament_cmake_python_copy_mecha_control
+[0.201s] [ 23%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[0.201s] [ 34%] Built target mecha_control__rosidl_typesupport_c
+[0.201s] [ 45%] Built target mecha_control__rosidl_typesupport_cpp
+[0.201s] [ 56%] Built target mecha_control__rosidl_typesupport_introspection_c
+[0.201s] [ 67%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[0.201s] [ 78%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target cmd_seq[0m
+[0.201s] [ 78%] Built target mecha_control
+[0.201s] [ 79%] [32mBuilding CXX object CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o[0m
+[0.201s] [ 80%] Built target mecha_control__py
+[0.201s] [ 90%] Built target mecha_control__rosidl_generator_py
+[0.201s] [ 93%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[0.201s] [ 95%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+[0.201s] [ 98%] Built target mecha_control__rosidl_typesupport_c__pyext
+[0.227s] running egg_info
+[0.228s] writing mecha_control.egg-info/PKG-INFO
+[0.229s] writing dependency_links to mecha_control.egg-info/dependency_links.txt
+[0.229s] writing top-level names to mecha_control.egg-info/top_level.txt
+[0.232s] reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.232s] writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.266s] [ 98%] Built target ament_cmake_python_build_mecha_control_egg
+[0.274s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/set_bool: No such file or directory
+[0.274s]     3 | #include [01;31m[K"std_srvs/srv/set_bool"[m[K
+[0.274s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.274s] compilation terminated.
+[0.276s] gmake[2]: *** [CMakeFiles/cmd_seq.dir/build.make:76: CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o] Error 1
+[0.276s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/cmd_seq.dir/all] Error 2
+[0.276s] gmake: *** [Makefile:146: all] Error 2
+[0.280s] Invoked command in '/ROS_ws/build/mecha_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12

@@ -1,0 +1,354 @@
+[0.168s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.198s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.358s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.361s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.441s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.629s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.976s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.991s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.991s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.991s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.008s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.049s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.049s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.251s] -- Found nucleo_agent: 0.0.0 (/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake)
+[1.275s] -- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)
+[1.366s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.372s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>
+[1.372s] -- Configured cppcheck exclude dirs and/or files: 
+[1.372s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.373s] -- Added test 'lint_cmake' to check CMake code style
+[1.373s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.373s] -- Added test 'uncrustify' to check C / C++ code style
+[1.373s] -- Configured uncrustify additional arguments: 
+[1.374s] -- Added test 'xmllint' to check XML markup files
+[1.375s] -- Configuring done
+[1.396s] [33mCMake Warning at CMakeLists.txt:26 (add_executable):
+[1.396s]   Cannot generate a safe runtime search path for target nucleo_agent_node
+[1.396s]   because there is a cycle in the constraint graph:
+[1.396s] 
+[1.396s]     dir 0 is [/opt/ros/humble/lib]
+[1.396s]     dir 1 is [/ROS_ws/install/nucleo_agent/lib]
+[1.396s]       dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]
+[1.396s]     dir 2 is [/ROS_ws/build/nucleo_agent]
+[1.396s]       dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]
+[1.396s]     dir 3 is [/ROS_ws/install/mecha_control/lib]
+[1.396s] 
+[1.396s]   Some of these libraries may not be found correctly.
+[1.396s] 
+[1.396s] [0m
+[1.399s] [33mCMake Warning at CMakeLists.txt:47 (add_executable):
+[1.399s]   Cannot generate a safe runtime search path for target rp_encoder_agent_node
+[1.399s]   because there is a cycle in the constraint graph:
+[1.399s] 
+[1.399s]     dir 0 is [/opt/ros/humble/lib]
+[1.399s]     dir 1 is [/ROS_ws/install/nucleo_agent/lib]
+[1.399s]       dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]
+[1.399s]     dir 2 is [/ROS_ws/build/nucleo_agent]
+[1.399s]       dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]
+[1.399s]     dir 3 is [/ROS_ws/install/mecha_control/lib]
+[1.399s] 
+[1.399s]   Some of these libraries may not be found correctly.
+[1.399s] 
+[1.399s] [0m
+[1.402s] -- Generating done
+[1.404s] -- Build files have been written to: /ROS_ws/build/nucleo_agent
+[1.425s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_c[0m
+[1.431s] [  2%] Built target nucleo_agent__cpp
+[1.435s] [ 11%] Built target nucleo_agent__rosidl_generator_c
+[1.438s] [ 11%] Built target ament_cmake_python_copy_nucleo_agent
+[1.441s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_cpp[0m
+[1.441s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_cpp[0m
+[1.441s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_cpp[0m
+[1.446s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c[0m
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c[0m
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c[0m
+[1.451s] [ 22%] Built target nucleo_agent__rosidl_typesupport_cpp
+[1.451s] [ 28%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp
+[1.451s] [ 37%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp
+[1.457s] [ 54%] Built target nucleo_agent__rosidl_typesupport_introspection_c
+[1.458s] [ 54%] Built target nucleo_agent__rosidl_typesupport_c
+[1.459s] [ 62%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c
+[1.465s] [35m[1mConsolidate compiler generated dependencies of target rp_encoder_agent_node[0m
+[1.468s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent_node[0m
+[1.474s] [ 62%] Built target nucleo_agent
+[1.479s] [ 65%] [32mBuilding CXX object CMakeFiles/rp_encoder_agent_node.dir/src/rp_encoder_agent.cpp.o[0m
+[1.484s] [ 68%] [32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o[0m
+[1.488s] [ 71%] Built target nucleo_agent__py
+[1.495s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_py[0m
+[1.504s] [ 77%] Built target nucleo_agent__rosidl_generator_py
+[1.512s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.514s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c__pyext[0m
+[1.520s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c__pyext[0m
+[1.525s] [ 82%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext
+[1.530s] [ 88%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext
+[1.537s] [ 94%] Built target nucleo_agent__rosidl_typesupport_c__pyext
+[1.632s] running egg_info
+[1.633s] writing nucleo_agent.egg-info/PKG-INFO
+[1.633s] writing dependency_links to nucleo_agent.egg-info/dependency_links.txt
+[1.633s] writing top-level names to nucleo_agent.egg-info/top_level.txt
+[1.636s] reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[1.636s] writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[1.658s] [ 94%] Built target ament_cmake_python_build_nucleo_agent_egg
+[3.051s] [01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:[m[K In lambda function:
+[3.051s] [01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:85:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.051s]    85 |           for (size_t i = 0; [01;35m[Ki < len[m[K; i++)
+[3.051s]       |                              [01;35m[K~~^~~~~[m[K
+[3.052s] [01m[K/ROS_ws/src/nucleo_agent/src/rp_encoder_agent.cpp:76:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.053s]    76 |       int [01;35m[Kcount[m[K = 0;
+[3.053s]       |           [01;35m[K^~~~~[m[K
+[3.149s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In lambda function:
+[3.149s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:94:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.150s]    94 |           for (size_t i = 0; [01;35m[Ki < len[m[K; i++)
+[3.150s]       |                              [01;35m[K~~^~~~~[m[K
+[3.150s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:85:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.151s]    85 |       int [01;35m[Kcount[m[K = 0;
+[3.151s]       |           [01;35m[K^~~~~[m[K
+[3.153s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::motor_3omni_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.153s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:183:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kencoded_data[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[3.153s]   183 |       auto [01;35m[Kencoded_data[m[K = cobs_encode(send_data);
+[3.153s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[3.154s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::motor_4omni_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.154s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:203:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kencoded_data[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[3.154s]   203 |       auto [01;35m[Kencoded_data[m[K = cobs_encode(send_data);
+[3.154s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[3.157s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.158s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[3.158s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::daiza_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.158s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:247:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[3.158s]   247 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"daiza write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[3.158s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.158s]       |                                                                       [32m[K|[m[K
+[3.158s]       |                                                                       [32m[Kssize_t {aka long int}[m[K
+[3.158s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:247:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.158s]   247 |       RCLCPP_INFO(this->get_logger(), "daiza write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[3.158s]       |                                                             [01;36m[K~^[m[K
+[3.158s]       |                                                              [01;36m[K|[m[K
+[3.158s]       |                                                              [01;36m[Kint[m[K
+[3.158s]       |                                                             [32m[K%ld[m[K
+[3.158s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.159s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[3.159s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:248:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[3.159s]   248 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"daiza write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[3.159s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.159s]       |                                                                       [32m[K|[m[K
+[3.159s]       |                                                                       [32m[Kssize_t {aka long int}[m[K
+[3.159s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:248:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.159s]   248 |       RCLCPP_INFO(this->get_logger(), "daiza write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[3.159s]       |                                                             [01;36m[K~^[m[K
+[3.159s]       |                                                              [01;36m[K|[m[K
+[3.159s]       |                                                              [01;36m[Kint[m[K
+[3.160s]       |                                                             [32m[K%ld[m[K
+[3.160s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.160s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[3.160s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::hina_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.160s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:284:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[3.160s]   284 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"hina write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[3.160s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.160s]       |                                                                      [32m[K|[m[K
+[3.160s]       |                                                                      [32m[Kssize_t {aka long int}[m[K
+[3.160s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:284:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.160s]   284 |       RCLCPP_INFO(this->get_logger(), "hina write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[3.161s]       |                                                            [01;36m[K~^[m[K
+[3.161s]       |                                                             [01;36m[K|[m[K
+[3.161s]       |                                                             [01;36m[Kint[m[K
+[3.161s]       |                                                            [32m[K%ld[m[K
+[4.321s] [ 97%] [32m[1mLinking CXX executable rp_encoder_agent_node[0m
+[4.446s] [ 97%] Built target rp_encoder_agent_node
+[9.245s] [100%] [32m[1mLinking CXX executable nucleo_agent_node[0m
+[9.620s] [100%] Built target nucleo_agent_node
+[9.626s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[9.656s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/nucleo_agent
+[9.660s] -- Install configuration: ""
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/rosidl_interfaces/nucleo_agent
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_generator_c__visibility_control.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/sensor_states.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__type_support.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__functions.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__struct.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__type_support.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__functions.c
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__struct.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__functions.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__struct.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__functions.c
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__functions.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__functions.c
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/actuator_commands.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/odometer_data.h
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/library_path.sh
+[9.661s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/library_path.dsv
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_generator_c.so
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent
+[9.661s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_c.h
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_fastrtps_c.h
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_fastrtps_c.h
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_fastrtps_c.so
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/sensor_states.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__traits.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__struct.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__traits.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__struct.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__builder.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__traits.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__builder.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__struct.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__builder.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/odometer_data.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/actuator_commands.hpp
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.662s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/dds_fastrtps
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_fastrtps_cpp.hpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_fastrtps_cpp.so
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.c
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__type_support.c
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_introspection_c.h
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_introspection_c.h
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_introspection_c.h
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__type_support.c
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_introspection_c.so
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_c.so
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__rosidl_typesupport_introspection_cpp.hpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__rosidl_typesupport_introspection_cpp.hpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/actuator_commands__type_support.cpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__type_support.cpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/sensor_states__type_support.cpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/include/nucleo_agent/nucleo_agent/msg/detail/odometer_data__rosidl_typesupport_introspection_cpp.hpp
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_introspection_cpp.so
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_typesupport_cpp.so
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/pythonpath.sh
+[9.663s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/pythonpath.dsv
+[9.663s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info
+[9.663s] -- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.663s] -- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.663s] -- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/PKG-INFO
+[9.663s] -- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent-0.0.0-py3.10.egg-info/top_level.txt
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_introspection_c.c
+[9.664s] -- Installing: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/__init__.py
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_sensor_states.py
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_odometer_data.py
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_odometer_data_s.c
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_sensor_states_s.c
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_actuator_commands.py
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/__init__.py
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg/_actuator_commands_s.c
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/libnucleo_agent__rosidl_generator_py.so
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.664s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/_nucleo_agent_s.ep.rosidl_typesupport_c.c
+[9.683s] Listing '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent'...
+[9.683s] Compiling '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/__init__.py'...
+[9.683s] Listing '/ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/msg'...
+[9.686s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.686s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.686s] -- Up-to-date: /ROS_ws/install/nucleo_agent/local/lib/python3.10/dist-packages/nucleo_agent/nucleo_agent_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.686s] -- Up-to-date: /ROS_ws/install/nucleo_agent/lib/libnucleo_agent__rosidl_generator_py.so
+[9.687s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.idl
+[9.687s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.msg
+[9.687s] -- Installing: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent_node
+[9.691s] -- Set runtime path of "/ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent_node" to ""
+[9.691s] -- Installing: /ROS_ws/install/nucleo_agent/lib/nucleo_agent/rp_encoder_agent_node
+[9.692s] -- Set runtime path of "/ROS_ws/install/nucleo_agent/lib/nucleo_agent/rp_encoder_agent_node" to ""
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh
+[9.692s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.dsv
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.sh
+[9.692s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/path.dsv
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.bash
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.sh
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.zsh
+[9.692s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/local_setup.dsv
+[9.692s] -- Installing: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.dsv
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/packages/nucleo_agent
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cExport.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cExport-noconfig.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cExport.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_cppExport.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.692s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cExport.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cExport.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cExport-noconfig.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cppExport.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cppExport.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agent__rosidl_typesupport_cppExport-noconfig.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_pyExport.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/export_nucleo_agent__rosidl_generator_pyExport-noconfig.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_libraries-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/ament_cmake_export_targets-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake/nucleo_agentConfig-version.cmake
+[9.693s] -- Up-to-date: /ROS_ws/install/nucleo_agent/share/nucleo_agent/package.xml
+[9.696s] Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/nucleo_agent

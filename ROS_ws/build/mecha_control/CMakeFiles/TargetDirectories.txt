@@ -15,6 +15,7 @@
 /ROS_ws/build/mecha_control/CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_c__pyext.dir
 /ROS_ws/build/mecha_control/CMakeFiles/mecha_control__rosidl_typesupport_introspection_c__pyext.dir
 /ROS_ws/build/mecha_control/CMakeFiles/mecha_control__rosidl_typesupport_c__pyext.dir
+/ROS_ws/build/mecha_control/CMakeFiles/cmd_seq.dir
 /ROS_ws/build/mecha_control/CMakeFiles/test.dir
 /ROS_ws/build/mecha_control/CMakeFiles/edit_cache.dir
 /ROS_ws/build/mecha_control/CMakeFiles/rebuild_cache.dir

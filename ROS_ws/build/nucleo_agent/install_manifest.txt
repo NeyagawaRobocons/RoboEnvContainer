@@ -85,6 +85,7 @@
 /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.idl
 /ROS_ws/install/nucleo_agent/share/nucleo_agent/msg/OdometerData.msg
 /ROS_ws/install/nucleo_agent/lib/nucleo_agent/nucleo_agent_node
+/ROS_ws/install/nucleo_agent/lib/nucleo_agent/rp_encoder_agent_node
 /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/package_run_dependencies/nucleo_agent
 /ROS_ws/install/nucleo_agent/share/ament_index/resource_index/parent_prefix_path/nucleo_agent
 /ROS_ws/install/nucleo_agent/share/nucleo_agent/environment/ament_prefix_path.sh

@@ -3,3 +3,5 @@
 /ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/MechaState.idl
 /ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaState.idl
 /ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaStateArray.idl
+/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:srv/MechCmd.idl
+/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:action/MechCmd.idl

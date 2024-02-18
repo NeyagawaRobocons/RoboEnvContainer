@@ -1,0 +1,6 @@
+Invoking command in '/ROS_ws/build/robot_master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/robot_master -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/robot_master
+Invoked command in '/ROS_ws/build/robot_master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/robot_master -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/robot_master
+Invoking command in '/ROS_ws/build/robot_master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/robot_master -- -j12 -l12
+Invoked command in '/ROS_ws/build/robot_master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/robot_master -- -j12 -l12
+Invoking command in '/ROS_ws/build/robot_master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/robot_master
+Invoked command in '/ROS_ws/build/robot_master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/robot_master

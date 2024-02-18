@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pure_pursuit/action/PathAndFeedback.action
+// generated code does not contain a copyright notice
+
+#include "pure_pursuit/msg/Path2DWithAngles.idl"
+
+module pure_pursuit {
+  module action {
+    @verbatim (language="comment", text=
+      "パスとフィードバックのデータ")
+    struct PathAndFeedback_Goal {
+      @verbatim (language="comment", text=
+        "ゴール定義")
+      pure_pursuit::msg::Path2DWithAngles path_with_angles;
+
+      sequence<int32> feedback_indices;
+    };
+    @verbatim (language="comment", text=
+      "結果定義")
+    struct PathAndFeedback_Result {
+      int32 final_index;
+    };
+    @verbatim (language="comment", text=
+      "フィードバック定義")
+    struct PathAndFeedback_Feedback {
+      int32 current_index;
+    };
+  };
+};

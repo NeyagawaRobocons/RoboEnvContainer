@@ -1,0 +1,45 @@
+[0.042s] Invoking command in '/ROS_ws/build/mecha_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12
+[0.217s] [  1%] Built target mecha_control__cpp
+[0.217s] [ 12%] Built target mecha_control__rosidl_generator_c
+[0.218s] [ 12%] Built target ament_cmake_python_copy_mecha_control
+[0.218s] [ 23%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[0.218s] [ 34%] Built target mecha_control__rosidl_typesupport_cpp
+[0.218s] [ 45%] Built target mecha_control__rosidl_typesupport_c
+[0.218s] [ 56%] Built target mecha_control__rosidl_typesupport_introspection_c
+[0.220s] [ 67%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[0.220s] [ 78%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target cmd_seq[0m
+[0.220s] [ 78%] Built target mecha_control
+[0.220s] [ 79%] [32mBuilding CXX object CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o[0m
+[0.220s] [ 80%] Built target mecha_control__py
+[0.221s] [ 90%] Built target mecha_control__rosidl_generator_py
+[0.221s] [ 95%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[0.221s] [ 95%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+[0.221s] [ 98%] Built target mecha_control__rosidl_typesupport_c__pyext
+[0.235s] running egg_info
+[0.235s] writing mecha_control.egg-info/PKG-INFO
+[0.236s] writing dependency_links to mecha_control.egg-info/dependency_links.txt
+[0.236s] writing top-level names to mecha_control.egg-info/top_level.txt
+[0.238s] reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.239s] writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.269s] [ 98%] Built target ament_cmake_python_build_mecha_control_egg
+[1.576s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:[m[K In lambda function:
+[1.577s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:43:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksleep_for(int)[m[K’
+[1.577s]    43 |             [01;31m[Kstd::this_thread::sleep_for(5)[m[K;
+[1.577s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.577s] In file included from [01m[K/usr/include/c++/11/thread:44[m[K,
+[1.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+[1.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.577s]                  from [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:1[m[K:
+[1.577s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:70:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep, class _Period> void std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[1.577s]    70 |       [01;36m[Ksleep_for[m[K(const chrono::duration<_Rep, _Period>& __rtime)
+[1.577s]       |       [01;36m[K^~~~~~~~~[m[K
+[1.577s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:70:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.577s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:43:40:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[1.577s]    43 |             [01;36m[Kstd::this_thread::sleep_for(5)[m[K;
+[1.577s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.027s] gmake[2]: *** [CMakeFiles/cmd_seq.dir/build.make:76: CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o] Error 1
+[2.027s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/cmd_seq.dir/all] Error 2
+[2.028s] gmake: *** [Makefile:146: all] Error 2
+[2.029s] Invoked command in '/ROS_ws/build/mecha_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12

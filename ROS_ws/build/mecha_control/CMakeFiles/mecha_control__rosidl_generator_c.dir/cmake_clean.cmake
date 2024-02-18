@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o"
+  "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o.d"
   "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c.o"
   "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c.o.d"
   "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.o"
@@ -9,8 +11,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o.d"
   "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o"
   "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o.d"
+  "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o"
+  "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o.d"
   "libmecha_control__rosidl_generator_c.pdb"
   "libmecha_control__rosidl_generator_c.so"
+  "rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c"
+  "rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h"
+  "rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h"
+  "rosidl_generator_c/mecha_control/action/detail/mech_cmd__type_support.h"
+  "rosidl_generator_c/mecha_control/action/mech_cmd.h"
   "rosidl_generator_c/mecha_control/msg/actuator_commands.h"
   "rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c"
   "rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.h"
@@ -36,6 +45,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/mecha_control/msg/point_and_mecha_state.h"
   "rosidl_generator_c/mecha_control/msg/point_and_mecha_state_array.h"
   "rosidl_generator_c/mecha_control/msg/sensor_states.h"
+  "rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c"
+  "rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.h"
+  "rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h"
+  "rosidl_generator_c/mecha_control/srv/detail/mech_cmd__type_support.h"
+  "rosidl_generator_c/mecha_control/srv/mech_cmd.h"
 )
 
 # Per-language clean rules from dependency scanning.

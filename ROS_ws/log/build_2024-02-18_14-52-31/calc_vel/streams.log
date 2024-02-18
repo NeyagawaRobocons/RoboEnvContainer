@@ -1,0 +1,29 @@
+[0.473s] Invoking command in '/ROS_ws/src/chassis_haru_robo2024/calc_vel': PYTHONPATH=/ROS_ws/build/calc_vel/prefix_override:/ROS_ws/install/calc_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/calc_vel build --build-base /ROS_ws/build/calc_vel/build install --record /ROS_ws/build/calc_vel/install.log --single-version-externally-managed
+[0.605s] running egg_info
+[0.606s] writing ../../../build/calc_vel/calc_vel.egg-info/PKG-INFO
+[0.606s] writing dependency_links to ../../../build/calc_vel/calc_vel.egg-info/dependency_links.txt
+[0.606s] writing entry points to ../../../build/calc_vel/calc_vel.egg-info/entry_points.txt
+[0.606s] writing requirements to ../../../build/calc_vel/calc_vel.egg-info/requires.txt
+[0.606s] writing top-level names to ../../../build/calc_vel/calc_vel.egg-info/top_level.txt
+[0.607s] reading manifest file '../../../build/calc_vel/calc_vel.egg-info/SOURCES.txt'
+[0.608s] writing manifest file '../../../build/calc_vel/calc_vel.egg-info/SOURCES.txt'
+[0.608s] running build
+[0.608s] running build_py
+[0.609s] running install
+[0.609s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.609s]   warnings.warn(
+[0.609s] running install_lib
+[0.610s] running install_data
+[0.611s] running install_egg_info
+[0.612s] removing '/ROS_ws/install/calc_vel/lib/python3.10/site-packages/calc_vel-0.0.0-py3.10.egg-info' (and everything under it)
+[0.612s] Copying ../../../build/calc_vel/calc_vel.egg-info to /ROS_ws/install/calc_vel/lib/python3.10/site-packages/calc_vel-0.0.0-py3.10.egg-info
+[0.612s] running install_scripts
+[0.626s] Installing PI_simulator script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.626s] Installing goal_tf_node script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.626s] Installing localize_node script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.626s] Installing param_control_node script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.626s] Installing pose_PI_controller script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.627s] Installing robot_tf_node script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.627s] Installing stl_marker_publisher script to /ROS_ws/install/calc_vel/lib/calc_vel
+[0.627s] writing list of installed files to '/ROS_ws/build/calc_vel/install.log'
+[0.644s] Invoked command in '/ROS_ws/src/chassis_haru_robo2024/calc_vel' returned '0': PYTHONPATH=/ROS_ws/build/calc_vel/prefix_override:/ROS_ws/install/calc_vel/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/calc_vel build --build-base /ROS_ws/build/calc_vel/build install --record /ROS_ws/build/calc_vel/install.log --single-version-externally-managed

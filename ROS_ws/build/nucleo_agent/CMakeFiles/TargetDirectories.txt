@@ -16,6 +16,7 @@
 /ROS_ws/build/nucleo_agent/CMakeFiles/nucleo_agent__rosidl_typesupport_introspection_c__pyext.dir
 /ROS_ws/build/nucleo_agent/CMakeFiles/nucleo_agent__rosidl_typesupport_c__pyext.dir
 /ROS_ws/build/nucleo_agent/CMakeFiles/nucleo_agent_node.dir
+/ROS_ws/build/nucleo_agent/CMakeFiles/rp_encoder_agent_node.dir
 /ROS_ws/build/nucleo_agent/CMakeFiles/test.dir
 /ROS_ws/build/nucleo_agent/CMakeFiles/edit_cache.dir
 /ROS_ws/build/nucleo_agent/CMakeFiles/rebuild_cache.dir

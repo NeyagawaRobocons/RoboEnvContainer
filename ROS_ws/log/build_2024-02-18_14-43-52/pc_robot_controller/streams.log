@@ -1,0 +1,105 @@
+[0.159s] Invoking command in '/ROS_ws/build/pc_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/pc_robot_controller -- -j12 -l12
+[0.176s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.299s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.318s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.326s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.394s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.600s] -- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)
+[0.601s] -- Found nucleo_agent: 0.0.0 (/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake)
+[0.626s] -- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)
+[0.635s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.720s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.733s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.777s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.777s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/pc_robot_controller/include>
+[0.777s] -- Configured cppcheck exclude dirs and/or files: 
+[0.778s] -- Added test 'lint_cmake' to check CMake code style
+[0.778s] -- Added test 'uncrustify' to check C / C++ code style
+[0.778s] -- Configured uncrustify additional arguments: 
+[0.779s] -- Added test 'xmllint' to check XML markup files
+[0.779s] -- Configuring done
+[0.790s] -- Generating done
+[0.791s] -- Build files have been written to: /ROS_ws/build/pc_robot_controller
+[0.807s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.817s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[2.196s] In file included from [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:16[m[K:
+[2.196s] [01m[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:[m[K In member function ‘[01m[Kvoid Touch::process()[m[K’:
+[2.196s] [01m[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:23:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[2.196s]    23 |         for (size_t i = 0; [01;35m[Ki < num[m[K; i++)
+[2.196s]       |                            [01;35m[K~~^~~~~[m[K
+[2.206s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::ui_main()[m[K’:
+[2.206s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]    57 |         robot.origin = Vector2{[01;35m[KscreenWidth/2[m[K, screenHeight/2};
+[2.207s]       |                                [01;35m[K~~~~~~~~~~~^~[m[K
+[2.207s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenHeight / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]    57 |         robot.origin = Vector2{screenWidth/2, [01;35m[KscreenHeight/2[m[K};
+[2.207s]       |                                               [01;35m[K~~~~~~~~~~~~^~[m[K
+[2.207s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:96:53:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 210)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]    96 |         label title_mech("mech state", {[01;35m[KscreenWidth -210[m[K, 70}, 20);
+[2.207s]       |                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.207s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:97:44:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]    97 |         push_button daiza_seq({[01;35m[KscreenWidth -250[m[K, 100}, 180, 70, GRAY, PINK);
+[2.207s]       |                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.207s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:98:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]    98 |         push_button hina_seq({[01;35m[KscreenWidth -250[m[K, 200}, 180, 70, GRAY, PINK);
+[2.207s]       |                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.207s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:99:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]    99 |         toggle_button hina_servo({[01;35m[KscreenWidth -250[m[K, 300}, 180, 70, GRAY, PINK);
+[2.207s]       |                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.207s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:100:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 200)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.207s]   100 |         toggle_button bonbori_seq({[01;35m[KscreenWidth -200[m[K, 500}, 130, 70, GRAY, PINK);
+[2.208s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:111:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   111 |    label label_daiza_seq(text_label_daiza_seq, {[01;35m[KscreenWidth -240[m[K, 125}, 20);
+[2.208s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] 
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:112:64:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   112 |      label label_hina_seq(text_label_hina_seq, {[01;35m[KscreenWidth -240[m[K, 225}, 20);
+[2.208s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] 
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:113:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   113 |         label label_hina_servo("hina servo", {[01;35m[KscreenWidth -240[m[K, 325}, 20);
+[2.208s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:114:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 190)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   114 |         label label_bonbori_seq("bonbori", {[01;35m[KscreenWidth -190[m[K, 525}, 20);
+[2.208s]       |                                             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:145:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 210)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   145 |             title_mech.move({[01;35m[KscreenWidth -210[m[K, 70});
+[2.208s]       |                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:146:41:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   146 |             daiza_seq.move({[01;35m[KscreenWidth -250[m[K, 100});
+[2.208s]       |                             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:147:40:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   147 |             hina_seq.move({[01;35m[KscreenWidth -250[m[K, 200});
+[2.208s]       |                            [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:148:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   148 |             hina_servo.move({[01;35m[KscreenWidth -250[m[K, 300});
+[2.208s]       |                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:149:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 200)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   149 |             bonbori_seq.move({[01;35m[KscreenWidth -200[m[K, 500});
+[2.208s]       |                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:150:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   150 |             label_daiza_seq.move({[01;35m[KscreenWidth -240[m[K, 125});
+[2.208s]       |                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:151:46:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.208s]   151 |             label_hina_seq.move({[01;35m[KscreenWidth -240[m[K, 225});
+[2.208s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.208s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:152:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.209s]   152 |             label_hina_servo.move({[01;35m[KscreenWidth -240[m[K, 325});
+[2.209s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.209s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:153:49:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 190)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.209s]   153 |             label_bonbori_seq.move({[01;35m[KscreenWidth -190[m[K, 525});
+[2.209s]       |                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.209s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.209s]   154 |             robot.origin = Vector2{[01;35m[KscreenWidth/2[m[K, screenHeight/2};
+[2.209s]       |                                    [01;35m[K~~~~~~~~~~~^~[m[K
+[2.209s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:63:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenHeight / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[2.209s]   154 |             robot.origin = Vector2{screenWidth/2, [01;35m[KscreenHeight/2[m[K};
+[2.209s]       |                                                   [01;35m[K~~~~~~~~~~~~^~[m[K
+[4.060s] [100%] [32m[1mLinking CXX executable controller[0m
+[4.290s] [100%] Built target controller

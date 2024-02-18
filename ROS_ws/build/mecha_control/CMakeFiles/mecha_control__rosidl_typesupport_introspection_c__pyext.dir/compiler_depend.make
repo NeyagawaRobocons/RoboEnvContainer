@@ -258,8 +258,22 @@ CMakeFiles/mecha_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_g
   rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.h \
   rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.h \
   rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__struct.h \
-  rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.h
+  rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.h \
+  rosidl_generator_c/mecha_control/srv/detail/mech_cmd__type_support.h \
+  rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h \
+  rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.h \
+  rosidl_generator_c/mecha_control/action/detail/mech_cmd__type_support.h \
+  rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h
 
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.h:
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h:
 
 /usr/include/linux/stddef.h:
 
@@ -423,6 +437,8 @@ rosidl_generator_c/mecha_control/msg/detail/actuator_commands__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
@@ -462,6 +478,8 @@ rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.h:
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
 
 /usr/include/python3.10/funcobject.h:
 
@@ -577,6 +595,8 @@ rosidl_generator_c/mecha_control/msg/detail/sensor_states__type_support.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__type_support.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
@@ -584,6 +604,8 @@ rosidl_generator_c/mecha_control/msg/detail/sensor_states__type_support.h:
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/python3.10/exports.h:
+
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -640,6 +662,8 @@ rosidl_generator_c/mecha_control/msg/detail/sensor_states__type_support.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
 /usr/include/python3.10/cpython/listobject.h:
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__type_support.h:
 
 /usr/include/python3.10/dictobject.h:
 

@@ -1,0 +1,24 @@
+[0.034s] Invoking command in '/ROS_ws/build/robot_master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/robot_master -- -j12 -l12
+[0.192s] [100%] Built target action_server
+[0.192s] [100%] Built target robot_master_node
+[0.198s] Invoked command in '/ROS_ws/build/robot_master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/robot_master -- -j12 -l12
+[0.260s] Invoking command in '/ROS_ws/build/robot_master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/robot_master
+[0.268s] -- Install configuration: ""
+[0.268s] -- Up-to-date: /ROS_ws/install/robot_master/lib/robot_master/robot_master_node
+[0.268s] -- Up-to-date: /ROS_ws/install/robot_master/lib/robot_master/action_server
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/ament_index/resource_index/package_run_dependencies/robot_master
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/ament_index/resource_index/parent_prefix_path/robot_master
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/ament_prefix_path.sh
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/ament_prefix_path.dsv
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/path.sh
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/environment/path.dsv
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.bash
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.sh
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.zsh
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/local_setup.dsv
+[0.269s] -- Installing: /ROS_ws/install/robot_master/share/robot_master/package.dsv
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/ament_index/resource_index/packages/robot_master
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/cmake/robot_masterConfig.cmake
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/cmake/robot_masterConfig-version.cmake
+[0.269s] -- Up-to-date: /ROS_ws/install/robot_master/share/robot_master/package.xml
+[0.279s] Invoked command in '/ROS_ws/build/robot_master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/robot_master

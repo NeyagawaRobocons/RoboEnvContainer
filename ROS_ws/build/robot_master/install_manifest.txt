@@ -1,0 +1,17 @@
+/ROS_ws/install/robot_master/lib/robot_master/robot_master_node
+/ROS_ws/install/robot_master/lib/robot_master/action_server
+/ROS_ws/install/robot_master/share/ament_index/resource_index/package_run_dependencies/robot_master
+/ROS_ws/install/robot_master/share/ament_index/resource_index/parent_prefix_path/robot_master
+/ROS_ws/install/robot_master/share/robot_master/environment/ament_prefix_path.sh
+/ROS_ws/install/robot_master/share/robot_master/environment/ament_prefix_path.dsv
+/ROS_ws/install/robot_master/share/robot_master/environment/path.sh
+/ROS_ws/install/robot_master/share/robot_master/environment/path.dsv
+/ROS_ws/install/robot_master/share/robot_master/local_setup.bash
+/ROS_ws/install/robot_master/share/robot_master/local_setup.sh
+/ROS_ws/install/robot_master/share/robot_master/local_setup.zsh
+/ROS_ws/install/robot_master/share/robot_master/local_setup.dsv
+/ROS_ws/install/robot_master/share/robot_master/package.dsv
+/ROS_ws/install/robot_master/share/ament_index/resource_index/packages/robot_master
+/ROS_ws/install/robot_master/share/robot_master/cmake/robot_masterConfig.cmake
+/ROS_ws/install/robot_master/share/robot_master/cmake/robot_masterConfig-version.cmake
+/ROS_ws/install/robot_master/share/robot_master/package.xml

@@ -1,0 +1,3 @@
+Invoking command in '/ROS_ws/build/calc_wheel_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/chassis_haru_robo2024/calc_wheel_vel -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/calc_wheel_vel
+Invoked command in '/ROS_ws/build/calc_wheel_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/chassis_haru_robo2024/calc_wheel_vel -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/calc_wheel_vel
+Invoking command in '/ROS_ws/build/calc_wheel_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/calc_wheel_vel -- -j12 -l12

@@ -87,6 +87,15 @@ rosidl_generator_c/mecha_control/msg/sensor_states.h: rosidl_adapter/mecha_contr
 rosidl_generator_c/mecha_control/msg/sensor_states.h: rosidl_adapter/mecha_control/msg/MechaState.idl
 rosidl_generator_c/mecha_control/msg/sensor_states.h: rosidl_adapter/mecha_control/msg/PointAndMechaState.idl
 rosidl_generator_c/mecha_control/msg/sensor_states.h: rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: rosidl_adapter/mecha_control/srv/MechCmd.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: rosidl_adapter/mecha_control/action/MechCmd.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/mecha_control/msg/sensor_states.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /ROS_ws/build/mecha_control/rosidl_generator_c__arguments.json
 
@@ -147,6 +156,30 @@ rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__struct.
 rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__type_support.h
 
+rosidl_generator_c/mecha_control/srv/mech_cmd.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/srv/mech_cmd.h
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.h
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__type_support.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/srv/detail/mech_cmd__type_support.h
+
+rosidl_generator_c/mecha_control/action/mech_cmd.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/action/mech_cmd.h
+
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h
+
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h
+
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__type_support.h: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/action/detail/mech_cmd__type_support.h
+
 rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c: rosidl_generator_c/mecha_control/msg/sensor_states.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c
 
@@ -161,6 +194,12 @@ rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c: 
 
 rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c: rosidl_generator_c/mecha_control/msg/sensor_states.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c
+
+rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c
+
+rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c: rosidl_generator_c/mecha_control/msg/sensor_states.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c
 
 CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o: CMakeFiles/mecha_control__rosidl_generator_c.dir/flags.make
 CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o: rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c
@@ -232,13 +271,43 @@ CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_contro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c -o CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.s
 
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o: CMakeFiles/mecha_control__rosidl_generator_c.dir/flags.make
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o: rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o: CMakeFiles/mecha_control__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o -MF CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o.d -o CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o -c /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c
+
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c > CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.i
+
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c -o CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.s
+
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o: CMakeFiles/mecha_control__rosidl_generator_c.dir/flags.make
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o: rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o: CMakeFiles/mecha_control__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o -MF CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o.d -o CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o -c /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c
+
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c > CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.i
+
+CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c -o CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.s
+
 # Object files for target mecha_control__rosidl_generator_c
 mecha_control__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/sensor_states__functions.c.o" \
 "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c.o" \
 "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.o" \
 "CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o" \
-"CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o"
+"CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o" \
+"CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o" \
+"CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o"
 
 # External object files for target mecha_control__rosidl_generator_c
 mecha_control__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -248,11 +317,16 @@ libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_genera
 libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/mecha_state__functions.c.o
 libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state__functions.c.o
 libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/msg/detail/point_and_mecha_state_array__functions.c.o
+libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c.o
+libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c.o
 libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/build.make
+libmecha_control__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+libmecha_control__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libmecha_control__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libmecha_control__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmecha_control__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmecha_control__rosidl_generator_c.so: CMakeFiles/mecha_control__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libmecha_control__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library libmecha_control__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mecha_control__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -263,6 +337,11 @@ CMakeFiles/mecha_control__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/mecha_control__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/mecha_control__rosidl_generator_c.dir/clean
 
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.c
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/action/detail/mech_cmd__type_support.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/action/mech_cmd.h
 CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/msg/actuator_commands.h
 CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.c
 CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/msg/detail/actuator_commands__functions.h
@@ -288,6 +367,11 @@ CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mech
 CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/msg/point_and_mecha_state.h
 CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/msg/point_and_mecha_state_array.h
 CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/msg/sensor_states.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.c
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/srv/detail/mech_cmd__functions.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/srv/detail/mech_cmd__type_support.h
+CMakeFiles/mecha_control__rosidl_generator_c.dir/depend: rosidl_generator_c/mecha_control/srv/mech_cmd.h
 	cd /ROS_ws/build/mecha_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ROS_ws/src/mecha_control /ROS_ws/src/mecha_control /ROS_ws/build/mecha_control /ROS_ws/build/mecha_control /ROS_ws/build/mecha_control/CMakeFiles/mecha_control__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mecha_control__rosidl_generator_c.dir/depend
 

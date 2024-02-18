@@ -406,6 +406,19 @@ nucleo_agent_node/fast:
 .PHONY : nucleo_agent_node/fast
 
 #=============================================================================
+# Target rules for targets named rp_encoder_agent_node
+
+# Build rule for target.
+rp_encoder_agent_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rp_encoder_agent_node
+.PHONY : rp_encoder_agent_node
+
+# fast build rule for target.
+rp_encoder_agent_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rp_encoder_agent_node.dir/build.make CMakeFiles/rp_encoder_agent_node.dir/build
+.PHONY : rp_encoder_agent_node/fast
+
+#=============================================================================
 # Target rules for targets named nucleo_agent__py
 
 # Build rule for target.
@@ -706,6 +719,30 @@ src/nucleo_agent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nucleo_agent_node.dir/build.make CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.s
 .PHONY : src/nucleo_agent.cpp.s
 
+src/rp_encoder_agent.o: src/rp_encoder_agent.cpp.o
+.PHONY : src/rp_encoder_agent.o
+
+# target to build an object file
+src/rp_encoder_agent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rp_encoder_agent_node.dir/build.make CMakeFiles/rp_encoder_agent_node.dir/src/rp_encoder_agent.cpp.o
+.PHONY : src/rp_encoder_agent.cpp.o
+
+src/rp_encoder_agent.i: src/rp_encoder_agent.cpp.i
+.PHONY : src/rp_encoder_agent.i
+
+# target to preprocess a source file
+src/rp_encoder_agent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rp_encoder_agent_node.dir/build.make CMakeFiles/rp_encoder_agent_node.dir/src/rp_encoder_agent.cpp.i
+.PHONY : src/rp_encoder_agent.cpp.i
+
+src/rp_encoder_agent.s: src/rp_encoder_agent.cpp.s
+.PHONY : src/rp_encoder_agent.s
+
+# target to generate assembly for a file
+src/rp_encoder_agent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rp_encoder_agent_node.dir/build.make CMakeFiles/rp_encoder_agent_node.dir/src/rp_encoder_agent.cpp.s
+.PHONY : src/rp_encoder_agent.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -738,6 +775,7 @@ help:
 	@echo "... nucleo_agent__rosidl_typesupport_introspection_c__pyext"
 	@echo "... nucleo_agent__rosidl_typesupport_introspection_cpp"
 	@echo "... nucleo_agent_node"
+	@echo "... rp_encoder_agent_node"
 	@echo "... rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.o"
 	@echo "... rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.i"
 	@echo "... rosidl_generator_c/nucleo_agent/msg/detail/odometer_data__functions.s"
@@ -774,6 +812,9 @@ help:
 	@echo "... src/nucleo_agent.o"
 	@echo "... src/nucleo_agent.i"
 	@echo "... src/nucleo_agent.s"
+	@echo "... src/rp_encoder_agent.o"
+	@echo "... src/rp_encoder_agent.i"
+	@echo "... src/rp_encoder_agent.s"
 .PHONY : help
 
 

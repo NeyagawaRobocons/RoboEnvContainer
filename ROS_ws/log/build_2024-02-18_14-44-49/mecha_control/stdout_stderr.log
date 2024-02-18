@@ -1,0 +1,204 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.7 (/opt/ros/humble/share/rclpy/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+[33mCMake Warning at CMakeLists.txt:32 (add_executable):
+  Cannot generate a safe runtime search path for target cmd_seq because there
+  is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+    dir 1 is [/ROS_ws/install/mecha_control/lib]
+      dir 2 must precede it due to runtime library [libmecha_control__rosidl_typesupport_introspection_c.so]
+    dir 2 is [/ROS_ws/build/mecha_control]
+      dir 1 must precede it due to runtime library [libmecha_control__rosidl_typesupport_fastrtps_c.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m
+-- Generating done
+-- Build files have been written to: /ROS_ws/build/mecha_control
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_generator_c[0m
+[  1%] Built target mecha_control__cpp
+[ 12%] Built target mecha_control__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_mecha_control
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_c[0m
+[ 23%] Built target mecha_control__rosidl_typesupport_c
+[ 34%] Built target mecha_control__rosidl_typesupport_introspection_c
+[ 45%] Built target mecha_control__rosidl_typesupport_cpp
+[ 56%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[ 78%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[ 79%] [32mBuilding CXX object CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o[0m
+[ 79%] Built target mecha_control
+[ 80%] Built target mecha_control__py
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_generator_py[0m
+[ 90%] Built target mecha_control__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target mecha_control__rosidl_typesupport_introspection_c__pyext[0m
+[ 93%] Built target mecha_control__rosidl_typesupport_c__pyext
+[ 95%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing mecha_control.egg-info/PKG-INFO
+writing dependency_links to mecha_control.egg-info/dependency_links.txt
+writing top-level names to mecha_control.egg-info/top_level.txt
+reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_mecha_control_egg
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   16 | aiza_cmd_callback(const std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Request> request,
+      |                                                             [01;31m[K^~~~~~~~[m[K
+      |                                                             [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 | k(const std::shared_ptr<mecha_control::srv::mech_cmd::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   16 | aiza_cmd_callback(const std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Request> request,
+      |                                                             [01;31m[K^~~~~~~~[m[K
+      |                                                             [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 | k(const std::shared_ptr<mecha_control::srv::mech_cmd::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   16 | aiza_cmd_callback(const std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Request> request,
+      |                                                             [01;31m[K^~~~~~~~[m[K
+      |                                                             [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 | k(const std::shared_ptr<mecha_control::srv::mech_cmd::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:35:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   16 |     void daiza_cmd_callback(const [01;31m[Kstd[m[K::shared_ptr<mecha_control::srv::mech_cmd::Request> request,
+      |                                   [01;31m[K^~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmecha_control::srv::mech_cmd[m[K’ has not been declared
+   16 | aiza_cmd_callback(const std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Request> request,
+      |                                                             [01;31m[K^~~~~~~~[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:16:29:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   16 |     void daiza_cmd_callback([01;31m[Kconst[m[K std::shared_ptr<mecha_control::srv::mech_cmd::Request> request,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   17 |         std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Response> response) const
+      |                                             [01;31m[K^~~~~~~~[m[K
+      |                                             [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |       std::shared_ptr<mecha_control::srv::mech_cmd::Response[01;31m[K>[m[K response) const
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   17 |         std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Response> response) const
+      |                                             [01;31m[K^~~~~~~~[m[K
+      |                                             [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |       std::shared_ptr<mecha_control::srv::mech_cmd::Response[01;31m[K>[m[K response) const
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   17 |         std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Response> response) const
+      |                                             [01;31m[K^~~~~~~~[m[K
+      |                                             [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |       std::shared_ptr<mecha_control::srv::mech_cmd::Response[01;31m[K>[m[K response) const
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   17 |         [01;31m[Kstd[m[K::shared_ptr<mecha_control::srv::mech_cmd::Response> response) const
+      |         [01;31m[K^~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmecha_control::srv::mech_cmd[m[K’ has not been declared
+   17 |         std::shared_ptr<mecha_control::srv::[01;31m[Kmech_cmd[m[K::Response> response) const
+      |                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:17:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   17 |         [01;31m[Kstd[m[K::shared_ptr<mecha_control::srv::mech_cmd::Response> response) const
+      |         [01;31m[K^~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   22 |     rclcpp::Service<mecha_control::srv::[01;31m[Kmech_cmd[m[K>::SharedPtr daiza_service;
+      |                                         [01;31m[K^~~~~~~~[m[K
+      |                                         [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:22:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |     rclcpp::Service<mecha_control::srv::mech_cmd[01;31m[K>[m[K::SharedPtr daiza_service;
+      |                                                 [01;31m[K^[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:22:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |     rclcpp::Service<mecha_control::srv::mech_cmd>::[01;31m[KSharedPtr[m[K daiza_service;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:22:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kdaiza_service[m[K’ does not name a type
+   22 |    rclcpp::Service<mecha_control::srv::mech_cmd>::SharedPtr [01;31m[Kdaiza_service[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:[m[K In constructor ‘[01m[Kmech_seq_node::mech_seq_node()[m[K’:
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   10 |         [01;31m[Ksubscription_[m[K = this->create_service<mecha_control::srv::mech_cmd>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:10:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kmech_cmd[m[K’ is not a member of ‘[01m[Kmecha_control::srv[m[K’; did you mean ‘[01m[KMechCmd[m[K’?
+   10 |     subscription_ = this->create_service<mecha_control::srv::[01;31m[Kmech_cmd[m[K>(
+      |                                                              [01;31m[K^~~~~~~~[m[K
+      |                                                              [32m[KMechCmd[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:10:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmech_seq_node::create_service<<expression error> >(const char [10], void (mech_seq_node::*)(...) const)[m[K’
+   10 |     subscription_ = [01;31m[Kthis->create_service<mecha_control::srv::mech_cmd>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   11 | [01;31m[K    "daiza_cmd", &mech_seq_node::daiza_cmd_callback)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:10:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |     subscription_ = [01;31m[Kthis->create_service<mecha_control::srv::mech_cmd>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   11 | [01;31m[K    "daiza_cmd", &mech_seq_node::daiza_cmd_callback)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   
+
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:[m[K In member function ‘[01m[Kvoid mech_seq_node::daiza_cmd_callback(...) const[m[K’:
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   19 |         [01;31m[Kresponse[m[K->result = OK
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:19:28:[m[K [01;31m[Kerror: [m[K‘[01m[KOK[m[K’ was not declared in this scope
+   19 |         response->result = [01;31m[KOK[m[K
+      |                            [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/cmd_seq.dir/build.make:76: CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/cmd_seq.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

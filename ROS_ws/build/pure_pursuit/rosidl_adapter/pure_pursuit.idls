@@ -1,0 +1,3 @@
+/ROS_ws/build/pure_pursuit/rosidl_adapter/pure_pursuit:msg/PointAndAngle.idl
+/ROS_ws/build/pure_pursuit/rosidl_adapter/pure_pursuit:msg/Path2DWithAngles.idl
+/ROS_ws/build/pure_pursuit/rosidl_adapter/pure_pursuit:action/PathAndFeedback.idl

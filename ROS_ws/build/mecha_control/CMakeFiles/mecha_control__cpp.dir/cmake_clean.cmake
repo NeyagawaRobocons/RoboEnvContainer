@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mecha_control__cpp"
+  "rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__builder.hpp"
+  "rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__struct.hpp"
+  "rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__traits.hpp"
+  "rosidl_generator_cpp/mecha_control/action/mech_cmd.hpp"
   "rosidl_generator_cpp/mecha_control/msg/actuator_commands.hpp"
   "rosidl_generator_cpp/mecha_control/msg/detail/actuator_commands__builder.hpp"
   "rosidl_generator_cpp/mecha_control/msg/detail/actuator_commands__struct.hpp"
@@ -20,6 +24,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state.hpp"
   "rosidl_generator_cpp/mecha_control/msg/point_and_mecha_state_array.hpp"
   "rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp"
+  "rosidl_generator_cpp/mecha_control/srv/detail/mech_cmd__builder.hpp"
+  "rosidl_generator_cpp/mecha_control/srv/detail/mech_cmd__struct.hpp"
+  "rosidl_generator_cpp/mecha_control/srv/detail/mech_cmd__traits.hpp"
+  "rosidl_generator_cpp/mecha_control/srv/mech_cmd.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,4 @@
+source;share/calc_wheel_vel/local_setup.bash
+source;share/calc_wheel_vel/local_setup.dsv
+source;share/calc_wheel_vel/local_setup.sh
+source;share/calc_wheel_vel/local_setup.zsh

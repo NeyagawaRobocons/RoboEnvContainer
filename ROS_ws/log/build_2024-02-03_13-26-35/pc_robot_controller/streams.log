@@ -1,0 +1,97 @@
+[0.016s] Invoking command in '/ROS_ws/build/pc_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/pc_robot_controller -- -j12 -l12
+[0.271s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[1.845s] In file included from [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:16[m[K:
+[1.845s] [01m[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:[m[K In member function ‘[01m[Kvoid Touch::process()[m[K’:
+[1.845s] [01m[K/ROS_ws/src/pc_robot_controller/src/touch.hpp:23:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.845s]    23 |         for (size_t i = 0; [01;35m[Ki < num[m[K; i++)
+[1.845s]       |                            [01;35m[K~~^~~~~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid Controller::ui_main()[m[K’:
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]    57 |         robot.origin = Vector2{[01;35m[KscreenWidth/2[m[K, screenHeight/2};
+[1.857s]       |                                [01;35m[K~~~~~~~~~~~^~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:57:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenHeight / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]    57 |         robot.origin = Vector2{screenWidth/2, [01;35m[KscreenHeight/2[m[K};
+[1.857s]       |                                               [01;35m[K~~~~~~~~~~~~^~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:96:53:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 210)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]    96 |         label title_mech("mech state", {[01;35m[KscreenWidth -210[m[K, 70}, 20);
+[1.857s]       |                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:97:44:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]    97 |         push_button daiza_seq({[01;35m[KscreenWidth -250[m[K, 100}, 180, 70, GRAY, PINK);
+[1.857s]       |                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:98:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]    98 |         push_button hina_seq({[01;35m[KscreenWidth -250[m[K, 200}, 180, 70, GRAY, PINK);
+[1.857s]       |                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:99:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]    99 |         toggle_button hina_servo({[01;35m[KscreenWidth -250[m[K, 300}, 180, 70, GRAY, PINK);
+[1.857s]       |                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.857s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:100:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 200)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.857s]   100 |         toggle_button bonbori_seq({[01;35m[KscreenWidth -200[m[K, 500}, 130, 70, GRAY, PINK);
+[1.858s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:111:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   111 |         label label_daiza_seq(text_label_daiza_seq, {[01;35m[KscreenWidth -240[m[K, 125}, 20);
+[1.858s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:112:64:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   112 |         label label_hina_seq(text_label_hina_seq, {[01;35m[KscreenWidth -240[m[K, 225}, 20);
+[1.858s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:113:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   113 |         label label_hina_servo("hina servo", {[01;35m[KscreenWidth -240[m[K, 325}, 20);
+[1.858s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:114:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 190)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   114 |         label label_bonbori_seq("bonbori", {[01;35m[KscreenWidth -190[m[K, 525}, 20);
+[1.858s]       |                                             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:145:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 210)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   145 |             title_mech.move({[01;35m[KscreenWidth -210[m[K, 70});
+[1.858s]       |                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:146:41:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   146 |             daiza_seq.move({[01;35m[KscreenWidth -250[m[K, 100});
+[1.858s]       |                             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:147:40:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   147 |             hina_seq.move({[01;35m[KscreenWidth -250[m[K, 200});
+[1.858s]       |                            [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.858s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:148:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 250)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.858s]   148 |             hina_servo.move({[01;35m[KscreenWidth -250[m[K, 300});
+[1.859s]       |                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:149:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 200)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   149 |             bonbori_seq.move({[01;35m[KscreenWidth -200[m[K, 500});
+[1.859s]       |                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:150:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   150 |             label_daiza_seq.move({[01;35m[KscreenWidth -240[m[K, 125});
+[1.859s]       |                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:151:46:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   151 |             label_hina_seq.move({[01;35m[KscreenWidth -240[m[K, 225});
+[1.859s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:152:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 240)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   152 |             label_hina_servo.move({[01;35m[KscreenWidth -240[m[K, 325});
+[1.859s]       |                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:153:49:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth - 190)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   153 |             label_bonbori_seq.move({[01;35m[KscreenWidth -190[m[K, 525});
+[1.859s]       |                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenWidth / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   154 |             robot.origin = Vector2{[01;35m[KscreenWidth/2[m[K, screenHeight/2};
+[1.859s]       |                                    [01;35m[K~~~~~~~~~~~^~[m[K
+[1.859s] [01m[K/ROS_ws/src/pc_robot_controller/src/controller.cpp:154:63:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(screenHeight / 2)[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K-Wnarrowing[m[K]
+[1.859s]   154 |             robot.origin = Vector2{screenWidth/2, [01;35m[KscreenHeight/2[m[K};
+[1.859s]       |                                                   [01;35m[K~~~~~~~~~~~~^~[m[K
+[3.782s] [100%] [32m[1mLinking CXX executable controller[0m
+[4.060s] [100%] Built target controller
+[4.066s] Invoked command in '/ROS_ws/build/pc_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/pc_robot_controller -- -j12 -l12
+[4.080s] Invoking command in '/ROS_ws/build/pc_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/pc_robot_controller
+[4.084s] -- Install configuration: ""
+[4.085s] -- Installing: /ROS_ws/install/pc_robot_controller/lib/pc_robot_controller/controller
+[4.089s] -- Set runtime path of "/ROS_ws/install/pc_robot_controller/lib/pc_robot_controller/controller" to ""
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/ament_index/resource_index/package_run_dependencies/pc_robot_controller
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/ament_index/resource_index/parent_prefix_path/pc_robot_controller
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/ament_prefix_path.sh
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/ament_prefix_path.dsv
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/path.sh
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/environment/path.dsv
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.bash
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.sh
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.zsh
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/local_setup.dsv
+[4.089s] -- Installing: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/package.dsv
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/ament_index/resource_index/packages/pc_robot_controller
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/cmake/pc_robot_controllerConfig.cmake
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/cmake/pc_robot_controllerConfig-version.cmake
+[4.089s] -- Up-to-date: /ROS_ws/install/pc_robot_controller/share/pc_robot_controller/package.xml
+[4.091s] Invoked command in '/ROS_ws/build/pc_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/pc_robot_controller
