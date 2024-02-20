@@ -1,0 +1,13 @@
+[33mCMake Warning at CMakeLists.txt:36 (add_executable):
+  Cannot generate a safe runtime search path for target cmd_seq because there
+  is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+    dir 1 is [/ROS_ws/install/mecha_control/lib]
+      dir 2 must precede it due to runtime library [libmecha_control__rosidl_typesupport_introspection_c.so]
+    dir 2 is [/ROS_ws/build/mecha_control]
+      dir 1 must precede it due to runtime library [libmecha_control__rosidl_typesupport_fastrtps_c.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m

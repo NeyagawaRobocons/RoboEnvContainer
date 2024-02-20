@@ -1,3 +1,7 @@
+action/DaizaCmd.action
+action/DaizaCmd.idl
+action/HinaCmd.action
+action/HinaCmd.idl
 action/MechCmd.action
 action/MechCmd.idl
 msg/ActuatorCommands.idl

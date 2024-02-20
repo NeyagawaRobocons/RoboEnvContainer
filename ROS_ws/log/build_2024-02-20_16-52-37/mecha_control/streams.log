@@ -1,0 +1,33 @@
+[0.037s] Invoking command in '/ROS_ws/build/mecha_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS_ws/install/calc_vel:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12
+[0.214s] [  1%] Built target mecha_control__cpp
+[0.214s] [ 12%] Built target mecha_control__rosidl_generator_c
+[0.215s] [ 12%] Built target ament_cmake_python_copy_mecha_control
+[0.215s] [ 23%] Built target mecha_control__rosidl_typesupport_fastrtps_c
+[0.215s] [ 35%] Built target mecha_control__rosidl_typesupport_c
+[0.215s] [ 52%] Built target mecha_control__rosidl_typesupport_introspection_c
+[0.215s] [ 57%] Built target mecha_control__rosidl_typesupport_introspection_cpp
+[0.215s] [ 69%] Built target mecha_control__rosidl_typesupport_cpp
+[0.215s] [ 80%] Built target mecha_control__rosidl_typesupport_fastrtps_cpp
+[0.215s] [35m[1mConsolidate compiler generated dependencies of target cmd_seq[0m
+[0.215s] [ 80%] Built target mecha_control
+[0.216s] [ 81%] [32mBuilding CXX object CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o[0m
+[0.216s] [ 82%] Built target mecha_control__py
+[0.216s] [ 92%] Built target mecha_control__rosidl_generator_py
+[0.216s] [ 94%] Built target mecha_control__rosidl_typesupport_fastrtps_c__pyext
+[0.216s] [ 96%] Built target mecha_control__rosidl_typesupport_c__pyext
+[0.216s] [ 98%] Built target mecha_control__rosidl_typesupport_introspection_c__pyext
+[0.228s] running egg_info
+[0.228s] writing mecha_control.egg-info/PKG-INFO
+[0.229s] writing dependency_links to mecha_control.egg-info/dependency_links.txt
+[0.229s] writing top-level names to mecha_control.egg-info/top_level.txt
+[0.231s] reading manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.232s] writing manifest file 'mecha_control.egg-info/SOURCES.txt'
+[0.260s] [ 98%] Built target ament_cmake_python_build_mecha_control_egg
+[1.654s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:[m[K In constructor ‘[01m[KMechSeqNode::MechSeqNode()[m[K’:
+[1.655s] [01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:43:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kdaiza_handle_accepted[m[K’ is not a member of ‘[01m[KMechSeqNode[m[K’
+[1.655s]    43 |             std::bind(&MechSeqNode::[01;31m[Kdaiza_handle_accepted[m[K, this, _1));
+[1.655s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.238s] gmake[2]: *** [CMakeFiles/cmd_seq.dir/build.make:76: CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o] Error 1
+[3.238s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/cmd_seq.dir/all] Error 2
+[3.238s] gmake: *** [Makefile:146: all] Error 2
+[3.239s] Invoked command in '/ROS_ws/build/mecha_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS_ws/install/calc_vel:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/mecha_control -- -j12 -l12

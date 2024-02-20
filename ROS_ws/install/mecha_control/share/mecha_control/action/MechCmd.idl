@@ -18,10 +18,10 @@ module mecha_control {
       const uint8 EXPAND_AND_PLACE_AND_CONTRACT = 9;
     };
     @verbatim (language="comment", text=
-      "request constants")
+      "goal constants")
     struct MechCmd_Goal {
       @verbatim (language="comment", text=
-        "request fields")
+        "goal fields")
       uint8 command;
     };
     module MechCmd_Result_Constants {
@@ -31,10 +31,10 @@ module mecha_control {
       const uint8 ERR_CANNOT_PROCESS = 3;
     };
     @verbatim (language="comment", text=
-      "response constants")
+      "result constants")
     struct MechCmd_Result {
       @verbatim (language="comment", text=
-        "response fields")
+        "result fields")
       uint8 result;
     };
     module MechCmd_Feedback_Constants {

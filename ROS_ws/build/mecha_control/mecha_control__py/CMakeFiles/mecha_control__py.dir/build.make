@@ -76,6 +76,8 @@ mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_contro
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array.py
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/srv/_mech_cmd.py
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/_mech_cmd.py
+mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/_daiza_cmd.py
+mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/_hina_cmd.py
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/msg/__init__.py
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/srv/__init__.py
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/__init__.py
@@ -86,6 +88,8 @@ mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_contro
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/msg/_point_and_mecha_state_array_s.c
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/srv/_mech_cmd_s.c
 mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/_mech_cmd_s.c
+mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/_daiza_cmd_s.c
+mecha_control__py/CMakeFiles/mecha_control__py: rosidl_generator_py/mecha_control/action/_hina_cmd_s.c
 
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -107,6 +111,8 @@ rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtp
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mecha_control/srv/MechCmd.idl
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mecha_control/action/MechCmd.idl
+rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mecha_control/action/DaizaCmd.idl
+rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mecha_control/action/HinaCmd.idl
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -144,6 +150,12 @@ rosidl_generator_py/mecha_control/srv/_mech_cmd.py: rosidl_generator_py/mecha_co
 rosidl_generator_py/mecha_control/action/_mech_cmd.py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/action/_mech_cmd.py
 
+rosidl_generator_py/mecha_control/action/_daiza_cmd.py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/action/_daiza_cmd.py
+
+rosidl_generator_py/mecha_control/action/_hina_cmd.py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/action/_hina_cmd.py
+
 rosidl_generator_py/mecha_control/msg/__init__.py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/msg/__init__.py
 
@@ -174,11 +186,21 @@ rosidl_generator_py/mecha_control/srv/_mech_cmd_s.c: rosidl_generator_py/mecha_c
 rosidl_generator_py/mecha_control/action/_mech_cmd_s.c: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/action/_mech_cmd_s.c
 
+rosidl_generator_py/mecha_control/action/_daiza_cmd_s.c: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/action/_daiza_cmd_s.c
+
+rosidl_generator_py/mecha_control/action/_hina_cmd_s.c: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mecha_control/action/_hina_cmd_s.c
+
 mecha_control__py: mecha_control__py/CMakeFiles/mecha_control__py
 mecha_control__py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_c.c
 mecha_control__py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_fastrtps_c.c
 mecha_control__py: rosidl_generator_py/mecha_control/_mecha_control_s.ep.rosidl_typesupport_introspection_c.c
 mecha_control__py: rosidl_generator_py/mecha_control/action/__init__.py
+mecha_control__py: rosidl_generator_py/mecha_control/action/_daiza_cmd.py
+mecha_control__py: rosidl_generator_py/mecha_control/action/_daiza_cmd_s.c
+mecha_control__py: rosidl_generator_py/mecha_control/action/_hina_cmd.py
+mecha_control__py: rosidl_generator_py/mecha_control/action/_hina_cmd_s.c
 mecha_control__py: rosidl_generator_py/mecha_control/action/_mech_cmd.py
 mecha_control__py: rosidl_generator_py/mecha_control/action/_mech_cmd_s.c
 mecha_control__py: rosidl_generator_py/mecha_control/msg/__init__.py

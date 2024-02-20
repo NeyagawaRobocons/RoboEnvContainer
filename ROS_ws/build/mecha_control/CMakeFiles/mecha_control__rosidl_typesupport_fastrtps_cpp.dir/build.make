@@ -84,6 +84,8 @@ rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_sta
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: rosidl_adapter/mecha_control/srv/MechCmd.idl
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: rosidl_adapter/mecha_control/action/MechCmd.idl
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: rosidl_adapter/mecha_control/action/DaizaCmd.idl
+rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: rosidl_adapter/mecha_control/action/HinaCmd.idl
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -132,6 +134,18 @@ rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cm
 
 rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/mech_cmd__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/mech_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/daiza_cmd__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/daiza_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/hina_cmd__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/hina_cmd__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp.o: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp
@@ -231,6 +245,34 @@ CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp -o CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp.s
 
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o -MF CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o.d -o CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o -c /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp
+
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp > CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.i
+
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp -o CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.s
+
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o -MF CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o.d -o CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o -c /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp
+
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp > CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.i
+
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ROS_ws/build/mecha_control/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp -o CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.s
+
 # Object files for target mecha_control__rosidl_typesupport_fastrtps_cpp
 mecha_control__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/sensor_states__type_support.cpp.o" \
@@ -239,7 +281,9 @@ mecha_control__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state__type_support.cpp.o" \
 "CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.o" \
 "CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/srv/detail/dds_fastrtps/mech_cmd__type_support.cpp.o" \
-"CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp.o"
+"CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp.o" \
+"CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o" \
+"CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o"
 
 # External object files for target mecha_control__rosidl_typesupport_fastrtps_cpp
 mecha_control__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
@@ -251,6 +295,8 @@ libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/point_and_mecha_state_array__type_support.cpp.o
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/srv/detail/dds_fastrtps/mech_cmd__type_support.cpp.o
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp.o
+libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp.o
+libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp.o
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -261,7 +307,7 @@ libmecha_control__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librmw
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librcutils.so
 libmecha_control__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libmecha_control__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ROS_ws/build/mecha_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libmecha_control__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -272,7 +318,11 @@ CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/clean
 
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/daiza_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/daiza_cmd__type_support.cpp
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/hina_cmd__type_support.cpp
 CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/dds_fastrtps/mech_cmd__type_support.cpp
+CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/hina_cmd__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/action/detail/mech_cmd__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/actuator_commands__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/mecha_control__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mecha_control/msg/detail/dds_fastrtps/actuator_commands__type_support.cpp

@@ -1,0 +1,231 @@
+[0.164s] Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ROS_ws/install/calc_vel:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
+[0.196s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.379s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.385s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.629s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.962s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.978s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.978s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.978s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.010s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.044s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.045s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.136s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.220s] -- Found nucleo_agent: 0.0.0 (/ROS_ws/install/nucleo_agent/share/nucleo_agent/cmake)
+[1.244s] -- Found mecha_control: 0.0.0 (/ROS_ws/install/mecha_control/share/mecha_control/cmake)
+[1.331s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.337s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.338s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/ROS_ws/src/nucleo_agent/include>
+[1.338s] -- Configured cppcheck exclude dirs and/or files: 
+[1.338s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.338s] -- Added test 'lint_cmake' to check CMake code style
+[1.338s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.339s] -- Added test 'uncrustify' to check C / C++ code style
+[1.339s] -- Configured uncrustify additional arguments: 
+[1.339s] -- Added test 'xmllint' to check XML markup files
+[1.341s] -- Configuring done
+[1.362s] [33mCMake Warning at CMakeLists.txt:26 (add_executable):
+[1.362s]   Cannot generate a safe runtime search path for target nucleo_agent_node
+[1.362s]   because there is a cycle in the constraint graph:
+[1.362s] 
+[1.362s]     dir 0 is [/opt/ros/humble/lib]
+[1.362s]     dir 1 is [/ROS_ws/install/nucleo_agent/lib]
+[1.362s]       dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]
+[1.362s]     dir 2 is [/ROS_ws/build/nucleo_agent]
+[1.362s]       dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]
+[1.362s]     dir 3 is [/ROS_ws/install/mecha_control/lib]
+[1.362s] 
+[1.362s]   Some of these libraries may not be found correctly.
+[1.362s] 
+[1.362s] [0m
+[1.364s] [33mCMake Warning at CMakeLists.txt:47 (add_executable):
+[1.364s]   Cannot generate a safe runtime search path for target rp_encoder_agent_node
+[1.364s]   because there is a cycle in the constraint graph:
+[1.364s] 
+[1.364s]     dir 0 is [/opt/ros/humble/lib]
+[1.364s]     dir 1 is [/ROS_ws/install/nucleo_agent/lib]
+[1.364s]       dir 2 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_introspection_c.so]
+[1.364s]     dir 2 is [/ROS_ws/build/nucleo_agent]
+[1.364s]       dir 1 must precede it due to runtime library [libnucleo_agent__rosidl_typesupport_fastrtps_c.so]
+[1.364s]     dir 3 is [/ROS_ws/install/mecha_control/lib]
+[1.364s] 
+[1.364s]   Some of these libraries may not be found correctly.
+[1.364s] 
+[1.364s] [0m
+[1.369s] -- Generating done
+[1.370s] -- Build files have been written to: /ROS_ws/build/nucleo_agent
+[1.387s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_c[0m
+[1.392s] [  2%] Built target nucleo_agent__cpp
+[1.393s] [ 11%] Built target nucleo_agent__rosidl_generator_c
+[1.399s] [ 11%] Built target ament_cmake_python_copy_nucleo_agent
+[1.399s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c[0m
+[1.399s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_cpp[0m
+[1.399s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_cpp[0m
+[1.400s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_cpp[0m
+[1.400s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c[0m
+[1.400s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c[0m
+[1.413s] [ 20%] Built target nucleo_agent__rosidl_typesupport_c
+[1.413s] [ 40%] Built target nucleo_agent__rosidl_typesupport_introspection_c
+[1.413s] [ 45%] Built target nucleo_agent__rosidl_typesupport_introspection_cpp
+[1.413s] [ 54%] Built target nucleo_agent__rosidl_typesupport_fastrtps_cpp
+[1.413s] [ 40%] Built target nucleo_agent__rosidl_typesupport_cpp
+[1.413s] [ 62%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c
+[1.416s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent_node[0m
+[1.418s] [35m[1mConsolidate compiler generated dependencies of target rp_encoder_agent_node[0m
+[1.425s] [ 62%] Built target nucleo_agent
+[1.427s] [ 65%] [32mBuilding CXX object CMakeFiles/nucleo_agent_node.dir/src/nucleo_agent.cpp.o[0m
+[1.432s] [ 68%] [32m[1mLinking CXX executable rp_encoder_agent_node[0m
+[1.437s] [ 71%] Built target nucleo_agent__py
+[1.444s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_generator_py[0m
+[1.453s] [ 77%] Built target nucleo_agent__rosidl_generator_py
+[1.460s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.461s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_introspection_c__pyext[0m
+[1.461s] [35m[1mConsolidate compiler generated dependencies of target nucleo_agent__rosidl_typesupport_c__pyext[0m
+[1.468s] [ 82%] Built target nucleo_agent__rosidl_typesupport_fastrtps_c__pyext
+[1.469s] [ 88%] Built target nucleo_agent__rosidl_typesupport_introspection_c__pyext
+[1.473s] [ 94%] Built target nucleo_agent__rosidl_typesupport_c__pyext
+[1.556s] running egg_info
+[1.556s] writing nucleo_agent.egg-info/PKG-INFO
+[1.557s] writing dependency_links to nucleo_agent.egg-info/dependency_links.txt
+[1.557s] writing top-level names to nucleo_agent.egg-info/top_level.txt
+[1.557s] [ 97%] Built target rp_encoder_agent_node
+[1.558s] reading manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'nucleo_agent.egg-info/SOURCES.txt'
+[1.574s] [ 97%] Built target ament_cmake_python_build_nucleo_agent_egg
+[2.867s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In lambda function:
+[2.867s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:94:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.868s]    94 |           for (size_t i = 0; [01;35m[Ki < len[m[K; i++)
+[2.868s]       |                              [01;35m[K~~^~~~~[m[K
+[2.868s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:85:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.868s]    85 |       int [01;35m[Kcount[m[K = 0;
+[2.868s]       |           [01;35m[K^~~~~[m[K
+[2.871s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::motor_3omni_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.871s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:186:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kencoded_data[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.871s]   186 |       auto [01;35m[Kencoded_data[m[K = cobs_encode(send_data);
+[2.871s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[2.872s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.872s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[2.872s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::motor_4omni_callback(std_msgs::msg::Float64MultiArray_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.872s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:208:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.872s]   208 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"motor write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[2.872s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.872s]       |                                                                       [32m[K|[m[K
+[2.872s]       |                                                                       [32m[Kssize_t {aka long int}[m[K
+[2.872s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:208:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.872s]   208 |       RCLCPP_INFO(this->get_logger(), "motor write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[2.872s]       |                                                             [01;36m[K~^[m[K
+[2.872s]       |                                                              [01;36m[K|[m[K
+[2.872s]       |                                                              [01;36m[Kint[m[K
+[2.872s]       |                                                             [32m[K%ld[m[K
+[2.874s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.874s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[2.874s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::daiza_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.874s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:250:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.874s]   250 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"daiza write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[2.874s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.875s]       |                                                                       [32m[K|[m[K
+[2.875s]       |                                                                       [32m[Kssize_t {aka long int}[m[K
+[2.875s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:250:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.875s]   250 |       RCLCPP_INFO(this->get_logger(), "daiza write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[2.875s]       |                                                             [01;36m[K~^[m[K
+[2.875s]       |                                                              [01;36m[K|[m[K
+[2.875s]       |                                                              [01;36m[Kint[m[K
+[2.875s]       |                                                             [32m[K%ld[m[K
+[2.875s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.875s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[2.875s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:251:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.875s]   251 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"daiza write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[2.875s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.875s]       |                                                                       [32m[K|[m[K
+[2.875s]       |                                                                       [32m[Kssize_t {aka long int}[m[K
+[2.875s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:251:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.875s]   251 |       RCLCPP_INFO(this->get_logger(), "daiza write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[2.875s]       |                                                             [01;36m[K~^[m[K
+[2.875s]       |                                                              [01;36m[K|[m[K
+[2.875s]       |                                                              [01;36m[Kint[m[K
+[2.875s]       |                                                             [32m[K%ld[m[K
+[2.875s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.876s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[2.876s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisherNode::hina_cmd_callback(mecha_control::msg::ActuatorCommands_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.876s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:287:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.876s]   287 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"hina write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[2.876s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.876s]       |                                                                      [32m[K|[m[K
+[2.876s]       |                                                                      [32m[Kssize_t {aka long int}[m[K
+[2.876s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:287:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.876s]   287 |       RCLCPP_INFO(this->get_logger(), "hina write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[2.876s]       |                                                            [01;36m[K~^[m[K
+[2.876s]       |                                                             [01;36m[K|[m[K
+[2.876s]       |                                                             [01;36m[Kint[m[K
+[2.876s]       |                                                            [32m[K%ld[m[K
+[2.876s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.876s]                  from [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:1[m[K:
+[2.876s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:288:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.876s]   288 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"hina write return : %d"[m[K, [32m[Kwrite(this->serial_fd, encoded_data.data(), encoded_data.size())[m[K);
+[2.876s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.876s]       |                                                                      [32m[K|[m[K
+[2.876s]       |                                                                      [32m[Kssize_t {aka long int}[m[K
+[2.876s] [01m[K/ROS_ws/src/nucleo_agent/src/nucleo_agent.cpp:288:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.876s]   288 |       RCLCPP_INFO(this->get_logger(), "hina write return : [01;36m[K%d[m[K", write(this->serial_fd, encoded_data.data(), encoded_data.size()));
+[2.877s]       |                                                            [01;36m[K~^[m[K
+[2.877s]       |                                                             [01;36m[K|[m[K
+[2.877s]       |                                                             [01;36m[Kint[m[K
+[2.877s]       |                                                            [32m[K%ld[m[K
+[8.671s] [100%] [32m[1mLinking CXX executable nucleo_agent_node[0m
+[9.038s] [100%] Built target nucleo_agent_node

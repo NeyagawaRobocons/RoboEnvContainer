@@ -7,6 +7,8 @@
     "/ROS_ws/src/mecha_control:msg/PointAndMechaState.msg",
     "/ROS_ws/src/mecha_control:msg/PointAndMechaStateArray.msg",
     "/ROS_ws/src/mecha_control:srv/MechCmd.srv",
-    "/ROS_ws/src/mecha_control:action/MechCmd.action"
+    "/ROS_ws/src/mecha_control:action/MechCmd.action",
+    "/ROS_ws/src/mecha_control:action/DaizaCmd.action",
+    "/ROS_ws/src/mecha_control:action/HinaCmd.action"
   ]
 }

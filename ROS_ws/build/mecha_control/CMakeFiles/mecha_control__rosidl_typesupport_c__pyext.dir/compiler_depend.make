@@ -266,8 +266,24 @@ CMakeFiles/mecha_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/me
   rosidl_generator_c/mecha_control/action/detail/mech_cmd__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h
+  rosidl_generator_c/mecha_control/action/detail/mech_cmd__functions.h \
+  rosidl_generator_c/mecha_control/action/detail/daiza_cmd__type_support.h \
+  rosidl_generator_c/mecha_control/action/detail/daiza_cmd__struct.h \
+  rosidl_generator_c/mecha_control/action/detail/daiza_cmd__functions.h \
+  rosidl_generator_c/mecha_control/action/detail/hina_cmd__type_support.h \
+  rosidl_generator_c/mecha_control/action/detail/hina_cmd__struct.h \
+  rosidl_generator_c/mecha_control/action/detail/hina_cmd__functions.h
 
+
+rosidl_generator_c/mecha_control/action/detail/hina_cmd__functions.h:
+
+rosidl_generator_c/mecha_control/action/detail/hina_cmd__struct.h:
+
+rosidl_generator_c/mecha_control/action/detail/hina_cmd__type_support.h:
+
+rosidl_generator_c/mecha_control/action/detail/daiza_cmd__functions.h:
+
+rosidl_generator_c/mecha_control/action/detail/daiza_cmd__struct.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
@@ -388,6 +404,8 @@ rosidl_generator_c/mecha_control/srv/detail/mech_cmd__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+rosidl_generator_c/mecha_control/action/detail/daiza_cmd__type_support.h:
 
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 

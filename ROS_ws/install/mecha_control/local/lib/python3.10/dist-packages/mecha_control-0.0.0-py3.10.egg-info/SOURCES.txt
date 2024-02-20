@@ -5,6 +5,8 @@ mecha_control.egg-info/SOURCES.txt
 mecha_control.egg-info/dependency_links.txt
 mecha_control.egg-info/top_level.txt
 mecha_control/action/__init__.py
+mecha_control/action/_daiza_cmd.py
+mecha_control/action/_hina_cmd.py
 mecha_control/action/_mech_cmd.py
 mecha_control/msg/__init__.py
 mecha_control/msg/_actuator_commands.py

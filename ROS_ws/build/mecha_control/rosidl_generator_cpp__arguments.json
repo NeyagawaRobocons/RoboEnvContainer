@@ -9,7 +9,9 @@
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaState.idl",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:msg/PointAndMechaStateArray.idl",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:srv/MechCmd.idl",
-    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:action/MechCmd.idl"
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:action/MechCmd.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:action/DaizaCmd.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control:action/HinaCmd.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -43,6 +45,8 @@
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/srv/MechCmd.idl",
     "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/action/MechCmd.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/action/DaizaCmd.idl",
+    "/ROS_ws/build/mecha_control/rosidl_adapter/mecha_control/action/HinaCmd.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

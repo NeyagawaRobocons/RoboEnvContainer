@@ -75,6 +75,8 @@ CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/srv/MechCmd.srv
 CMakeFiles/mecha_control: rosidl_cmake/srv/MechCmd_Request.msg
 CMakeFiles/mecha_control: rosidl_cmake/srv/MechCmd_Response.msg
 CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/action/MechCmd.action
+CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/action/DaizaCmd.action
+CMakeFiles/mecha_control: /ROS_ws/src/mecha_control/action/HinaCmd.action
 CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/mecha_control: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/action/_daiza_cmd_s.c.o"
+  "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/action/_daiza_cmd_s.c.o.d"
+  "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/action/_hina_cmd_s.c.o"
+  "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/action/_hina_cmd_s.c.o.d"
   "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/action/_mech_cmd_s.c.o"
   "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/action/_mech_cmd_s.c.o.d"
   "CMakeFiles/mecha_control__rosidl_generator_py.dir/rosidl_generator_py/mecha_control/msg/_actuator_commands_s.c.o"

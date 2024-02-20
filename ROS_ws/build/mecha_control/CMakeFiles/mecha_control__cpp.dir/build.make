@@ -94,6 +94,14 @@ CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/mech_cm
 CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__builder.hpp
 CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__struct.hpp
 CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__traits.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/daiza_cmd.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__builder.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__struct.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__traits.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/hina_cmd.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__builder.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__struct.hpp
+CMakeFiles/mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__traits.hpp
 
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -117,6 +125,8 @@ rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_c
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/msg/PointAndMechaStateArray.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/srv/MechCmd.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/action/MechCmd.idl
+rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/action/DaizaCmd.idl
+rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: rosidl_adapter/mecha_control/action/HinaCmd.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -208,10 +218,42 @@ rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__struct.hpp: rosidl_ge
 rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__traits.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__traits.hpp
 
+rosidl_generator_cpp/mecha_control/action/daiza_cmd.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/daiza_cmd.hpp
+
+rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__builder.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__builder.hpp
+
+rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__struct.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__struct.hpp
+
+rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__traits.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__traits.hpp
+
+rosidl_generator_cpp/mecha_control/action/hina_cmd.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/hina_cmd.hpp
+
+rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__builder.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__builder.hpp
+
+rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__struct.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__struct.hpp
+
+rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__traits.hpp: rosidl_generator_cpp/mecha_control/msg/sensor_states.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__traits.hpp
+
 mecha_control__cpp: CMakeFiles/mecha_control__cpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/daiza_cmd.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__builder.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__struct.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/daiza_cmd__traits.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__builder.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__struct.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/hina_cmd__traits.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__builder.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__struct.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/detail/mech_cmd__traits.hpp
+mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/hina_cmd.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/action/mech_cmd.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/actuator_commands.hpp
 mecha_control__cpp: rosidl_generator_cpp/mecha_control/msg/detail/actuator_commands__builder.hpp

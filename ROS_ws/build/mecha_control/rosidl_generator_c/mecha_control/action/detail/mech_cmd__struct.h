@@ -80,7 +80,7 @@ enum
 /// Struct defined in action/MechCmd in the package mecha_control.
 typedef struct mecha_control__action__MechCmd_Goal
 {
-  /// request fields
+  /// goal fields
   uint8_t command;
 } mecha_control__action__MechCmd_Goal;
 
@@ -124,7 +124,7 @@ enum
 /// Struct defined in action/MechCmd in the package mecha_control.
 typedef struct mecha_control__action__MechCmd_Result
 {
-  /// response fields
+  /// result fields
   uint8_t result;
 } mecha_control__action__MechCmd_Result;
 
