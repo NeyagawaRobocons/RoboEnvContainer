@@ -1,6 +1,0 @@
-Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent
-Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent
-Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
-Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/nucleo_agent -- -j12 -l12
-Invoking command in '/ROS_ws/build/nucleo_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/nucleo_agent
-Invoked command in '/ROS_ws/build/nucleo_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/nucleo_agent

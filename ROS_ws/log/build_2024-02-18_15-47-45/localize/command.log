@@ -1,4 +1,0 @@
-Invoking command in '/ROS_ws/build/localize': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/localize -- -j12 -l12
-Invoked command in '/ROS_ws/build/localize' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/localize -- -j12 -l12
-Invoking command in '/ROS_ws/build/localize': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/localize
-Invoked command in '/ROS_ws/build/localize' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/localize

@@ -1,3 +1,7 @@
+/.vscode/
+/ROS_ws/.config/
+/ROS_ws/.local/
+/ROS_ws/.ros/
 /ROS_ws/install/
 /ROS_ws/build/
 /ROS_ws/log/

@@ -1,2 +1,0 @@
-Invoking command in '/ROS_ws/build/nucleo_agent': /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent
-Invoked command in '/ROS_ws/build/nucleo_agent' returned '1': /usr/bin/cmake /ROS_ws/src/nucleo_agent -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/nucleo_agent

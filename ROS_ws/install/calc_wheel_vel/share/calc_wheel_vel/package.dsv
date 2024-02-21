@@ -1,8 +1,0 @@
-source;share/calc_wheel_vel/hook/cmake_prefix_path.ps1
-source;share/calc_wheel_vel/hook/cmake_prefix_path.dsv
-source;share/calc_wheel_vel/hook/cmake_prefix_path.sh
-source;share/calc_wheel_vel/local_setup.bash
-source;share/calc_wheel_vel/local_setup.dsv
-source;share/calc_wheel_vel/local_setup.ps1
-source;share/calc_wheel_vel/local_setup.sh
-source;share/calc_wheel_vel/local_setup.zsh

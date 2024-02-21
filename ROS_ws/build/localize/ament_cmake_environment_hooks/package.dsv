@@ -1,4 +1,0 @@
-source;share/localize/local_setup.bash
-source;share/localize/local_setup.dsv
-source;share/localize/local_setup.sh
-source;share/localize/local_setup.zsh

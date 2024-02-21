@@ -1,6 +1,0 @@
-Invoking command in '/ROS_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/ldlidar -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/ldlidar
-Invoked command in '/ROS_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ROS_ws/src/ldlidar -DCMAKE_INSTALL_PREFIX=/ROS_ws/install/ldlidar
-Invoking command in '/ROS_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/ldlidar -- -j12 -l12
-Invoked command in '/ROS_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ROS_ws/build/ldlidar -- -j12 -l12
-Invoking command in '/ROS_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/ldlidar
-Invoked command in '/ROS_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ROS_ws/build/ldlidar

@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:12 (message):
-  libudev.h not found
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,7 +1,0 @@
-[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:[m[K In member function ‘[01m[Kvoid mech_seq_node::hina_cmd_callback(std::shared_ptr<mecha_control::srv::MechCmd_Request_<std::allocator<void> > >, std::shared_ptr<mecha_control::srv::MechCmd_Response_<std::allocator<void> > >) const[m[K’:
-[01m[K/ROS_ws/src/mecha_control/src/cmd_seq.cpp:27:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
-   27 |         response-> [01;31m[K=[m[K mecha_control::srv::MechCmd::Response::OK;
-      |                    [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/cmd_seq.dir/build.make:76: CMakeFiles/cmd_seq.dir/src/cmd_seq.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/cmd_seq.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
