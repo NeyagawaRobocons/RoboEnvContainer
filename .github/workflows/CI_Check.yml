@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodule: recursive
       - name: pull container
@@ -22,5 +22,5 @@ jobs:
       - name: colcon build
         run: |
           docker run --workdir=/ROS_ws\
-          --volume=ROS_ws:/ROS_ws robo_env_container:latest \
+          --volume=ROS_ws:/ROS_ws ghcr.io/neyagawarobocons/robo_env_container:latest \
           colcon build
