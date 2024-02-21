@@ -10,12 +10,13 @@ on:
 
 jobs:
   CI_check:
-    runs-on: ghcr.io/neyagawarobocons/robo_env_container:latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
         with:
           submodule: recursive
       - run: |
-          cd ROS_ws
+          docker run -it -rm --workdir=/ROS_ws\
+          --volume=ROS_ws:/ROS_ws ghcr.io/neyagawarobocons/robo_env_container:latest \
           colcon build
