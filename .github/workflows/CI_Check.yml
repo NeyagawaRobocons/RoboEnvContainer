@@ -13,10 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: cybozu/octoken-action@v1
+        id: create-iat
+        with:
+          github_app_id: ${{ secrets.GH_APP_READ_ALL_ID }}
+          github_app_private_key: ${{ secrets.GH_APP_READ_ALL_PRIVATE_KEY }}
+        env:
+          OPENSSL_CONF: /dev/null
       - uses: actions/checkout@v4
         with:
-          token: ${{secrets.SuperSecret}}
+          token: ${{steps.create-iat.outputs.token}}
           submodules: recursive
+          persist-credentials: false
       - name: pull container
         run: |
           docker pull ghcr.io/neyagawarobocons/robo_env_container:latest
