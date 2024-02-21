@@ -8,6 +8,8 @@ build:
 	$(RUNNER) build -t $(IMAGE_NAME):$(IMAGE_TAG) .
 clone:
 	mkdir -p ROS_ws/src
+clean:
+	rm -rf ROS_ws/build/ ROS_ws/install/ ROS_ws/log/
 run:
 	$(RUNNER) run \
 	-it -d --rm --net=host --ipc=host --privileged --group-add keep-groups \
