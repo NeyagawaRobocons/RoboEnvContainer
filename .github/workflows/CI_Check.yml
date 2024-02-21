@@ -1,0 +1,22 @@
+
+name: CI
+
+on:
+  schedule:
+  - cron: "0 11,23 * * 1-5"
+  - cron: "0 9,23 * * 6"
+  - cron: "0 4,23 * * 0"
+  workflow_dispatch:
+
+jobs:
+  CI_check:
+    runs-on: ghcr.com/neyagawarobocons/robo_env_container:least
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodule: recursive
+      - run: |
+          make start
+          make build_ws
+          make stop
