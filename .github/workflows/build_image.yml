@@ -18,10 +18,10 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build Docker Image
         run: |
-          docker build --tag ghcr.io/$GITHUB_ACTOR/RoboEnvContainer:latest \
-          --tag ghcr.io/$GITHUB_ACTOR/RoboEnvContainer:$(echo $GITHUB_SHA | head -c7) \
+          docker build --tag ghcr.io/NeyagawaRobocons/RoboEnvContainer:latest \
+          --tag ghcr.io/NeyagawaRobocons/RoboEnvContainer:$(echo $GITHUB_SHA | head -c7) \
           .
       - name: Push Docker Image
         run: |
-          docker push ghcr.io/$GITHUB_ACTOR/RoboEnvContainer:latest
-          docker push ghcr.io/$GITHUB_ACTOR/RoboEnvContainer:$(echo $GITHUB_SHA | head -c7)
+          docker push ghcr.io/NeyagawaRobocons/RoboEnvContainer:latest
+          docker push ghcr.io/NeyagawaRobocons/RoboEnvContainer:$(echo $GITHUB_SHA | head -c7)
