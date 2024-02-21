@@ -19,3 +19,6 @@
 [submodule "ROS_ws/src/laser_filters"]
 	path = ROS_ws/src/laser_filters
 	url = https://github.com/NeyagawaRobocons/laser_filters
+[submodule "ROS_ws/src/ldlidar"]
+	path = ROS_ws/src/ldlidar
+	url = https://github.com/NeyagawaRobocons/ldlidar
