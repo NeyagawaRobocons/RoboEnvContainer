@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodule: recursive
+          submodules: recursive
       - name: pull container
         run: |
           docker pull ghcr.io/neyagawarobocons/robo_env_container:latest
