@@ -11,7 +11,7 @@ RUN apt-get update \
     libboost-all-dev libwebsocketpp-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# RUN curl -fsSL https://code-server.dev/install.sh | sh
+RUN curl -fsSL https://code-server.dev/install.sh | sh
 
 RUN pip3 install -U \
     argcomplete

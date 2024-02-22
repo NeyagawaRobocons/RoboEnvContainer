@@ -21,6 +21,6 @@ jobs:
           docker pull ghcr.io/neyagawarobocons/robo_env_container:latest
       - name: colcon build
         run: |
-          docker run --workdir=/ROS_ws \
-          --volume=./ROS_ws:/ROS_ws ghcr.io/neyagawarobocons/robo_env_container:latest \
+          docker run --workdir=/ros_ws \
+          --volume=./ros_ws:/ros_ws ghcr.io/neyagawarobocons/robo_env_container:latest \
           bash -c ". /opt/ros/humble/setup.bash && colcon build --continue-on-error"

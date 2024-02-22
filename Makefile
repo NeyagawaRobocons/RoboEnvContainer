@@ -2,14 +2,12 @@ RUNNER=podman
 CONTAINER_NAME=NR-RoboEnv
 IMAGE_NAME=nr_robo_env
 IMAGE_TAG=least
-WS_CONTAINER=/ROS_ws
+WS_CONTAINER=/ros_ws
 MAKEFILE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 build:
-	$(RUNNER) build -t $(IMAGE_NAME):$(IMAGE_TAG) .
-clone:
-	mkdir -p ROS_ws/src
+	$(RUNNER) build -t $(IMAGE_NAME):$(IMAGE_TAG) . --net=host
 clean:
-	rm -rf ROS_ws/build/ ROS_ws/install/ ROS_ws/log/
+	rm -rf (WS_CONTAINER)/build/ (WS_CONTAINER)/install/ (WS_CONTAINER)/log/
 run:
 	$(RUNNER) run \
 	-it -d --rm --net=host --ipc=host --privileged --group-add keep-groups \
