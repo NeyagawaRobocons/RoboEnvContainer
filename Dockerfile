@@ -2,7 +2,7 @@ FROM docker.io/osrf/ros:humble-desktop-full
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-    bash-completion curl build-essential \
+    git bash-completion curl build-essential \
     libpython3-dev python3-vcstool python3-pip \
     git nano iputils-ping net-tools dnsutils wget \
     python3-colcon-common-extensions python3-rosdep \
