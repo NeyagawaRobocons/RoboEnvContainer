@@ -24,5 +24,5 @@ jobs:
           ls
           ls ROS_ws/src/
           docker run --workdir=/ROS_ws \
-          --volume=ROS_ws:/ROS_ws ghcr.io/neyagawarobocons/robo_env_container:latest \
+          --volume=./ROS_ws:/ROS_ws ghcr.io/neyagawarobocons/robo_env_container:latest \
           bash -c ". /opt/ros/humble/setup.bash && pwd && ls && colcon build"
