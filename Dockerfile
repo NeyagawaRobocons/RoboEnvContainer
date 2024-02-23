@@ -6,15 +6,17 @@ RUN apt-get update \
     libpython3-dev python3-vcstool python3-pip \
     git nano iputils-ping net-tools dnsutils wget \
     python3-colcon-common-extensions python3-rosdep \
+    python3-bloom fakeroot dh-make \
     usbutils \
     can-utils udev libudev-dev libserial-dev \
     libboost-all-dev libwebsocketpp-dev \
+    ros-humble-tf-transformations  ros-humble-image-tools \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl -fsSL https://code-server.dev/install.sh | sh
 
 RUN pip3 install -U \
-    argcomplete
+    argcomplete transforms3d pandas
 
 # install raylib
 RUN git clone https://github.com/raysan5/raylib.git raylib \
