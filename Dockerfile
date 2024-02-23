@@ -23,5 +23,5 @@ RUN git clone https://github.com/raysan5/raylib.git raylib \
     && cd raylib && mkdir build && cd build \
     && cmake .. && make && sudo make install
 
-RUN echo ". /opt/ros/humble/setup.bash" >> ~/.profile
-RUN echo ". /ROS_ws/install/setup.bash" >> ~/.profile
+RUN echo ". /opt/ros/humble/setup.bash" >> /etc/bashrc
+RUN echo ". /ros_ws/install/setup.bash" >> /etc/bashrc

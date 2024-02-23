@@ -1,3 +1,4 @@
 [submodule "ros_ws"]
 	path = ros_ws
 	url = https://github.com/NeyagawaRobocons/ros_ws
+	branch = main
