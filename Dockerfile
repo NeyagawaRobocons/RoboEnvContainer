@@ -11,6 +11,7 @@ RUN apt-get update \
     can-utils udev libudev-dev libserial-dev \
     libboost-all-dev libwebsocketpp-dev \
     ros-humble-tf-transformations  ros-humble-image-tools \
+    ros-humble-filters \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl -fsSL https://code-server.dev/install.sh | sh
